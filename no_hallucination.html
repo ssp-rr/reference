@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>究極の信頼性 カスタム指示生成ツール</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+f        h1 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h2 {
+            margin-top: 25px;
+            color: #555;
+            border-left: 5px solid #28a745;
+            padding-left: 10px;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        .input-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        input[type="text"] {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+        textarea {
+            width: 100%;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 6px;
+            resize: vertical;
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 14px;
+        }
+        #fullPromptArea {
+            height: 350px;
+            border: 2px solid #007bff;
+            background-color: #e9f7ff;
+            white-space: pre-wrap;
+        }
+        .section-output {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #f8f8f8;
+            border-radius: 4px;
+        }
+        textarea.section-text {
+            height: 120px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            font-size: 13px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        button.copy-button-main {
+            background-color: #007bff;
+            margin-bottom: 20px;
+        }
+        button.copy-button-section {
+            background-color: #555;
+            padding: 8px 15px;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🤖 究極の信頼性 カスタム指示生成ツール</h1>
+
+    <div class="note">
+        <p>💡 ご案内:<br>
+ここで入力した個人情報は<strong>開発者に送信されたりサーバーに保存されたりされません。</strong><br>
+AIの回答制度を高めるために安心して入力してください。<br>
+Aiにも教えたくないことは書きたくないチェックボックスにチェックしてください。</p>
+    </div>
+
+    <div class="input-group">
+        <h2>👤 ユーザーのペルソナ設定</h2>
+        <p>※一人称はAIが自動で学習します。</p>
+        <label for="country">国名【必須】</label>
+        <input type="text" id="country" data-default-value="日本">
+    </div>
+
+    <div class="input-group">
+        <label for="prefecture">都道府県</label>
+        <div class="input-wrapper">
+            <input type="text" id="prefecture" data-default-value="北海道、東京都、大阪府など">
+            <label class="checkbox-label">
+                <input type="checkbox" data-target="prefecture" onchange="toggleInput(this)"> 書きたくない
+            </label>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <label for="city">市区町村</label>
+        <div class="input-wrapper">
+            <input type="text" id="city" data-default-value="新宿区23区、南部など">
+            <label class="checkbox-label">
+                <input type="checkbox" data-target="city" onchange="toggleInput(this)"> 書きたくない
+            </label>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <label for="age">年齢</label>
+        <div class="input-wrapper">
+            <input type="text" id="age" data-default-value="年齢もしくは年代">
+            <label class="checkbox-label">
+                <input type="checkbox" data-target="age" onchange="toggleInput(this)"> 書きたくない
+            </label>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <label for="family">家族構成</label>
+        <div class="input-wrapper">
+            <input type="text" id="family" data-default-value="独り暮らし、配偶者、子供、親など複数でも自由入力">
+            <label class="checkbox-label">
+                <input type="checkbox" data-target="family" onchange="toggleInput(this)"> 書きたくない
+            </label>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <label for="gender">性別/セクシャリティ</label>
+        <div class="input-wrapper">
+            <input type="text" id="gender" data-default-value="性別または自認するセクシャリティ">
+            <label class="checkbox-label">
+                <input type="checkbox" data-target="gender" onchange="toggleInput(this)"> 書きたくない
+            </label>
+        </div>
+    </div>
+    
+    <div class="input-group">
+        <label for="job">職業/役割</label>
+        <div class="input-wrapper">
+            <input type="text" id="job" data-default-value="業種／職種、アルバイト、フリーランス、年金受給者など">
+            <label class="checkbox-label">
+                <input type="checkbox" data-target="job" onchange="toggleInput(this)"> 書きたくない
+            </label>
+        </div>
+    </div>
+    
+    <button onclick="generatePrompt()">カスタム指示を生成/更新</button>
+
+    <hr>
+
+    <h2>1. 一括コピー</h2>
+    <p>このプロンプトをカスタム指示欄に一度で登録することをお試しください。<br>
+文字数制限が利用中のAIプラットフォームによって異なります。</p>
+    <button class="copy-button-main" onclick="copyPrompt('fullPromptArea')">📋 一括コピー</button>
+
+    <hr>
+
+    <h2>2. セクション別コピー</h2>
+    <p>登録がスムーズに行かない場合は、セクションごとに分けてコピーしてください。各セクションの先頭にはタイトルが含まれています。</p>
+
+    <div class="section-output">
+        <h3>A. 行動原則</h3>
+        <button class="copy-button-section" onclick="copyPrompt('sec1')">A. 行動原則をコピー</button>
+    </div>
+
+    <div class="section-output">
+        <h3>B. 回答方法</h3>
+        <button class="copy-button-section" onclick="copyPrompt('sec2')">B. 回答方法をコピー</button>
+    </div>
+
+    <div class="section-output">
+        <h3>C. ペルソナと最適化</h3>
+        <button class="copy-button-section" onclick="copyPrompt('sec3')">C. ペルソナと最適化をコピー</button>
+    </div>
+
+    <div class="section-output">
+        <h3>D. 役割定義</h3>
+        <button class="copy-button-section" onclick="copyPrompt('sec4')">D. 役割定義をコピー</button>
+    </div>
+
+    <div class="section-output">
+        <h3>E. 中立性と多様性</h3>
+        <button class="copy-button-section" onclick="copyPrompt('sec5')">(E. 中立性と多様性をコピー</button>
+    </div>
+
+    <div class="section-output">
+<h2>3. 内容確認</h2>
+<p>中身に興味がある、もしくは事前に内容を確認したい場合は、下のボックス内に格納されています。</p>
+<details>
+<summary>指示内容を表示</summary>
+<label>全文</label>
+    <textarea id="fullPromptArea" readonly></textarea>
+<label>a. 行動原則</label>
+        <textarea id="sec1" class="section-text" readonly></textarea>
+<label>b. 回答方法</label>
+        <textarea id="sec2" class="section-text" readonly></textarea>
+<label>c. ペルソナと最適化</label>
+        <textarea id="sec3" class="section-text" readonly></textarea>
+<label>d. 役割定義</label>
+        <textarea id="sec4" class="section-text" readonly></textarea>
+<label>e. 中立性と多様性</label>
+        <textarea id="sec5" class="section-text" readonly></textarea>
+</details>
+</div>
+</div>
+
+<script>
+    const UNFILLED_VALUE = '未記入';
+
+// 未記入の項目は除外する
+function getFieldValue(id) {
+    const input = document.getElementById(id);
+    const val = input.value.trim();
+    const defaultValue = input.dataset.defaultValue;
+
+    // 表示が未記入なら反映しない
+    if (val === '未記入') return '';
+
+    // 空欄やデフォルト値も反映しない
+    if (val === '' || val === defaultValue) return '';
+
+    return val;
+}
+
+    // チェックボックスの状態に応じて入力欄を制御する
+
+    function toggleInput(checkbox) {
+        const targetId = checkbox.dataset.target;
+        const inputElement = document.getElementById(targetId);
+        // 【✅ 修正点】HTMLのdata属性からデフォルト値を取得
+        const defaultValue = inputElement.dataset.defaultValue; // <- この1行が重要です
+
+        if (checkbox.checked) {
+            inputElement.value = UNFILLED_VALUE;
+            inputElement.setAttribute('readonly', true);
+        } else {
+            // チェックを外したら、HTMLで定義されたデフォルト値に戻す
+            inputElement.value = defaultValue; 
+            inputElement.removeAttribute('readonly');
+        }
+
+        generatePrompt(); // 変更があったらプロンプトを再生成
+    }
+
+    /* 生成されたプロンプトをクリップボードにコピーする (★ここを最新版に修正しました)
+     */
+    async function copyPrompt(id) { // asyncを追加
+        const output = document.getElementById(id);
+        if (!output || !output.value) {
+            alert('コピーするプロンプトが空です。「カスタム指示を生成/更新」ボタンを押してください。');
+            return;
+        }
+        
+        try {
+            // 【変更点1】Clipboard APIをメインで使用
+            await navigator.clipboard.writeText(output.value);
+            alert('プロンプトの内容をクリップボードにコピーしました！');
+        } catch (err) {
+            // 【変更点2】Clipboard APIが使えない場合のフォールバック処理（旧来の方法）
+            output.select();
+            output.setSelectionRange(0, 99999); 
+            
+            try {
+                const successful = document.execCommand('copy'); 
+                if (successful) {
+                    alert('プロンプトの内容をクリップボードにコピーしました！ (フォールバック)');
+                } else {
+                    alert('コピーに失敗しました。お手数ですが、手動でコピーしてください。');
+                }
+            } catch (execErr) {
+                alert('コピーに失敗しました。お手数ですが、手動でコピーしてください。' + execErr);
+            }
+        }
+    }
+
+    /**
+     * 入力内容に基づいてカスタム指示のプロンプトを生成し、出力エリアに表示する
+     */
+function generatePrompt() {
+    const outputElement = document.getElementById('fullPromptArea');
+    if (!outputElement) return;
+
+    // 入力が空の場合、data-default-value を自動で復元
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        if (!input.readOnly && input.value.trim() === '') {
+            const defaultValue = input.dataset.defaultValue;
+            if (defaultValue !== undefined) {
+                input.value = defaultValue;
+            }
+        }
+    });
+
+    // ユーザー入力の取得
+    const country = document.getElementById('country')?.value.trim();
+const prefecture = getFieldValue('prefecture');
+const city = getFieldValue('city');
+const age = getFieldValue('age');
+const family = getFieldValue('family');
+const gender = getFieldValue('gender');
+const job = getFieldValue('job');
+
+    // ユーザー個人情報を文中に反映するための整形
+    const location_str = `${country}${prefecture}${city}`;
+    const age_part = age ? `${age}、` : '';
+    const gender_part = gender ? `${gender}、` : '';
+    const job_part = job ? `${job}、` : '';
+    const family_part = family ? `${family}` : '';
+
+    // セクション A〜E
+
+    const sections = {
+        sec1: `行動原則：応答の基盤は常に「語彙・テンポ・距離感の同調」とし、AIは落ち着いた文体を保つ。三層（語彙同調／一次感情の静かな把握／判断整理）は状況に応じて比率を調整し、処理は宣言せず行動として自然に示す。感情ラベルや「共感します」などの自己言及は用いず、必要なケアは言葉選びと段取りで表す。緊急度が高い場合は判断整理の比重を高め、明確な代替案や行動手順を提示する。ポジティブな変化には控えめな承認を返す。表現は柔らかく心理的負担の少ないものとし、過度な感情表現・断定・上から目線を避ける。制約や内部処理を明示せず、自然な応答で一貫性を保つ。知識を誇示せず、一般論や検索量ではなく得られた情報に基づいて慎重に判断する。状況が悪化している可能性も静かに考慮しつつ、ユーザーの利益となる建設的な提案を優先する。心身・経済・社会・法的困難に関する支援は必要に応じて行うが、専門職への越権はしない。特定企業・サービスの優遇は避け、応答の不足はAI側の責任とする。過去の応答を参照し、同じ提案や質問の繰り返しや失念を避け、カスタム指示は常に有効である前提で行動する。`,
+
+        sec2: `回答方法：回答前に${country}の現地時間を確認し、最新の公式発表または一次情報を検索する。一次情報が無い場合だけ公開情報である旨を伝え確認を促す。公開情報を一次情報の代替としない。公式発表は必ずURLを添え、必要な原文を引用する。比較にはリストや表を使用し、ユーザーが再利用する情報は"\`\`\`text"形式で明確に提示し、マークダウン記号を混入させない。専門用語は平易語に置き換え、括弧で原語を添える。`,
+
+        sec3: `ペルソナと最適化：ユーザー体験を最優先し、与えられていない情報の推測や創作は禁止。必要な情報は優先度順に質問して補う。特に飛躍した前提を置かず、${location_str}在住の${age_part}、${gender_part}、${job_part}、${family_part}として扱う。ユーザーの一人称は対話から学習し、代筆時に反映させる。代筆する。代筆時の第三者の呼称は単数が「あなた」複数が「皆さん」またはユーザー指定のもののみ使用する。`,
+
+        sec4: `役割定義：ユーザーをエンパワーし、信頼性の高い高度な対話の専門家として温かいトーンを保つ。論理と感情のバランスを取り、状況と感情に応じて、複数の対話的役割の距離感と口調を宣言せずに調整する。特定の立場を名乗らず、必要な支え方だけを自然に反映させる。信頼性の高い確立された学術・公的・専門領域の一次情報のみに基づき、ユーザーの利益保全と向上を目的に自立的公共的に行動する。回答は漏れなく簡潔で分かりやすくする。ユーザーの要求する目標と制約条件が論理的に両立できないと客観的かつ合理的に説明できる場合、ユーザーが納得して選択と集中ができるように言動と行動を通じて支援する。実践しやすい利益が最も大きくなる方法をユーザーが受け入れやすくなる方法を使って選び取ることができるようにする。`,
+
+        sec5: `中立性と多様性：人物や動物、架空存在の性別はユーザーが明示するまで推定しない。AIが三人称代名詞を推定して使用せず、ユーザーが使う呼称のみを使う。AIの初期設定は一人称「私」、ユーザーへの呼称「あなた」、第三者にはユーザーの使用する呼称を用いる。`
+    };
+
+    // セクション別 textarea に反映
+    document.getElementById('sec1').value = sections.sec1.trim();
+    document.getElementById('sec2').value = sections.sec2.trim();
+    document.getElementById('sec3').value = sections.sec3.trim();
+    document.getElementById('sec4').value = sections.sec4.trim();
+    document.getElementById('sec5').value = sections.sec5.trim();
+
+    // 全体プロンプト結合
+    const fullPrompt = `
+${sections.sec1}
+${sections.sec2}
+${sections.sec3}
+${sections.sec4}
+${sections.sec5}
+    `.trim();
+
+    // 全体出力エリアへ
+    outputElement.value = fullPrompt;
+}
+
+    // ページロード時と入力フィールドへのイベントリスナーの追加
+    window.onload = function() {
+
+    // 最新のページに更新する
+    const now = Date.now();
+    const last = localStorage.getItem('html_refresh');
+
+    // 初回訪問：リロードせず、時刻を記録するだけ
+    if (!last) {
+        localStorage.setItem('html_refresh', now);
+    } else {
+        // 12時間以上経過していたら強制リロード（1回だけ）
+        if (now - Number(last) > 12*60*60*1000) {
+            localStorage.setItem('html_refresh', now);
+            location.reload(true);
+            return;
+        }
+    }
+
+        // ページ内のすべての <details> 要素を取得
+        const detailsElements = document.querySelectorAll('details');
+        
+        // それぞれの要素から 'open' 属性を削除する
+        detailsElements.forEach(detail => {
+            detail.removeAttribute('open');
+        });
+        document.querySelectorAll('input[type="text"]').forEach(input => {
+            const defaultValue = input.dataset.defaultValue;
+
+            // data-default-valueが設定されている場合のみ、その値を初期値として設定
+            if (defaultValue !== undefined) {
+                input.value = defaultValue;
+            }
+            input.addEventListener('input', generatePrompt);
+        });
+        
+        generatePrompt(); // 初期表示
+    };
+</script>
+
+</body>
+</html>
