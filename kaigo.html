@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>家族介護・提供可能範囲申出書</title>
+    <style>
+        /* --- 印刷用設定（ここを強力に修正） --- */
+        @media print {
+            @page {
+                size: A4;
+                margin: 0; /* ブラウザの余白を完全削除 */
+            }
+            html, body {
+                margin: 0 !important;
+                padding: 0 !important;
+                height: 297mm; /* 高さをA4に固定 */
+                overflow: hidden; /* ★ここが重要：はみ出しを強制カットして2ページ目を防ぐ */
+                background: #fff;
+            }
+            .page {
+                width: 210mm;
+                height: 296mm; /* 1mmだけ余裕を持たせてズレを防ぐ */
+                margin: 0 !important;
+                padding: 20mm 25mm !important;
+                border: none !important;
+                box-shadow: none !important;
+                page-break-after: avoid !important; /* 改ページを禁止 */
+                page-break-inside: avoid !important;
+            }
+        }
+
+        /* --- 画面表示用設定 --- */
+        body {
+            font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", "Times New Roman", serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            color: #000;
+            line-height: 1.5;
+        }
+
+        .page {
+            background-color: white;
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            padding: 20mm 25mm;
+            box-sizing: border-box;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        /* --- 各パーツのデザイン --- */
+        h1 {
+            text-align: center;
+            font-size: 20pt;
+            margin-top: 0;
+            margin-bottom: 8mm;
+            border-bottom: 2px solid #000;
+            padding-bottom: 3mm;
+            letter-spacing: 2px;
+        }
+
+        .addressee {
+            font-size: 14pt;
+            text-decoration: underline;
+            margin-bottom: 8mm;
+        }
+
+        .preamble {
+            margin-bottom: 8mm;
+            text-align: justify;
+            font-size: 11pt;
+        }
+
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            margin-top: 5mm;
+            margin-bottom: 2mm;
+            border-left: 5px solid #333;
+            padding-left: 10px;
+            background-color: #eee;
+            -webkit-print-color-adjust: exact; /* 背景色を印刷でも出す */
+        }
+
+        .options {
+            margin-left: 5mm;
+            margin-bottom: 3mm;
+        }
+
+        .option-row {
+            margin-bottom: 1.5mm;
+            display: flex;
+            align-items: baseline;
+            font-size: 11pt;
+        }
+
+        .checkbox {
+            font-family: "MS Gothic", monospace;
+            margin-right: 10px;
+            font-size: 14pt;
+            font-weight: bold;
+        }
+
+        .important-box {
+            margin-top: 8mm;
+            border: 2px solid #000;
+            padding: 4mm;
+        }
+
+        .important-title {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 2mm;
+            text-decoration: underline;
+            font-size: 12pt;
+        }
+        
+        .important-content {
+            font-size: 10.5pt;
+        }
+
+        /* 署名欄を下部に固定 */
+        .footer {
+            position: absolute;
+            bottom: 25mm;
+            right: 25mm;
+            text-align: right;
+            width: auto;
+        }
+
+        .signature-line {
+            display: inline-block;
+            text-align: left;
+            width: 90mm;
+            font-size: 12pt;
+        }
+
+        .date-line {
+            border-bottom: 1px solid #000;
+            display: inline-block;
+            width: 15mm;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <h1>家族介護・提供可能範囲申出書</h1>
+
+        <div class="addressee">
+            担当ケアマネジャー様
+        </div>
+
+        <div class="preamble">
+            <p>
+                　私の現在の生活状況および健康状態に基づき、家族として提供できる介護サポートの範囲を以下の通り<strong>「限定」</strong>させていただきます。
+            </p>
+            <p>
+                　つきましては、チェックが入っていない項目については、全て<strong>「提供不可」</strong>として取り扱い、介護保険サービスによるプランの作成をお願い致します。
+            </p>
+            <p>
+                　これは要望ではなく、相互の持続可能な在宅生活を維持するための<strong>決定事項</strong>です。
+            </p>
+        </div>
+
+        <div class="section-title">１．身体的なケア</div>
+        <div class="options">
+            <div class="option-row">
+                <span class="checkbox">[　]</span>
+                <span>入浴・排泄・着替えの介助ができる</span>
+            </div>
+            <div class="option-row">
+                <span class="checkbox">[ ■ ]</span>
+                <span><strong>一切できない</strong>（技術不足・身体的・精神的負担のため）</span>
+            </div>
+        </div>
+
+        <div class="section-title">２．生活援助</div>
+        <div class="options">
+            <div class="option-row">
+                <span class="checkbox">[　]</span>
+                <span>掃除・洗濯・調理ができる</span>
+            </div>
+            <div class="option-row">
+                <span class="checkbox">[ ■ ]</span>
+                <span><strong>一切できない</strong>（自身の生活維持で手一杯のため）</span>
+            </div>
+        </div>
+
+        <div class="section-title">３．金銭管理・役所手続き</div>
+        <div class="options">
+            <div class="option-row">
+                <span class="checkbox">[ ■ ]</span>
+                <span><strong>できる</strong>（※資産管理・振り込み手続きに限る）</span>
+            </div>
+            <div class="option-row">
+                <span class="checkbox">[　]</span>
+                <span>できない</span>
+            </div>
+        </div>
+
+        <div class="section-title">４．緊急時の対応・通院の付き添い</div>
+        <div class="options">
+            <div class="option-row">
+                <span class="checkbox">[　]</span>
+                <span>いつでも対応できる</span>
+            </div>
+            <div class="option-row">
+                <span class="checkbox">[ ■ ]</span>
+                <span><strong>一切対応できない</strong>（自身の生活維持のため）</span>
+            </div>
+        </div>
+
+        <div class="important-box">
+            <div class="important-title">【 重要事項 】</div>
+            <div class="important-content">
+                上記で「できない」とした項目は全て公的サービスで賄い、費用は介護サービス利用者の収入のみで賄うことを本人と合意しています。<br>
+                公的サービスの範囲と費用については本人が理解納得できるように担当者による丁寧な説明をお願いします。
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="signature-line">
+                作成者：__________________________<br><br>
+                <span class="date-line">　　　　</span>年 <span class="date-line">　</span>月 <span class="date-line">　</span>日 更新
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
