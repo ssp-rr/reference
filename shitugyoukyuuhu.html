@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>200万円投資（失業給付）算出カウンター｜賢者の対策立案室</title>
+    <style>
+        body { font-family: sans-serif; background-color: #f4f4f9; padding: 20px; color: #333; }
+        .container { max-width: 500px; margin: auto; background: white; padding: 25px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 2px solid #e0e0e0; }
+        h1 { font-size: 1.4em; color: #d32f2f; text-align: center; margin-bottom: 20px; }
+        .info { font-size: 0.85em; background: #fff3f3; padding: 10px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #d32f2f; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input { width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px; box-sizing: border-box; font-size: 1em; }
+        button { width: 100%; padding: 15px; background-color: #d32f2f; color: white; border: none; border-radius: 8px; font-size: 1.1em; cursor: pointer; font-weight: bold; }
+        button:hover { background-color: #b71c1c; }
+        #result { margin-top: 25px; padding: 20px; background: #e3f2fd; border-radius: 10px; display: none; }
+        .res-val { font-size: 1.5em; font-weight: bold; color: #1565c0; }
+        .footer { text-align: center; font-size: 0.8em; color: #777; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>200万円投資算出カウンター</h1>
+    <p class="info">※「特定受給資格者（会社都合など）」として認定された場合のシミュレーションです。</p>
+    
+    <label>離職時の年齢（歳）</label>
+    <input type="number" id="age" placeholder="例: 52" min="15" max="64">
+
+    <label>被保険者期間（年）</label>
+    <input type="number" id="years" placeholder="例: 22" min="0" max="50">
+
+    <label>離職前6ヶ月の平均月収（額面・円）</label>
+    <input type="number" id="salary" placeholder="例: 250000">
+
+    <button onclick="calculate()">投資額を算出する</button>
+
+    <div id="result">
+        <p>あなたの支給日数は...<br><span id="resDays" class="res-val">-</span> 日</p>
+        <p>1日の支給額（基本手当日額）は...<br><span id="resDaily" class="res-val">-</span> 円</p>
+        <hr>
+        <p style="font-size: 1.2em; font-weight: bold;">国からの総投資額は：<br><span id="resTotal" style="font-size: 1.6em; color: #d32f2f;">-</span> 円</p>
+        <p style="font-size: 0.85em; color: #555;">※この金額は「非課税」です。手取りベースで考えてください。</p>
+    </div>
+
+    <div class="footer">
+        賢者の対策立案室が厚生労働省の基準に基づいて計算しています。
+    </div>
+</div>
+
+<script>
+    function calculate() {
+        const age = parseInt(document.getElementById('age').value);
+        const years = parseInt(document.getElementById('years').value);
+        const salary = parseInt(document.getElementById('salary').value);
+
+        if (!age || !years || !salary) {
+            alert("すべての項目を入力してください");
+            return;
+        }
+
+        // 賃金日額の計算
+        let dailyWage = salary / 30;
+
+        // 給付率の計算 (簡易スライド制)
+        let rate = 0.8;
+        if (dailyWage > 5110 && dailyWage <= 12580) {
+            rate = 0.8 - ((dailyWage - 5110) * 0.3 / (12580 - 5110));
+        } else if (dailyWage > 12580) {
+            rate = 0.5;
+        }
+        if (rate < 0.5) rate = 0.5;
+        if (rate > 0.8) rate = 0.8;
+
+        // 基本手当日額
+        let dailyBenefit = dailyWage * rate;
+
+        // 年齢別上限額 (2025年概算値)
+        let cap = 8790;
+        if (age < 30) cap = 7040;
+        else if (age < 45) cap = 7820;
+        else if (age < 60) cap = 8605;
+        else cap = 7445;
+
+        if (dailyBenefit > cap) dailyBenefit = cap;
+        if (dailyBenefit < 2295) dailyBenefit = 2295; // 下限額
+
+        // 支給日数の決定 (特定受給資格者)
+        let days = 90;
+        if (age >= 45 && age < 60) {
+            if (years >= 20) days = 330;
+            else if (years >= 10) days = 270;
+            else if (years >= 5) days = 240;
+            else if (years >= 1) days = 180;
+        } else if (age >= 35 && age < 45) {
+            if (years >= 20) days = 270;
+            else if (years >= 10) days = 240;
+            else if (years >= 5) days = 180;
+            else if (years >= 1) days = 150;
+        } else if (age >= 30 && age < 35) {
+            if (years >= 20) days = 240;
+            else if (years >= 10) days = 210;
+            else if (years >= 5) days = 180;
+            else if (years >= 1) days = 120;
+        } else {
+            // 30歳未満や60歳以上
+            if (years >= 20) days = 240;
+            else if (years >= 10) days = 210;
+            else if (years >= 5) days = 180;
+            else if (years >= 1) days = 90;
+        }
+
+        const total = dailyBenefit * days;
+
+        document.getElementById('resDays').innerText = days.toLocaleString();
+        document.getElementById('resDaily').innerText = Math.floor(dailyBenefit).toLocaleString();
+        document.getElementById('resTotal').innerText = Math.floor(total).toLocaleString();
+        document.getElementById('result').style.display = 'block';
+    }
+</script>
+
+</body>
+</html>
