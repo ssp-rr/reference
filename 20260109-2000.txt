@@ -1,0 +1,995 @@
+Jan 9, 2026 8:00 PM
+2s
+17m 32s
+2m 23s
+19m 58s
+29 days
+Logs
+ 
+Waiting to start
+17m 1s
+ 
+1
+Build is waiting in the queue
+Spin up build environment
+30s
+ 
+1
+Creating new worker instance
+2
+AMD, 4 vCPUs, 16 GB RAM
+3
+4
+Using image "ubuntu-22.04-jdk-17-ndk-26.1.10909125" based on "ubuntu-2204-jammy-v20250112"
+5
+6
+Installed software:
+7
+- NDK 26.1.10909125
+8
+- Node.js 20.18.3
+9
+- Bun 1.2.4
+10
+- Yarn 1.22.22
+11
+- pnpm 9.15.5
+12
+- npm 10.8.2
+13
+- Java 17
+14
+- node-gyp 11.1.0
+15
+16
+Project environment variables:
+17
+  EAS_USE_CACHE=1
+18
+  EAS_SAVE_CACHE=0
+19
+  __API_SERVER_URL=https://api.expo.dev/
+20
+21
+Environment secrets:
+22
+  EXPO_TOKEN=********
+23
+  EXPO_PUBLIC_GEMINI_API_KEY=********
+24
+25
+EAS Build environment variables:
+26
+  SHELL=/bin/sh
+27
+  NVM_INC=/home/expo/.nvm/versions/node/v20.18.3/include/node
+28
+  JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+29
+  PWD=/usr/local/eas-build-worker
+30
+  LOGNAME=expo
+31
+  SYSTEMD_EXEC_PID=848
+32
+  HOME=/home/expo
+33
+  LANG=en_US.UTF-8
+34
+  INVOCATION_ID=61e35d7427bf44428c14d7b6eecac4e3
+35
+  ANDROID_NDK_HOME=/home/expo/Android/Sdk/ndk/26.1.10909125
+36
+  NVM_DIR=/home/expo/.nvm
+37
+  ANDROID_HOME=/home/expo/Android/Sdk
+38
+  USER=expo
+39
+  SHLVL=0
+40
+  ANDROID_SDK_ROOT=/home/expo/Android/Sdk
+41
+  JOURNAL_STREAM=8:6389
+42
+  PATH=/home/expo/workingdir/bin:/home/expo/.nvm/versions/node/v20.18.3/bin:/opt/bundletool:/home/expo/Android/Sdk/build-tools/29.0.3:/home/expo/Android/Sdk/build-tools/35.0.0:/home/expo/Android/Sdk/ndk/26.1.10909125:/home/expo/Android/Sdk/cmdline-tools/tools/bin:/home/expo/Android/Sdk/tools:/home/expo/Android/Sdk/tools/bin:/home/expo/Android/Sdk/platform-tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/home/expo/.bun/bin
+43
+  LOGGER_LEVEL=info
+44
+  NVM_BIN=/home/expo/.nvm/versions/node/v20.18.3/bin
+45
+  EAS_BUILD_WORKER_DIR=/home/expo/eas-build-worker
+46
+  _=/home/expo/.nvm/versions/node/v20.18.3/bin/node
+47
+  CI=1
+48
+  MAESTRO_DRIVER_STARTUP_TIMEOUT=120000
+49
+  MAESTRO_CLI_NO_ANALYTICS=1
+50
+  EAS_BUILD=true
+51
+  EAS_BUILD_RUNNER=eas-build
+52
+  EAS_BUILD_PLATFORM=android
+53
+  NVM_NODEJS_ORG_MIRROR=http://nodejs.production.caches.eas-build.internal
+54
+  EAS_BUILD_PROFILE=preview
+55
+  EAS_BUILD_ID=735d01b6-4cc3-41b2-ae92-2e2a73331466
+56
+  EAS_BUILD_WORKINGDIR=/home/expo/workingdir/build
+57
+  EAS_BUILD_PROJECT_ID=3c46a57f-e8dd-49a0-8520-66ec949223b1
+58
+  EAS_BUILD_MAVEN_CACHE_URL=http://maven.production.caches.eas-build.internal
+59
+  GRADLE_OPTS=-Dorg.gradle.jvmargs="-XX:MaxMetaspaceSize=1g -Xmx4g -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8" -Dorg.gradle.parallel=true -Dorg.gradle.daemon=false
+60
+  EAS_BUILD_USERNAME=eassrbl
+61
+  __EAS_BUILD_ENVS_DIR=/home/expo/workingdir/env
+62
+63
+Builder is ready, starting build
+Read package.json
+1s
+ 
+1
+Using package.json:
+2
+{
+  "name": "srbl",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "expo": "^54.0.30",
+    "expo-build-properties": "^1.0.10",
+    "expo-crypto": "^15.0.8",
+    "expo-dev-client": "~6.0.20",
+    "expo-file-system": "~19.0.21",
+    "expo-image-manipulator": "~14.0.8",
+    "expo-speech": "~14.0.8",
+    "expo-sqlite": "^16.0.10",
+    "react": "18.3.1",
+    "react-native": "0.76.6"
+  },
+  "scripts": {
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "devDependencies": {
+    "@expo/config-plugins": "^54.0.4"
+  }
+}
+Install dependencies
+10s
+ 
+1
+Running "npm install" in /home/expo/workingdir/build directory
+2
+npm warn EBADENGINE Unsupported engine {
+3
+npm warn EBADENGINE   package: '@react-native/babel-plugin-codegen@0.81.5',
+4
+npm warn EBADENGINE   required: { node: '>= 20.19.4' },
+5
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+6
+npm warn EBADENGINE }
+7
+npm warn EBADENGINE Unsupported engine {
+8
+npm warn EBADENGINE   package: '@react-native/babel-preset@0.81.5',
+9
+npm warn EBADENGINE   required: { node: '>= 20.19.4' },
+10
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+11
+npm warn EBADENGINE }
+12
+npm warn EBADENGINE Unsupported engine {
+13
+npm warn EBADENGINE   package: '@react-native/codegen@0.81.5',
+14
+npm warn EBADENGINE   required: { node: '>= 20.19.4' },
+15
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+16
+npm warn EBADENGINE }
+17
+npm warn EBADENGINE Unsupported engine {
+18
+npm warn EBADENGINE   package: '@react-native/debugger-frontend@0.81.5',
+19
+npm warn EBADENGINE   required: { node: '>= 20.19.4' },
+20
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+21
+npm warn EBADENGINE }
+22
+npm warn EBADENGINE Unsupported engine {
+23
+npm warn EBADENGINE   package: '@react-native/dev-middleware@0.81.5',
+24
+npm warn EBADENGINE   required: { node: '>= 20.19.4' },
+25
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+26
+npm warn EBADENGINE }
+27
+npm warn EBADENGINE Unsupported engine {
+28
+npm warn EBADENGINE   package: 'metro@0.83.3',
+29
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+30
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+31
+npm warn EBADENGINE }
+32
+npm warn EBADENGINE Unsupported engine {
+33
+npm warn EBADENGINE   package: 'metro-babel-transformer@0.83.3',
+34
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+35
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+36
+npm warn EBADENGINE }
+37
+npm warn EBADENGINE Unsupported engine {
+38
+npm warn EBADENGINE   package: 'metro-cache@0.83.3',
+39
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+40
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+41
+npm warn EBADENGINE }
+42
+npm warn EBADENGINE Unsupported engine {
+43
+npm warn EBADENGINE   package: 'metro-cache-key@0.83.3',
+44
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+45
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+46
+npm warn EBADENGINE }
+47
+npm warn EBADENGINE Unsupported engine {
+48
+npm warn EBADENGINE   package: 'metro-config@0.83.3',
+49
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+50
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+51
+npm warn EBADENGINE }
+52
+npm warn EBADENGINE Unsupported engine {
+53
+npm warn EBADENGINE   package: 'metro-core@0.83.3',
+54
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+55
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+56
+npm warn EBADENGINE }
+57
+npm warn EBADENGINE Unsupported engine {
+58
+npm warn EBADENGINE   package: 'metro-file-map@0.83.3',
+59
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+60
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+61
+npm warn EBADENGINE }
+62
+npm warn EBADENGINE Unsupported engine {
+63
+npm warn EBADENGINE   package: 'metro-minify-terser@0.83.3',
+64
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+65
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+66
+npm warn EBADENGINE }
+67
+npm warn EBADENGINE Unsupported engine {
+68
+npm warn EBADENGINE   package: 'metro-resolver@0.83.3',
+69
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+70
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+71
+npm warn EBADENGINE }
+72
+npm warn EBADENGINE Unsupported engine {
+73
+npm warn EBADENGINE   package: 'metro-runtime@0.83.3',
+74
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+75
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+76
+npm warn EBADENGINE }
+77
+npm warn EBADENGINE Unsupported engine {
+78
+npm warn EBADENGINE   package: 'metro-source-map@0.83.3',
+79
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+80
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+81
+npm warn EBADENGINE }
+82
+npm warn EBADENGINE Unsupported engine {
+83
+npm warn EBADENGINE   package: 'metro-symbolicate@0.83.3',
+84
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+85
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+86
+npm warn EBADENGINE }
+87
+npm warn EBADENGINE Unsupported engine {
+88
+npm warn EBADENGINE   package: 'metro-transform-plugins@0.83.3',
+89
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+90
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+91
+npm warn EBADENGINE }
+92
+npm warn EBADENGINE Unsupported engine {
+93
+npm warn EBADENGINE   package: 'metro-transform-worker@0.83.3',
+94
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+95
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+96
+npm warn EBADENGINE }
+97
+npm warn EBADENGINE Unsupported engine {
+98
+npm warn EBADENGINE   package: 'ob1@0.83.3',
+99
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+100
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+101
+npm warn EBADENGINE }
+102
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+103
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+104
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+105
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+106
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+107
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+108
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+109
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+110
+npm warn deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+111
+npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+112
+npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+113
+npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+114
+added 776 packages, and audited 777 packages in 10s
+115
+63 packages are looking for funding
+116
+  run `npm fund` for details
+117
+found 0 vulnerabilities
+Read app config
+1s
+ 
+1
+Using app configuration:
+2
+{
+  "name": "srbl",
+  "slug": "srbl",
+  "version": "1.0.0",
+  "android": {
+    "package": "com.ssp_rr.srbl",
+    "permissions": [
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.INTERNET",
+      "android.permission.VIBRATE"
+    ]
+  },
+  "extra": {
+    "eas": {
+      "projectId": "3c46a57f-e8dd-49a0-8520-66ec949223b1"
+    }
+  },
+  "plugins": [
+    [
+      "expo-build-properties",
+      {
+        "android": {
+          "kotlinVersion": "2.0.20",
+          "compileSdkVersion": 35,
+          "targetSdkVersion": 35,
+          "minSdkVersion": 31
+        }
+      }
+    ],
+    "./src/native/android/accessibility-plugin"
+  ],
+  "sdkVersion": "54.0.0",
+  "platforms": [
+    "ios",
+    "android"
+  ]
+}
+Run expo doctor
+1
+3s
+ 
+1
+Running "expo doctor"
+2
+Running 17 checks on your project...
+3
+15/17 checks passed. 2 checks failed. Possible issues detected:
+4
+Use the --verbose flag to see more details about passed checks.
+5
+6
+✖ Check dependencies for packages that should not be installed directly
+7
+The package "@expo/config-plugins" should not be installed directly in your project. You should instead use "expo/config-plugins" which is a sub-export of the expo package.
+8
+If you installed "@expo/config-plugins" to fulfill a peer dependency for a config plugin, the plugin's maintainer should switch to the "expo/config-plugins" import, and you can ignore this warning.
+9
+Advice:
+10
+Remove these packages from your package.json.
+11
+12
+✖ Check that packages match versions required by installed Expo SDK
+13
+❗ Major version mismatches
+14
+package       expected  found   
+15
+react         19.1.0    18.3.1  
+16
+17
+⚠️ Minor version mismatches
+18
+package       expected  found   
+19
+react-native  0.81.5    0.76.6  
+20
+21
+22
+23
+2 packages out of date.
+24
+Advice:
+25
+Use 'npx expo install --check' to review and upgrade your dependencies.
+26
+To ignore specific packages, add them to "expo.install.exclude" in package.json. Learn more: https://expo.fyi/dependency-validation
+27
+2 checks failed, indicating possible issues with the project.
+28
+Command "expo doctor" failed.
+npx -y expo-doctor exited with non-zero code: 1
+Prebuild
+2s
+ 
+1
+- Creating native directory (./android)
+2
+✔ Created native directory
+3
+- Updating package.json
+4
+› Using react-native@0.76.6 instead of recommended react-native@0.81.5.
+5
+- Updating package.json
+6
+✔ Updated package.json | no changes
+7
+- Running prebuild
+8
+✔ Finished prebuild
+9
+Running "npm install" in /home/expo/workingdir/build directory
+10
+npm warn EBADENGINE Unsupported engine {
+11
+npm warn EBADENGINE   package: '@react-native/babel-plugin-codegen@0.81.5',
+12
+npm warn EBADENGINE   required: { node: '>= 20.19.4' },
+13
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+14
+npm warn EBADENGINE }
+15
+npm warn EBADENGINE Unsupported engine {
+16
+npm warn EBADENGINE   package: '@react-native/babel-preset@0.81.5',
+17
+npm warn EBADENGINE   required: { node: '>= 20.19.4' },
+18
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+19
+npm warn EBADENGINE }
+20
+npm warn EBADENGINE Unsupported engine {
+21
+npm warn EBADENGINE   package: '@react-native/codegen@0.81.5',
+22
+npm warn EBADENGINE   required: { node: '>= 20.19.4' },
+23
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+24
+npm warn EBADENGINE }
+25
+npm warn EBADENGINE Unsupported engine {
+26
+npm warn EBADENGINE   package: '@react-native/debugger-frontend@0.81.5',
+27
+npm warn EBADENGINE   required: { node: '>= 20.19.4' },
+28
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+29
+npm warn EBADENGINE }
+30
+npm warn EBADENGINE Unsupported engine {
+31
+npm warn EBADENGINE   package: '@react-native/dev-middleware@0.81.5',
+32
+npm warn EBADENGINE   required: { node: '>= 20.19.4' },
+33
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+34
+npm warn EBADENGINE }
+35
+npm warn EBADENGINE Unsupported engine {
+36
+npm warn EBADENGINE   package: 'metro@0.83.3',
+37
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+38
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+39
+npm warn EBADENGINE }
+40
+npm warn EBADENGINE Unsupported engine {
+41
+npm warn EBADENGINE   package: 'metro-babel-transformer@0.83.3',
+42
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+43
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+44
+npm warn EBADENGINE }
+45
+npm warn EBADENGINE Unsupported engine {
+46
+npm warn EBADENGINE   package: 'metro-cache@0.83.3',
+47
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+48
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+49
+npm warn EBADENGINE }
+50
+npm warn EBADENGINE Unsupported engine {
+51
+npm warn EBADENGINE   package: 'metro-cache-key@0.83.3',
+52
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+53
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+54
+npm warn EBADENGINE }
+55
+npm warn EBADENGINE Unsupported engine {
+56
+npm warn EBADENGINE   package: 'metro-config@0.83.3',
+57
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+58
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+59
+npm warn EBADENGINE }
+60
+npm warn EBADENGINE Unsupported engine {
+61
+npm warn EBADENGINE   package: 'metro-core@0.83.3',
+62
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+63
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+64
+npm warn EBADENGINE }
+65
+npm warn EBADENGINE Unsupported engine {
+66
+npm warn EBADENGINE   package: 'metro-file-map@0.83.3',
+67
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+68
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+69
+npm warn EBADENGINE }
+70
+npm warn EBADENGINE Unsupported engine {
+71
+npm warn EBADENGINE   package: 'metro-minify-terser@0.83.3',
+72
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+73
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+74
+npm warn EBADENGINE }
+75
+npm warn EBADENGINE Unsupported engine {
+76
+npm warn EBADENGINE   package: 'metro-resolver@0.83.3',
+77
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+78
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+79
+npm warn EBADENGINE }
+80
+npm warn EBADENGINE Unsupported engine {
+81
+npm warn EBADENGINE   package: 'metro-runtime@0.83.3',
+82
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+83
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+84
+npm warn EBADENGINE }
+85
+npm warn EBADENGINE Unsupported engine {
+86
+npm warn EBADENGINE   package: 'metro-source-map@0.83.3',
+87
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+88
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+89
+npm warn EBADENGINE }
+90
+npm warn EBADENGINE Unsupported engine {
+91
+npm warn EBADENGINE   package: 'metro-symbolicate@0.83.3',
+92
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+93
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+94
+npm warn EBADENGINE }
+95
+npm warn EBADENGINE Unsupported engine {
+96
+npm warn EBADENGINE   package: 'metro-transform-plugins@0.83.3',
+97
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+98
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+99
+npm warn EBADENGINE }
+100
+npm warn EBADENGINE Unsupported engine {
+101
+npm warn EBADENGINE   package: 'metro-transform-worker@0.83.3',
+102
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+103
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+104
+npm warn EBADENGINE }
+105
+npm warn EBADENGINE Unsupported engine {
+106
+npm warn EBADENGINE   package: 'ob1@0.83.3',
+107
+npm warn EBADENGINE   required: { node: '>=20.19.4' },
+108
+npm warn EBADENGINE   current: { node: 'v20.18.3', npm: '10.8.2' }
+109
+npm warn EBADENGINE }
+110
+up to date, audited 777 packages in 1s
+111
+63 packages are looking for funding
+112
+  run `npm fund` for details
+113
+found 0 vulnerabilities
+Prepare credentials
+1s
+ 
+1
+Writing secrets to the project's directory
+2
+Injecting signing config into build.gradle
+Bundle JavaScript
+13s
+ 
+1
+Starting Metro Bundler
+2
+Android ./index.ts ▓▓░░░░░░░░░░░░░░ 17.9% (115/272)
+3
+Android ./index.ts ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 89.6% (495/523)
+4
+Android Bundled 8442ms index.ts (617 modules)
+5
+Writing bundle output to: /tmp/sqgiv0vnli/index.js
+6
+Done writing bundle output
+Run gradlew
+1
+1m 46s
+ 
+1
+Running 'gradlew :app:assembleRelease' in /home/expo/workingdir/build/android
+2
+Downloading https://services.gradle.org/distributions/gradle-8.14.3-bin.zip
+3
+10%.
+4
+20%.
+5
+30%.
+6
+40%.
+7
+50%.
+8
+60%.
+9
+70
+10
+%.
+11
+80%
+12
+90%
+13
+100%
+14
+Welcome to Gradle 8.14.3!
+15
+Here are the highlights of this release:
+16
+ - Java 24 support
+17
+- GraalVM Native Image toolchain selection
+18
+- Enhancements to test reporting
+19
+- Build Authoring improvements
+20
+For more details see https://docs.gradle.org/8.14.3/release-notes.html
+21
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+22
+Daemon will be stopped at the end of the build
+23
+> Configure project :expo-gradle-plugin:expo-autolinking-plugin
+24
+w: file:///home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin/build.gradle.kts:25:3: 'kotlinOptions(KotlinJvmOptionsDeprecated /* = KotlinJvmOptions */.() -> Unit): Unit' is deprecated. Please migrate to the compilerOptions DSL. More details are here: https://kotl.in/u1r8ln
+25
+> Configure project :expo-gradle-plugin:expo-autolinking-settings-plugin
+26
+w: file:///home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/build.gradle.kts:30:3: 'kotlinOptions(KotlinJvmOptionsDeprecated /* = KotlinJvmOptions */.() -> Unit): Unit' is deprecated. Please migrate to the compilerOptions DSL. More details are here: https://kotl.in/u1r8ln
+27
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+28
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+29
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors
+30
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors
+31
+> Task :gradle-plugin:settings-plugin:pluginDescriptors
+32
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors
+33
+> Task :gradle-plugin:settings-plugin:processResources
+34
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
+35
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+36
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+37
+> Task :gradle-plugin:shared:compileKotlin
+38
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+39
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+40
+> Task :gradle-plugin:shared:jar
+41
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin
+42
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava
+43
+NO-SOURCE
+44
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+45
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar
+46
+> Task :gradle-plugin:settings-plugin:compileKotlin
+47
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+48
+> Task :gradle-plugin:settings-plugin:classes
+49
+> Task :gradle-plugin:settings-plugin:jar
+50
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin
+51
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+52
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes
+53
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar
+54
+> Configure project :expo-dev-launcher-gradle-plugin
+55
+w: file:///home/expo/workingdir/build/node_modules/expo-dev-launcher/expo-dev-launcher-gradle-plugin/build.gradle.kts:25:3: 'kotlinOptions(KotlinJvmOptionsDeprecated /* = KotlinJvmOptions */.() -> Unit): Unit' is deprecated. Please migrate to the compilerOptions DSL. More details are here: https://kotl.in/u1r8ln
+56
+> Configure project :expo-module-gradle-plugin
+57
+w: file:///home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/build.gradle.kts:58:3: 'kotlinOptions(KotlinJvmOptionsDeprecated /* = KotlinJvmOptions */.() -> Unit): Unit' is deprecated. Please migrate to the compilerOptions DSL. More details are here: https://kotl.in/u1r8ln
+58
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+59
+> Task :expo-dev-launcher-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+60
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+61
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+62
+> Task :expo-dev-launcher-gradle-plugin:pluginDescriptors
+63
+> Task :expo-module-gradle-plugin:pluginDescriptors
+64
+> Task :expo-dev-launcher-gradle-plugin:processResources
+65
+> Task :expo-module-gradle-plugin:processResources
+66
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors
+67
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources
+68
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
+69
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
+70
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin
+71
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+72
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes
+73
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar
+74
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin
+75
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+76
+> Task :gradle-plugin:react-native-gradle-plugin:classes
+77
+> Task :gradle-plugin:react-native-gradle-plugin:jar
+78
+> Task :expo-dev-launcher-gradle-plugin:compileKotlin
+79
+> Task :expo-dev-launcher-gradle-plugin:compileJava NO-SOURCE
+80
+> Task :expo-dev-launcher-gradle-plugin:classes
+81
+> Task :expo-dev-launcher-gradle-plugin:jar
+82
+> Task :expo-module-gradle-plugin:compileKotlin
+83
+w: file:///home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/src/main/kotlin/expo/modules/plugin/android/AndroidLibraryExtension.kt:9:24 'var targetSdk: Int?' is deprecated. Will be removed from library DSL in v9.0. Use testOptions.targetSdk or/and lint.targetSdk instead.
+84
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+85
+> Task :expo-module-gradle-plugin:classes
+86
+> Task :expo-module-gradle-plugin:jar
+87
+> Configure project :
+88
+[ExpoRootProject] Using the following versions:
+89
+  - buildTools:  35.0.0
+90
+  - minSdk:      31
+91
+  - compileSdk:  35
+92
+  - targetSdk:   35
+93
+  - ndk:         26.1.10909125
+94
+  - kotlin:      2.0.20
+95
+  - ksp:         2.0.20-1.0.25
+96
+> Configure project :app
+97
+ ℹ️  Applying gradle plugin 'expo-dev-launcher-gradle-plugin'
+98
+[Incubating] Problems report is available at: file:///home/expo/workingdir/build/android/build/reports/problems/problems-report.html
+99
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+100
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+101
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+102
+31 actionable tasks: 31 executed
+103
+FAILURE: Build failed with an exception.
+104
+* Where:
+105
+Build file '/home/expo/workingdir/build/android/app/build.gradle' line: 17
+106
+* What went wrong:
+107
+A problem occurred evaluating project ':app'.
+108
+> Could not set unknown property 'enableBundleCompression' for extension 'react' of type com.facebook.react.ReactExtension.
+109
+* Try:
+110
+> Run with --stacktrace option to get the stack trace.
+111
+> Run with --info or --debug option to get more log output.
+112
+> Run with --scan to get full insights.
+113
+> Get more help at https://help.gradle.org.
+114
+BUILD FAILED in 1m 46s
+115
+Error: Gradle build failed with unknown error. See logs for the "Run gradlew" phase for more information.
+Fail job
+1s
+ 
+1
+Build failed: Gradle build failed with unknown error. See logs for the "Run gradlew" phase for more information.
+ 
+ 
