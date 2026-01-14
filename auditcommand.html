@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI開発用 監査スクリプト配布</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; line-height: 1.6; max-width: 800px; margin: auto; }
+        .box { border: 2px solid #333; padding: 15px; background: #f9f9f9; border-radius: 8px; }
+        textarea { width: 100%; height: 200px; margin-top: 10px; font-family: monospace; }
+        button { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 1.1em; }
+        button:active { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>AI開発を爆速にする「魔法の鍵」</h1>
+    <p>このスクリプトは、あなたのスマホの中身をAIに伝えるためのファイルを一瞬で作成します。以下のテキストボックスの内容をすべてコピーして、Termuxに貼り付けてください。</p>
+
+    <div class="box">
+        <label for="code">【コピー専用テキストエリア】</label>
+        <textarea id="code" readonly aria-label="Termux用設定スクリプト">
+# ============================================================
+# 📝 プロジェクト監査（audit）一括設定コマンド
+# ============================================================
+
+# 1. Termux APIパッケージのインストール（自動）
+echo "📦 必要なシステムツールを確認中..."
+pkg update -y && pkg upgrade -y
+pkg install termux-api -y
+
+# 2. ストレージ許可の確認と取得
+if [ ! -d "$HOME/storage" ]; then
+    echo "📢 ストレージへのアクセス許可が必要です。"
+    echo "表示されるダイヤログで『許可』を押してください..."
+    termux-setup-storage
+    until [ -d "$HOME/storage" ]; do sleep 1; done
+    echo "✅ ストレージ連携が完了しました。"
+fi
+
+# 3. 保存先とエイリアスの設定
+ALIAS_NAME="audit"
+SCRIPT_FILE="$HOME/.audit_logic.sh"
+BASHRC="$HOME/.bashrc"
+
+# 4. 本体ロジックの書き出し
+cat << 'EOF' > "$SCRIPT_FILE"
+#!/bin/bash
+PROJECT_NAME=$(basename "$PWD")
+TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+TARGET="$HOME/storage/downloads/${PROJECT_NAME}_audit_${TIMESTAMP}.txt"
+EXTS="tsx|ts|jsx|js|kt|java|xml|json|py|c|cpp|rs|go|sh|html|css|yaml|md|gradle"
+MAX_SIZE="500k"
+
+echo "🔍 $PROJECT_NAME をスキャンしてAI用の報告書を作成します..."
+
+{
+  echo "=== 🏗️ PROJECT AUDIT: $PROJECT_NAME ==="
+  echo "Date: $(date)"
+  echo "------------------------------------------------------------"
+  echo -e "\n=== 📂 DIRECTORY STRUCTURE ==="
+  find . -maxdepth 5 \( -path "./.*" -o -path "*/node_modules" -o -path "*/build" -o -path "*/.gradle" \) -prune -o -print | sort
+  echo -e "\n=== 📄 FILE CONTENTS ==="
+  find . \( -path "*/.*" -o -path "*/node_modules" -o -path "*/build" -o -path "*/.gradle" \) -prune -o -type f -regextype posix-extended -regex ".*\.($EXTS)$" -print | sort | while read -r f; do
+      FILENAME=$(basename "$f")
+      [[ "$FILENAME" == "package-lock.json" || "$FILENAME" == "yarn.lock" ]] && continue
+      if [ $(find "$f" -size +"$MAX_SIZE" | wc -l) -gt 0 ] || ! grep -qI . "$f"; then continue; fi
+      echo -e "\n\n--- FILE_START: $f ---"
+      cat "$f"
+      echo -e "\n--- FILE_END: $f ---"
+  done
+} > "$TARGET"
+
+echo "✅ 完了！保存先: ダウンロードフォルダ"
+echo "💡 このファイルをAIに渡してください。"
+EOF
+
+# 5. エイリアス登録
+if ! grep -q "alias $ALIAS_NAME=" "$BASHRC" 2>/dev/null; then
+    echo "alias $ALIAS_NAME='bash $SCRIPT_FILE'" >> "$BASHRC"
+fi
+source "$BASHRC"
+echo "✨ 設定完了。以降は 'audit' と打つだけで実行できます。"
+bash "$SCRIPT_FILE"        
+</textarea>
+        <br><br>
+        <button onclick="copyCode()">このコマンドをコピーする</button>
+    </div>
+
+    <h2>このツールがやっていること（監査の内容）</h2>
+    <ul>
+        <li><strong>システム準備:</strong> アプリ開発に必要なツール（Termux API）を自動でインストールします。</li>
+        <li><strong>ストレージ連携:</strong> スマホ本体の「ダウンロード」フォルダにファイルを保存できるよう設定します。</li>
+        <li><strong>ディレクトリ監査:</strong> フォルダの階層構造をスキャンし、AIが全体像を把握できるようにします。</li>
+        <li><strong>ファイル結合:</strong> プログラム（TypeScript, Kotlinなど）の中身を1つのファイルにまとめ、AIに一発で渡せるようにします。</li>
+        <li><strong>短縮登録:</strong> 次からは <code>audit</code> と打つだけで、いつでも最新の状態を書き出せるようになります。</li>
+    </ul>
+
+    <script>
+        function copyCode() {
+            var copyText = document.getElementById("code");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            alert("コピーしました！Termuxに貼り付けてください。");
+        }
+    </script>
+</body>
+</html>
