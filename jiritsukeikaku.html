@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>戦略的撤退・自立支援ツールキット 2026</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --bg-color: #f4f7f6;
+            --box-bg: #ffffff;
+        }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--primary-color); background-color: var(--bg-color); padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: var(--box-bg); padding: 40px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { border-bottom: 2px solid var(--accent-color); padding-bottom: 10px; text-align: center; color: var(--accent-color); }
+        h2 { margin-top: 30px; border-left: 5px solid var(--primary-color); padding-left: 15px; background: #eee; padding: 10px; }
+        .form-group { margin-bottom: 15px; }
+        label { font-weight: bold; display: block; margin-bottom: 5px; }
+        input[type="text"], input[type="number"], textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        .readonly-box { background: #f9f9f9; border: 1px dashed #777; padding: 15px; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; margin-top: 10px; overflow-x: auto; }
+        .calc-result { background: #fff3f3; padding: 20px; border-radius: 8px; border: 1px solid var(--accent-color); margin-top: 20px; }
+        .btn-print { display: block; width: 200px; margin: 30px auto; padding: 15px; background: var(--accent-color); color: #fff; text-align: center; text-decoration: none; border-radius: 5px; font-weight: bold; cursor: pointer; }
+        @media print { .no-print { display: none; } .container { box-shadow: none; border: none; } }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>戦略的撤退と自立のための武器一式</h1>
+    <p class="no-print" style="text-align: center; font-size: 0.9em; color: #666;">※入力されたデータはサーバーに送信されません。ブラウザ上でのみ動作します。</p>
+
+    <h2>1. 【現在地の確認】搾取度セルフチェック</h2>
+    <div class="form-group">
+        <label>現在の時給（円）：</label>
+        <input type="number" id="hourly_wage" placeholder="例：1200">
+    </div>
+    <div class="form-group">
+        <label>月間労働時間（時間）：</label>
+        <input type="number" id="monthly_hours" placeholder="例：160">
+    </div>
+    <div class="calc-result">
+        <p><strong>【判定結果】</strong></p>
+        <div id="result_area">数値を入力してください。</div>
+    </div>
+
+    <h2>2. 【提出用】自立支援計画書テンプレート</h2>
+    <p style="font-size: 0.8em; color: #555;">※窓口で「どう自立するのか」と問われた際に出す法的書類の骨子です。</p>
+    <div class="readonly-box" id="plan_template" contenteditable="true">
+【自立支援計画（リスキリング・プラン）】
+
+1. 現在の就労実態と課題
+現在の時給 [  (1)  ] 円での就労は、物価高騰および社会保険料負担の影響により、生活保護基準を実質的に下回る。この「貧困の罠」状態での就労継続は、自立の機会を奪い、受給期間を長期化させるリスクが高いと判断する。
+
+2. 具体的自立目標
+(1) 目標職種：[  (2)  ]
+(2) 目標時給：[  (3)  ] 円以上
+(3) 達成時期：受給開始より [  (4)  ] ヶ月以内
+
+3. 訓練および再起のプロセス
+一時的に現職から戦略的に撤退し、以下の訓練に集中することで、高付加価値な労働者としての復帰を目指す。
+・訓練内容：[  (5)  ]
+・必要性：上記スキルは労働市場において需要が高く、目標賃金の達成が論理的に可能である。
+
+4. 法的根拠
+本計画は、生活保護法第1条（自立の助長）に基づき、本人の能力を最大限に高め、永続的な納税者への復帰を果たすための合理的プロセスである。
+    </div>
+
+    <h2>3. 【実戦】窓口問答スクリプト</h2>
+    <p>窓口担当者が「働いているなら受けられない」「申請は無理」と言った際のカウンターです。</p>
+    
+    <label>担当者の発言「働いているなら、まだ頑張れるでしょう？」</label>
+    <textarea readonly class="readonly-box" rows="4">「生活保護法第1条および第60条に基づき、私の能力を最大限に活用し、自立を助長することが法の目的です。現状の時給 [（1）の数字を入れる] 円では自立が不可能です。高単価な仕事への移行を目的とした『戦略的受給』を求めています。申請書を受理してください。」</textarea>
+
+    <label>担当者の発言「まずは相談だけで。申請はまだ早いですよ」</label>
+    <textarea readonly class="readonly-box" rows="4">「私は『相談』ではなく、行政手続法上の『申請』に来ました。申請権の侵害は法律違反です。今ここで申請書を受け取らないのであれば、その正当な理由を2週間以内に文書（教示文）で回答してください。また、このやり取りは記録（録音）させていただきます。」</textarea>
+
+    <h2>4. 守り抜く資産のチェックリスト</h2>
+    <div class="form-group">
+        <input type="checkbox" id="item1"> <label style="display:inline;" for="item1">持ち家（ローン完済、または売却価値が転居費用を下回る）</label><br>
+        <input type="checkbox" id="item2"> <label style="display:inline;" for="item2">自動車（通勤・通院・買い物・再就職に不可欠な理由がある）</label><br>
+        <input type="checkbox" id="item3"> <label style="display:inline;" for="item3">PC・スマホ（リスキリングおよび求職活動のインフラ）</label><br>
+        <input type="checkbox" id="item4"> <label style="display:inline;" for="item4">現金（世帯の最低生活費の約3ヶ月分以下）</label>
+    </div>
+
+    <div class="no-print">
+        <button class="btn-print" onclick="window.print()">このページを印刷する</button>
+    </div>
+</div>
+
+<script>
+    const hInput = document.getElementById('hourly_wage');
+    const mInput = document.getElementById('monthly_hours');
+    const res = document.getElementById('result_area');
+
+    function update() {
+        const h = parseFloat(hInput.value) || 0;
+        const m = parseFloat(mInput.value) || 0;
+        const gross = h * m;
+        const net = Math.floor(gross * 0.75); // 概算手取り
+        const real_disposable = net - 30000; // 働くコスト差し引き
+
+        if(h > 0 && m > 0) {
+            let msg = `
+                <p>・額面月収：約 ${gross.toLocaleString()} 円</p>
+                <p>・社会保険・税等差引後：約 ${net.toLocaleString()} 円</p>
+                <p>・働くためのコスト（交通費・医療・疲労等）差引後：約 <strong>${real_disposable.toLocaleString()} 円</strong></p>
+                <hr>
+                <p style="color:red; font-weight:bold;">
+                    ${real_disposable < 150000 ? '【警告】生活保護基準（約15万円相当）を下回っています。あなたは現在、自らの命と時間を「搾取」されている状態です。' : '現在の水準は維持されていますが、インフレ耐性があるか再確認が必要です。'}
+                </p>
+            `;
+            res.innerHTML = msg;
+        }
+    }
+    hInput.addEventListener('input', update);
+    mInput.addEventListener('input', update);
+</script>
+
+</body>
+</html>
