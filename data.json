@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "report_1786227382006_796",
+    "type": "速報",
+    "title": "OpenAIが次世代モデル「Astra」開発一時停止",
+    "author": "OpenAI",
+    "category": "速報",
+    "publishedAt": "2026年8月9日",
+    "content": "【タイトル】OpenAIが次世代モデル「Astra」開発一時停止\n【発表者】OpenAI\n【日時】2026年8月9日\n【カテゴリ】速報\n【該当URL】https://openai.com\n【詳細】セキュリティリスクが最高基準に達し開発停止。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  }
+]
