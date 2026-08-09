@@ -3,71 +3,228 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>World AI Summary - ワールドサマリー</title>
+  <title>World AI Summary</title>
+  
+  <!-- OneSignal SDK -->
   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+      await OneSignal.init({
+        appId: "834c7844-5c95-4e89-950c-8c860111c906",
+        promptOptions: {
+          slidedown: {
+            prompts: [{
+              type: "push",
+              autoPrompt: true,
+              text: {
+                actionMessage: "「World AI Summary」から最新のAI動向や速報通知を受け取りますか？",
+                acceptButton: "通知を受け取る",
+                cancelButton: "今はしない"
+              }
+            }]
+          }
+        }
+      });
+    });
+  </script>
+
   <style>
     :root {
-      --primary: #1a73e8;
-      --bg: #f8f9fa;
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --bg: #f8fafc;
       --card-bg: #ffffff;
-      --text: #202124;
-      --subtext: #5f6368;
-      --border: #e0e0e0;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --tag-keyman: #8b5cf6;
+      --tag-us: #2563eb;
+      --tag-jp: #059669;
+      --tag-breaking: #dc2626;
     }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       background-color: var(--bg);
       color: var(--text);
-      margin: 0;
-      padding: 0;
       line-height: 1.6;
+      padding-bottom: 40px;
     }
+
     header {
       background: #ffffff;
       border-bottom: 1px solid var(--border);
-      padding: 16px 24px;
+      padding: 16px 20px;
       position: sticky;
       top: 0;
       z-index: 100;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     }
-    h1 { margin: 0; font-size: 20px; color: var(--primary); }
-    .container { max-width: 800px; margin: 24px auto; padding: 0 16px; }
-    
-    .settings-panel {
+    header h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    /* アコーディオン式設定パネル */
+    details.settings-panel {
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+      overflow: hidden;
     }
-    .settings-title { font-size: 16px; font-weight: bold; margin-bottom: 12px; }
-    .filter-group { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
-    .filter-label { display: flex; align-items: center; gap: 6px; font-size: 14px; }
-    
+    summary.accordion-summary {
+      padding: 14px 16px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      user-select: none;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+    }
+    summary.accordion-summary::-webkit-details-marker { display: none; }
+    summary.accordion-summary::after {
+      content: '▼';
+      font-size: 0.8rem;
+      transition: transform 0.2s;
+    }
+    details[open] summary.accordion-summary::after {
+      transform: rotate(180deg);
+    }
+
+    .settings-content {
+      padding: 16px;
+      border-top: 1px solid var(--border);
+      background: #fafafa;
+    }
+    .setting-group {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+    .group-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    .group-title {
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .checkbox-label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+    select.timing-select {
+      width: 100%;
+      padding: 8px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      font-size: 0.85rem;
+      background: #ffffff;
+    }
+
+    .btn-save {
+      width: 100%;
+      padding: 12px;
+      background: var(--primary);
+      color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+    .btn-save:active { background: var(--primary-dark); }
+
+    /* トースト通知 */
+    #toast {
+      visibility: hidden;
+      min-width: 250px;
+      background-color: #10b981;
+      color: #fff;
+      text-align: center;
+      border-radius: 8px;
+      padding: 12px;
+      position: fixed;
+      z-index: 200;
+      left: 50%;
+      bottom: 30px;
+      transform: translateX(-50%);
+      font-size: 0.9rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    #toast.show {
+      visibility: visible;
+      animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    }
+    @keyframes fadein { from { bottom: 0; opacity: 0; } to { bottom: 30px; opacity: 1; } }
+    @keyframes fadeout { from { bottom: 30px; opacity: 1; } to { bottom: 0; opacity: 0; } }
+
+    /* タイムラインカード */
+    .timeline { display: flex; flex-direction: column; gap: 16px; }
     .card {
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 16px;
+      padding: 18px;
       box-shadow: 0 2px 4px rgba(0,0,0,0.02);
     }
-    .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
-    .tag {
-      background: #e8f0fe;
-      color: var(--primary);
-      font-size: 12px;
-      padding: 4px 8px;
-      border-radius: 4px;
-      font-weight: 500;
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
     }
-    .date { font-size: 12px; color: var(--subtext); }
-    .card-title { font-size: 18px; font-weight: bold; margin: 8px 0; }
-    .author { font-size: 13px; color: var(--subtext); margin-bottom: 12px; }
-    .content { font-size: 14px; white-space: pre-wrap; word-break: break-word; }
+    .tag {
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .tag.keyman { background-color: var(--tag-keyman); }
+    .tag.us_gov { background-color: var(--tag-us); }
+    .tag.jp_gov { background-color: var(--tag-jp); }
+    .tag.breaking { background-color: var(--tag-breaking); }
+
+    .date { font-size: 0.8rem; color: var(--text-muted); }
+    .card-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 6px; line-height: 1.4; }
+    .author { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px; }
+    .content { font-size: 0.92rem; color: var(--text); line-height: 1.6; border-top: 1px solid var(--border); padding-top: 12px; }
+
+    .source-link-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background: #eff6ff;
+      color: var(--primary);
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.85rem;
+      border: 1px solid #bfdbfe;
+    }
   </style>
 </head>
 <body>
@@ -77,104 +234,187 @@
   </header>
 
   <div class="container">
-    <div class="settings-panel">
-      <div class="settings-title">配信＆表示カテゴリ設定</div>
-      <div class="filter-group">
-        <label class="filter-label"><input type="checkbox" id="cat-keyman" checked onchange="applyFilters()"> キーマン</label>
-        <label class="filter-label"><input type="checkbox" id="cat-us" checked onchange="applyFilters()"> 米国政府</label>
-        <label class="filter-label"><input type="checkbox" id="cat-jp" checked onchange="applyFilters()"> 日本政府</label>
-        <label class="filter-label"><input type="checkbox" id="cat-breaking" checked onchange="applyFilters()"> 速報</label>
+    <!-- アコーディオン式設定パネル -->
+    <details class="settings-panel" id="settings-accordion">
+      <summary class="accordion-summary">⚙️ 配信・通知設定（タップして開く）</summary>
+      <div class="settings-content">
+        
+        <!-- キーマン -->
+        <div class="setting-group">
+          <div class="group-header">
+            <span class="group-title">AIキーマン</span>
+            <label class="checkbox-label">
+              <input type="checkbox" id="show-keyman" checked onchange="renderTimeline()"> 画面表示
+            </label>
+          </div>
+          <select class="timing-select" id="timing-keyman">
+            <option value="none" selected>通知しない（Web閲覧のみ）</option>
+            <option value="immediate">即時通知（最新レポート受信時）</option>
+            <option value="21pm">夜9時まとめて通知</option>
+            <option value="7am">翌朝7時まとめて通知</option>
+          </select>
+        </div>
+
+        <!-- 米国政府 -->
+        <div class="setting-group">
+          <div class="group-header">
+            <span class="group-title">米国政府</span>
+            <label class="checkbox-label">
+              <input type="checkbox" id="show-us_gov" checked onchange="renderTimeline()"> 画面表示
+            </label>
+          </div>
+          <select class="timing-select" id="timing-us_gov">
+            <option value="none" selected>通知しない（Web閲覧のみ）</option>
+            <option value="immediate">即時通知（最新レポート受信時）</option>
+            <option value="21pm">夜9時まとめて通知</option>
+            <option value="7am">翌朝7時まとめて通知</option>
+          </select>
+        </div>
+
+        <!-- 日本政府 -->
+        <div class="setting-group">
+          <div class="group-header">
+            <span class="group-title">日本政府</span>
+            <label class="checkbox-label">
+              <input type="checkbox" id="show-jp_gov" checked onchange="renderTimeline()"> 画面表示
+            </label>
+          </div>
+          <select class="timing-select" id="timing-jp_gov">
+            <option value="none" selected>通知しない（Web閲覧のみ）</option>
+            <option value="immediate">即時通知（最新レポート受信時）</option>
+            <option value="21pm">夜9時まとめて通知</option>
+            <option value="7am">翌朝7時まとめて通知</option>
+          </select>
+        </div>
+
+        <!-- 速報 -->
+        <div class="setting-group">
+          <div class="group-header">
+            <span class="group-title">速報ニュース</span>
+            <label class="checkbox-label">
+              <input type="checkbox" id="show-breaking" checked onchange="renderTimeline()"> 画面表示
+            </label>
+          </div>
+          <select class="timing-select" id="timing-breaking">
+            <option value="none" selected>通知しない（Web閲覧のみ）</option>
+            <option value="immediate">即時通知（最新レポート受信時）</option>
+            <option value="21pm">夜9時まとめて通知</option>
+            <option value="7am">翌朝7時まとめて通知</option>
+          </select>
+        </div>
+
+        <button class="btn-save" onclick="saveAllSettings()">設定を保存する</button>
       </div>
+    </details>
 
-      <div class="settings-title">通知タイミング希望</div>
-      <select id="timing-select" onchange="updateOneSignalTag(this.value)" style="padding: 8px; border-radius: 6px; border: 1px solid var(--border);">
-        <option value="immediate">即時通知（最新レポート受信時）</option>
-        <option value="21pm">夜9時まとめて通知</option>
-        <option value="7am">翌朝7時まとめて通知</option>
-        <option value="none">通知しない（Web閲覧のみ）</option>
-      </select>
-    </div>
-
-    <div id="timeline">
-      <p style="text-align:center; color:var(--subtext);">最新レポートを読み込んでいます...</p>
-    </div>
+    <div class="timeline" id="timeline"></div>
   </div>
 
-  <script>
-    let allReports = [];
+  <div id="toast">設定を保存しました</div>
 
-    window.OneSignalDeferred = window.OneSignalDeferred || [];
-    OneSignalDeferred.push(async function(OneSignal) {
-      await OneSignal.init({
-        appId: "834c7844-5c95-4e89-950c-8c860111c906",
-      });
+  <script>
+    const CATEGORIES = [
+      { code: 'keyman', name: 'キーマン' },
+      { code: 'us_gov', name: '米国政府' },
+      { code: 'jp_gov', name: '日本政府' },
+      { code: 'breaking', name: '速報' }
+    ];
+
+    let rawReports = [];
+
+    document.addEventListener("DOMContentLoaded", () => {
+      loadSavedSettings();
+      fetchReports();
     });
 
-    function updateOneSignalTag(timingValue) {
-      window.OneSignalDeferred.push(function(OneSignal) {
-        OneSignal.User.addTag("timing", timingValue);
+    function loadSavedSettings() {
+      CATEGORIES.forEach(cat => {
+        const savedTiming = localStorage.getItem('timing_' + cat.code);
+        if (savedTiming) {
+          const selectEl = document.getElementById('timing-' + cat.code);
+          if (selectEl) selectEl.value = savedTiming;
+        }
+        const savedShow = localStorage.getItem('show_' + cat.code);
+        if (savedShow !== null) {
+          const checkEl = document.getElementById('show-' + cat.code);
+          if (checkEl) checkEl.checked = (savedShow === 'true');
+        }
       });
     }
 
-    async function loadReports() {
+    function saveAllSettings() {
+      CATEGORIES.forEach(cat => {
+        const timingValue = document.getElementById('timing-' + cat.code).value;
+        const showValue = document.getElementById('show-' + cat.code).checked;
+        
+        localStorage.setItem('timing_' + cat.code, timingValue);
+        localStorage.setItem('show_' + cat.code, showValue);
+
+        // OneSignalタグ送信 (timing_keyman, timing_us_gov 等)
+        window.OneSignalDeferred.push(function(OneSignal) {
+          OneSignal.User.addTag('timing_' + cat.code, timingValue);
+        });
+      });
+
+      document.getElementById('settings-accordion').removeAttribute('open');
+      showToast();
+      renderTimeline();
+    }
+
+    function showToast() {
+      const toast = document.getElementById("toast");
+      toast.className = "show";
+      setTimeout(() => { toast.className = toast.className.replace("show", ""); }, 3000);
+    }
+
+    async function fetchReports() {
       try {
-        const response = await fetch('data.json?t=' + Date.now());
-        allReports = await response.json();
-        renderTimeline(allReports);
+        const res = await fetch('data.json?t=' + Date.now());
+        if (res.ok) {
+          rawReports = await res.json();
+          renderTimeline();
+        }
       } catch (e) {
-        document.getElementById('timeline').innerHTML = '<p style="text-align:center;">レポートの読み込みに失敗しました。</p>';
+        console.error("データ取得エラー:", e);
       }
     }
 
-    function renderTimeline(reports) {
-      const timeline = document.getElementById('timeline');
-      timeline.innerHTML = '';
+    function renderTimeline() {
+      const container = document.getElementById('timeline');
+      container.innerHTML = '';
 
-      if (reports.length === 0) {
-        timeline.innerHTML = '<p style="text-align:center;">現在表示できるレポートはありません。</p>';
-        return;
-      }
+      rawReports.forEach(item => {
+        const code = getCategoryCode(item.category || item.category_code);
+        const isShow = document.getElementById('show-' + code)?.checked ?? true;
 
-      reports.forEach(item => {
-        const card = document.createElement('div');
-        card.className = 'card';
-        card.setAttribute('data-category', item.category);
-
-        card.innerHTML = `
-          <div class="card-header">
-            <span class="tag">${item.category || 'サマリー'}</span>
-            <span class="date">${item.publishedAt || ''}</span>
-          </div>
-          <div class="card-title">${item.title}</div>
-          <div class="author">発表者 / ソース: ${item.author}</div>
-          <div class="content">${item.content}</div>
-        `;
-        timeline.appendChild(card);
-      });
-
-      applyFilters();
-    }
-
-    function applyFilters() {
-      const showKeyman = document.getElementById('cat-keyman').checked;
-      const showUs = document.getElementById('cat-us').checked;
-      const showJp = document.getElementById('cat-jp').checked;
-      const showBreaking = document.getElementById('cat-breaking').checked;
-
-      const cards = document.querySelectorAll('.card');
-      cards.forEach(card => {
-        const cat = card.getAttribute('data-category');
-        let visible = false;
-        if (cat === 'キーマン' && showKeyman) visible = true;
-        if (cat === '米国政府' && showUs) visible = true;
-        if (cat === '日本政府' && showJp) visible = true;
-        if (cat === '速報' && showBreaking) visible = true;
-
-        card.style.display = visible ? 'block' : 'none';
+        if (isShow) {
+          const card = document.createElement('div');
+          card.className = 'card';
+          
+          card.innerHTML = `
+            <div class="card-header">
+              <span class="tag ${code}">${item.category || 'ニュース'}</span>
+              <span class="date">${item.publishedAt || ''}</span>
+            </div>
+            <div class="card-title">${item.title}</div>
+            <div class="author">発表者 / ソース: ${item.author || 'AIサマリー'}</div>
+            <div class="content">${item.content || ''}</div>
+          `;
+          container.appendChild(card);
+        }
       });
     }
 
-    window.addEventListener('DOMContentLoaded', loadReports);
+    function getCategoryCode(catName) {
+      if (!catName) return 'keyman';
+      if (catName.includes('米国')) return 'us_gov';
+      if (catName.includes('日本')) return 'jp_gov';
+      if (catName.includes('速報')) return 'breaking';
+      if (catName.includes('us_gov')) return 'us_gov';
+      if (catName.includes('jp_gov')) return 'jp_gov';
+      if (catName.includes('breaking')) return 'breaking';
+      return 'keyman';
+    }
   </script>
 </body>
 </html>
