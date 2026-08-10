@@ -22,18 +22,16 @@
     OneSignalDeferred.push(async function(OneSignal) {
       await OneSignal.init({
         appId: "834c7844-5c95-4e89-950c-8c860111c906",
-        promptOptions: {
-          slidedown: {
-            prompts: [{
-              type: "push",
-              autoPrompt: true,
-              text: {
-                actionMessage: "「World AI Summary」から最新のAI動向や速報通知を受け取りますか？",
-                acceptButton: "通知を受け取る",
-                cancelButton: "今はしない"
-              }
-            }]
-          }
+        slidedown: {
+          prompts: [{
+            type: "push",
+            autoPrompt: true,
+            text: {
+              actionMessage: "「World AI Summary」から最新のAI動向や速報通知を受け取りますか？",
+              acceptButton: "通知を受け取る",
+              cancelButton: "今はしない"
+            }
+          }]
         }
       });
 
