@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1786404936284_929",
+    "type": "サマリー",
+    "title": "最新AI活用およびソブリンAI推進に関する速報レポート #9382",
+    "author": "デジタル庁 / 内閣府",
+    "category": "日本政府",
+    "category_code": "jp_gov",
+    "publishedAt": "2026-08-11 08:35",
+    "content": "<a href=\"https://www.digital.go.jp/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.digital.go.jp/)</a><br>OneSignalプッシュ通知およびGitHub JSON同期の動作確認用テストデータ（送信試行ID: 4821）です。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1786402249610_89",
     "type": "サマリー",
     "title": "テスト用AI動向レポート",
