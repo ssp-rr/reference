@@ -35,17 +35,19 @@
         }
       });
 
-      // ユーザーが「通知を受け取る」を許可したタイミングでタグを同期
+      // ユーザーが「通知を受け取る」を許可したタイミングでタグを同期 & デバッグ更新
       OneSignal.Notifications.addEventListener("permissionChange", function(permission) {
         if (permission) {
           syncTagsToOneSignal();
         }
+        updateDebugInfo();
       });
 
-      // 既に通知許可済みの場合はページロード時にタグを同期
+      // 既に通知許可済みの場合はページロード時にタグを同期 & デバッグ更新
       if (OneSignal.Notifications.permission) {
         syncTagsToOneSignal();
       }
+      updateDebugInfo();
     });
 
     document.addEventListener("DOMContentLoaded", () => {
@@ -62,8 +64,36 @@
         tags['timing_' + cat.code] = timingValue;
       });
 
-      window.OneSignalDeferred.push(function(OneSignal) {
-        OneSignal.User.addTags(tags);
+      window.OneSignalDeferred.push(async function(OneSignal) {
+        await OneSignal.User.PushSubscription.optIn();
+        await OneSignal.User.addTags(tags);
+        updateDebugInfo();
+      });
+    }
+
+    // デバッグ表示更新関数
+    function updateDebugInfo() {
+      window.OneSignalDeferred.push(async function(OneSignal) {
+        const permission = OneSignal.Notifications.permission;
+        const isOptedIn = OneSignal.User.PushSubscription.optedIn;
+        const subId = OneSignal.User.PushSubscription.id || "未発行";
+        let tags = {};
+        try {
+          tags = await OneSignal.User.getTags();
+        } catch (e) {
+          tags = { error: e.toString() };
+        }
+
+        const debugEl = document.getElementById("debug-info");
+        if (debugEl) {
+          debugEl.innerHTML = `
+            <div><b>通知許可 (Permission):</b> ${permission ? '許可済み (true)' : '未許可 (false)'}</div>
+            <div><b>購読状態 (Opted In):</b> ${isOptedIn}</div>
+            <div><b>Subscription ID:</b> <code style="word-break: break-all; background:#e2e8f0; padding:2px 4px; border-radius:4px;">${subId}</code></div>
+            <div><b>登録タグ (Tags):</b></div>
+            <pre style="margin:4px 0 0 0; background:#1e293b; color:#f8fafc; padding:8px; border-radius:6px; font-size:0.8rem; overflow-x:auto;">${JSON.stringify(tags, null, 2)}</pre>
+          `;
+        }
       });
     }
 
@@ -95,8 +125,10 @@
       });
 
       // OneSignalへ一括でタグを送信
-      window.OneSignalDeferred.push(function(OneSignal) {
-        OneSignal.User.addTags(tags);
+      window.OneSignalDeferred.push(async function(OneSignal) {
+        await OneSignal.User.PushSubscription.optIn();
+        await OneSignal.User.addTags(tags);
+        updateDebugInfo();
       });
 
       document.getElementById('settings-accordion').removeAttribute('open');
@@ -203,6 +235,32 @@
       max-width: 600px;
       margin: 0 auto;
       padding: 16px;
+    }
+
+    /* デバッグ情報パネル */
+    .debug-panel {
+      background: #ffffff;
+      border: 2px solid #cbd5e1;
+      border-radius: 12px;
+      padding: 14px;
+      margin-bottom: 20px;
+      font-size: 0.85rem;
+    }
+    .debug-title {
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btn-debug-refresh {
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      cursor: pointer;
     }
 
     /* アコーディオン式設定パネル */
@@ -365,6 +423,16 @@
   </header>
 
   <div class="container">
+    
+    <!-- OneSignal登録状況デバッグ表示パネル -->
+    <div class="debug-panel">
+      <div class="debug-title">
+        <span>🔍 OneSignal 登録状態（デバッグ用）</span>
+        <button class="btn-debug-refresh" onclick="updateDebugInfo()">情報更新</button>
+      </div>
+      <div id="debug-info">OneSignal情報を読み込み中...</div>
+    </div>
+
     <!-- アコーディオン式設定パネル -->
     <details class="settings-panel" id="settings-accordion">
       <summary class="accordion-summary">⚙️ 配信・通知設定（タップして開く）</summary>
