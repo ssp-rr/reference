@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1786431625561_582",
+    "type": "サマリー",
+    "title": "Anthropicが次世代安全性評価フレームワークを公開",
+    "author": "Anthropic",
+    "category": "AIキーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-08-11 15:55",
+    "content": "<a href=\"https://www.anthropic.com/news\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.anthropic.com/news)</a><br>モデルの安全性評価手法を更新し、第三者機関との連携を拡大。タグ絞り込み経由の通知復旧テスト用データ（テストID: 20260811-02）です。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1786429624600_864",
     "type": "サマリー",
     "title": "OpenAIが新型推論モデル「GPT-6-preview」を発表",
