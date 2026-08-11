@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1786429624600_864",
+    "type": "サマリー",
+    "title": "OpenAIが新型推論モデル「GPT-6-preview」を発表",
+    "author": "OpenAI",
+    "category": "AIキーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-08-11 15:30",
+    "content": "<a href=\"https://openai.com/index/gpt-6-preview\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://openai.com/index/gpt-6-preview)</a><br>推論能力とコスト効率を両立した新モデルを公開。開発者向けAPIは来週から提供開始予定。通知テスト用データです。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1786425914647_759",
     "type": "サマリー",
     "title": "AI利活用推進とデジタル基盤整備に関する最新動向 #9988",
