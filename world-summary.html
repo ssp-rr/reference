@@ -22,6 +22,9 @@
     OneSignalDeferred.push(async function(OneSignal) {
       await OneSignal.init({
         appId: "834c7844-5c95-4e89-950c-8c860111c906",
+        // GitHub Pages (/reference/) 用のサービスワーカーパスとスコープ指定
+        serviceWorkerPath: "OneSignalSDKWorker.js",
+        serviceWorkerParam: { scope: "/reference/" },
         slidedown: {
           prompts: [{
             type: "push",
