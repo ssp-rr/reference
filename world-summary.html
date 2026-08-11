@@ -17,12 +17,16 @@
 
     let rawReports = [];
 
+    document.addEventListener("DOMContentLoaded", () => {
+      loadSavedSettings();
+      fetchReports();
+    });
+
     // OneSignal初期化 & イベント監視
     window.OneSignalDeferred = window.OneSignalDeferred || [];
     OneSignalDeferred.push(async function(OneSignal) {
       await OneSignal.init({
         appId: "834c7844-5c95-4e89-950c-8c860111c906",
-        // GitHub Pages (/reference/) 用のサービスワーカーパスとスコープ指定
         serviceWorkerPath: "OneSignalSDKWorker.js",
         serviceWorkerParam: { scope: "/reference/" },
         slidedown: {
@@ -38,7 +42,7 @@
         }
       });
 
-      // ユーザーが「通知を受け取る」を許可したタイミングでタグを同期 & デバッグ更新
+      // 許可変更時にタグを同期
       OneSignal.Notifications.addEventListener("permissionChange", function(permission) {
         if (permission) {
           syncTagsToOneSignal();
@@ -46,25 +50,19 @@
         updateDebugInfo();
       });
 
-      // 既に通知許可済みの場合はページロード時にタグを同期 & デバッグ更新
       if (OneSignal.Notifications.permission) {
         syncTagsToOneSignal();
       }
       updateDebugInfo();
     });
 
-    document.addEventListener("DOMContentLoaded", () => {
-      loadSavedSettings();
-      fetchReports();
-    });
-
-    // 画面の選択設定をOneSignalへ一括同期する関数
+    // 選択設定をlocalStorageおよびOneSignalへ一括同期する関数
     function syncTagsToOneSignal() {
       const tags = {};
       CATEGORIES.forEach(cat => {
-        const selectEl = document.getElementById('timing-' + cat.code);
-        const timingValue = selectEl ? selectEl.value : (localStorage.getItem('timing_' + cat.code) || 'none');
-        tags['timing_' + cat.code] = timingValue;
+        // localStorageの保存値を最優先。未設定（初期状態）の場合は「none(通知しない)」を適用
+        const savedTiming = localStorage.getItem('timing_' + cat.code) || 'none';
+        tags['timing_' + cat.code] = savedTiming;
       });
 
       window.OneSignalDeferred.push(async function(OneSignal) {
@@ -102,11 +100,11 @@
 
     function loadSavedSettings() {
       CATEGORIES.forEach(cat => {
-        const savedTiming = localStorage.getItem('timing_' + cat.code);
-        if (savedTiming) {
-          const selectEl = document.getElementById('timing-' + cat.code);
-          if (selectEl) selectEl.value = savedTiming;
-        }
+        // 保存値がない場合はデフォルト「none（通知しない）」
+        const savedTiming = localStorage.getItem('timing_' + cat.code) || 'none';
+        const selectEl = document.getElementById('timing-' + cat.code);
+        if (selectEl) selectEl.value = savedTiming;
+
         const savedShow = localStorage.getItem('show_' + cat.code);
         if (savedShow !== null) {
           const checkEl = document.getElementById('show-' + cat.code);
@@ -127,7 +125,7 @@
         tags['timing_' + cat.code] = timingValue;
       });
 
-      // OneSignalへ一括でタグを送信
+      // ユーザーが明示的にボタンを押したタイミングでOneSignalへ更新送信
       window.OneSignalDeferred.push(async function(OneSignal) {
         await OneSignal.User.PushSubscription.optIn();
         await OneSignal.User.addTags(tags);
@@ -240,7 +238,6 @@
       padding: 16px;
     }
 
-    /* デバッグ情報パネル */
     .debug-panel {
       background: #ffffff;
       border: 2px solid #cbd5e1;
@@ -266,7 +263,6 @@
       cursor: pointer;
     }
 
-    /* アコーディオン式設定パネル */
     details.settings-panel {
       background: var(--card-bg);
       border: 1px solid var(--border);
@@ -349,7 +345,6 @@
     }
     .btn-save:active { background: var(--primary-dark); }
 
-    /* トースト通知 */
     #toast {
       visibility: hidden;
       min-width: 250px;
@@ -373,7 +368,6 @@
     @keyframes fadein { from { bottom: 0; opacity: 0; } to { bottom: 30px; opacity: 1; } }
     @keyframes fadeout { from { bottom: 30px; opacity: 1; } to { bottom: 0; opacity: 0; } }
 
-    /* タイムラインカード */
     .timeline { display: flex; flex-direction: column; gap: 16px; }
     .card {
       background: var(--card-bg);
