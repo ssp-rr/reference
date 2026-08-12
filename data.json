@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1786518204867_328",
+    "type": "サマリー",
+    "title": "AIキーマンが提示する新展開：5000億ドル規模インフラ提携とオープンローカルモデルの急拡大",
+    "author": "ジェンセン・フアン（NVIDIA）、マーク・ザッカーバーグ（Meta）、ダリオ・アモデイ（Anthropic）",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-08-12 16:00",
+    "content": "<a href=\"https://www.nvidia.com\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.nvidia.com)</a><br>2026年8月12日、AI業界を牽引するトップキーマンからインフラ資金調達・ローカルAIモデル・透明性技術の3分野で重要な発表が相次ぎました。<br>まず、NVIDIAのジェンセン・フアンCEOは、ウォール街の主要投資機関6社（Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR）と提携し、5000億ドル（約80兆円）を超える民間資本をAI計算基盤へ集中動員する枠組みを発表しました。これにより、AI企業の財務負担を分離しながら巨大データセンター構築を加速させます。<br>一方、Metaのマーク・ザッカーバーグCEOは、手元のパソコンや端末で常時動作する軽量な自律型AI「Muse Glimmer」（30億パラメータ）をオープンウェイトとして公開しました。データを外部に送らず自社環境で安全にAIエージェントを動かせるため実務面で注目されています。また、Anthropicのダリオ・アモデイCEO率は、Claudeで生成した文章に不可視の「電子透かし」を付与する仕組みを日本を含む全世界で順次適用開始しました。<br>日常業務やビジネスへの影響として、クラウドの超高度処理と手元の安全なローカルAIの「ハイブリッド使い分け」が標準化し、AI生成物の識別・ガバナンス対応がより重要になってきます。<br>👉今日すぐ試せること<br>・自社業務の中で「外部送信できない秘匿データ」と「クラウドで処理できるデータ」を整理してみましょう。<br>・AIで作成したドキュメントや資料の識別表示や利用ガイドラインが社内で整っているか確認してみましょう。<br><a href=\"https://www.nvidia.com\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.nvidia.com)</a><br><a href=\"https://about.meta.com\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://about.meta.com)</a><br><a href=\"https://www.anthropic.com\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.anthropic.com)</a>",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1786515839912_925",
     "type": "サマリー",
     "title": "米国政府とウォール街大手6社が5000億ドル超のAI計算基盤資金調達枠組みで連携へ",
