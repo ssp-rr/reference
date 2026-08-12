@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1786515839912_925",
+    "type": "サマリー",
+    "title": "米国政府とウォール街大手6社が5000億ドル超のAI計算基盤資金調達枠組みで連携へ",
+    "author": "ホワイトハウス・米国商務省",
+    "category": "米国政府",
+    "category_code": "us_gov",
+    "publishedAt": "2026-08-12 15:00",
+    "content": "<a href=\"https://www.whitehouse.gov\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.whitehouse.gov)</a><br>米ホワイトハウスおよび米国商務省は、急速に拡大するAI需要に対応するため、インフラ投資およびプライベートクレジットの主要6社（Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR）やNVIDIAと連携し、5000億ドル（約80兆円）を超える民間資本をAI計算基盤へ動員する大型ファイナンス枠組みを発表しました。<br>従来、巨大データセンターの整備はAI開発企業自体の財務（バランスシート）を圧迫していましたが、今回の枠組みにより電力設備やデータセンター建屋などの物理インフラを分離・外部化し、新しい金融資産クラスとして民間資金を効率的に集める仕組みが構築されます。また、安全保障の観点から連邦政府機関（NIST、CISA等）によるフロンティアAIモデルの安全基準策定も同時に進められています。<br>ビジネスや日常生活への影響として、クラウドAIの処理能力向上や料金の安定化が期待される一方、データセンター建設に伴う電力供給や地域インフラの確保が今後の重要な課題となります。<br>👉今日すぐ試せること<br>・自社で利用しているクラウドAIサービスの処理基盤やデータセンターの最新動向を確認してみましょう。<br>・AI導入時のコスト構造（API利用料の変動費と専用サーバー等の固定費）を再点検してみましょう。<br><a href=\"https://www.whitehouse.gov\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.whitehouse.gov)</a><br><a href=\"https://www.commerce.gov\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.commerce.gov)</a>",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1786437983705_84",
     "type": "サマリー",
     "title": "経産相がソニー・TSMCの熊本1兆円投資へ支援検討を表明【8月11日日本政府動向】",
