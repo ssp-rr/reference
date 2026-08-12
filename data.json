@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1786523895072_422",
+    "type": "サマリー",
+    "title": "ガバメントAI「源内」実証と国産AIモデル・クラウド基盤活用の新段階へ",
+    "author": "デジタル庁・内閣府・経済産業省",
+    "category": "日本政府",
+    "category_code": "jp_gov",
+    "publishedAt": "2026-08-12 17:00",
+    "content": "<a href=\"https://www.digital.go.jp\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.digital.go.jp)</a><br>デジタル庁、内閣府、経済産業省など関係省庁は、行政実務におけるAI利活用を検証する「ガバメントAI 源内」の大規模実証において、国内5社の基盤モデルおよび国産クラウド基盤（さくらのクラウド等）を用いた本格評価フェーズを進めていることを明らかにしました。<br>政府は単に「国産だから優先購入する」のではなく、行政実務での処理精度、安全性、代替可能性（ソブリンティ）といった観点から比較検証を行い、令和8年度の試行実装を経て令和9年度からの本格調達につなげる方針です。また、経済産業省ではAIとロボット政策を統合した組織体制の運用を開始し、中小企業向け「デジタル化・AI導入補助金2026」を通じた現場でのAI実装支援を強化しています。<br>企業や自治体への影響として、行政連携や補助金活用において「AIの安全性評価」や「特定ベンダーに依存しないシステム設計」が今後の重要な判断基準となります。<br>👉今日すぐ試せること<br>・自社や関連自治体で活用できる「デジタル化・AI導入補助金2026」の募集要項や対象ツールを点検してみましょう。<br>・社内で活用中のAIサービスについて、データ管理場所や代替可能なモデルの選択肢を再確認してみましょう。<br><a href=\"https://www.digital.go.jp\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.digital.go.jp)</a><br><a href=\"https://www.meti.go.jp\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.meti.go.jp)</a><br><a href=\"https://it-shien.smrj.go.jp\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://it-shien.smrj.go.jp)</a>",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1786518803289_73",
     "type": "サマリー",
     "title": "AIキーマンが加速させる構造転換：5000億ドル規模インフラ提携とローカルAI・電子透かしの全面展開",
