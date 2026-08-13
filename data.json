@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1786603450838_467",
+    "type": "サマリー",
+    "title": "米政府、同盟国とのAIサプライチェーン高速化構想「Pax Silica」を発表 ほか米最新動向",
+    "author": "米国国務省・ホワイトハウス・NIST",
+    "category": "米国政府",
+    "category_code": "us_gov",
+    "publishedAt": "2026-08-13 15:00",
+    "content": "<a href=\"https://www.theedgesingapore.com/news/artificial-intelligence/us-launches-effort-speed-trade-ai-goods-between-allies\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.theedgesingapore.com/news/artificial-intelligence/us-launches-effort-speed-trade-ai-goods-between-allies)</a><br>■ 米国国務省・ホワイトハウス・NIST篇<br>AI同盟国間の物流加速構想「Pax Silica」とサイバーセキュリティ強化<br>・どんな発表・動きがあったの？<br>【発表元：8月12日 米国国務省・ホワイトハウス・NIST公式発表】<br>米国国務省は8月12日、同盟国間でのAI関連技術や資材の取引・物流を大幅に加速させる新イニシアチブ「Pax Silica（パックス・シリカ）」を発表しました。最大5,000万ドルの資金を投入し、パナマにAI技術を活用した物流・コンプライアンス管理用のパイロットプラットフォームを構築します。これにより、中国依存を減らし、信頼できる国々でのAI半導体・ハードウェアの調達スピードを引き上げます。<br>また、ホワイトハウスは同日、国際的なサイバー犯罪やデジタル技術を悪用した詐欺に対抗するための大統領覚書を発令しました。さらにNIST（米国国立標準技術研究所）は、AI時代のセキュリティ脆弱性管理データベース（NVD）の刷新に向け、AI自動化の導入に関するパブリックコメントの募集（10月13日まで）を開始しました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>・具体的な使い方（生活・仕事のシーン）<br>AIサービスの背後にあるハードウェアの調達がスムーズになることで、日本をはじめとする同盟国での最新AIツールの導入遅延やコスト高騰が抑えられます。また、AIを悪用したサイバー攻撃や詐欺に対する国際的な取り締まりが強化され、安心してAIサービスを利用できる環境が整います。<br>・いま困ること・使えない点<br>政府主導のサプライチェーン再編や制度運用には一定の時間がかかるため、個人の身近なアプリに直接的な変化を感じるまでには数ヶ月から1年程度のタイムラグがあります。<br>・今後の影響<br>米政府主導の安全なAIインフラ網が構築されることで、技術の標準化が進み、企業が国際取引やシステム構築を行う際のセキュリティリスクが低減されます。<br>👉【今日すぐ試せること】<br>自社や身の回りで使っているAIツールやクラウドサービスの運営元が、安全なサプライチェーンや最新のセキュリティ基準に対応しているかセキュリティ設定ページをチェックしてみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・米国国務省 Pax Silica構想発表<br><a href=\"https://www.theedgesingapore.com/news/artificial-intelligence/us-launches-effort-speed-trade-ai-goods-between-allies\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.theedgesingapore.com/news/artificial-intelligence/us-launches-effort-speed-trade-ai-goods-between-allies)</a><br>・ホワイトハウス サイバー犯罪対策ファクトシート<br><a href=\"https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-expands-capabilities-to-combat-transnational-cyber-enabled-crime/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-expands-capabilities-to-combat-transnational-cyber-enabled-crime/)</a><br>・NIST 脆弱性データベース近代化RFI<br><a href=\"https://www.unite.ai/nist-opens-national-vulnerability-database-modernization-to-public-comment/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.unite.ai/nist-opens-national-vulnerability-database-modernization-to-public-comment/)</a>",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1786523895072_422",
     "type": "サマリー",
     "title": "ガバメントAI「源内」実証と国産AIモデル・クラウド基盤活用の新段階へ",
