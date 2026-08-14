@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1786691979292_811",
+    "type": "サマリー",
+    "title": "Google「Gemini 3.7 Flash」公開＆OpenAI「Ultrafast」登場！推論速度と価格破壊が同時加速",
+    "author": "Google・OpenAI・Anthropic",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-08-14 16:20",
+    "content": "<a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/)</a><br>■ Google・OpenAI・Anthropic篇<br>最新軽量モデルの性能飛躍と14倍超高速推論が生み出すエージェント新時代<br>・どんな発表・動きがあったの？<br>【発表元：8月14日 Google・OpenAI・Anthropic各社発表】<br>Googleは、コーディング能力とエージェント処理を大幅に強化した最新モデル「Gemini 3.7 Flash」を正式リリースしました。前バージョンからわずか3週間でのアップデートとなり、ソフトウェア開発ベンチマーク（DeepSWE）で49.0%から65.3%へ大幅に向上しています。さらに2026年末まで通常価格の半額（入力100万トークンあたり0.75ドル、出力3.75ドル）で提供されます。<br>OpenAIは、最上位推論モデル「GPT-5.6 Sol」を最大14倍（最大750出力トークン/秒）で超高速実行する新機能「Ultrafast」のAPIプレビュー提供を開始しました。専用ハードウェア推論基盤を採用し、待ち時間を極小化しています。<br>Anthropicは、EUのAI法第50条遵守に伴い、Claudeが生成したテキストに人間には知覚できない電子透かし（ウォーターマーク）を世界共通で埋め込む実装を展開し、AIコンテンツの透明性確保を推進しています。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>・具体的な使い方（生活・仕事のシーン）<br>日常業務でのプログラミング支援や資料分析、自律型AIエージェントによる一連のタスク実行が、体感ゼロ秒の即応性で完了するようになります。また、Googleの半額キャンペーンにより、社内ツールや個人アプリへの最新AI組み込みコストが大幅に抑えられます。<br>・いま困ること・使えない点<br>OpenAIの「Ultrafast」は初期段階として一部のエンタープライズ顧客向けプレビューであり、順次開放されます。また、Gemini 3.7 Flashの半額適用は2026年12月31日までの導入期間限定となっています。<br>・今後の影響<br>AIモデルの進化軸が「単なる賢さのスコア競争」から「レスポンス速度・低レイテンシー」「API単価の経済性」「生成物の透明性管理」へと本格的にシフトし、複数エージェントが連携してリアルタイムに働くシステムの普及が決定づけられます。<br>👉【今日すぐ試せること】<br>Google AI StudioやGitHub Copilotで新モデル「Gemini 3.7 Flash」を選択し、複雑なコード生成やデータ変換の爆速レスポンスを体感してみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・Google Blog Gemini 3.7 Flash公式発表<br><a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/)</a><br>・OpenAI GPT-5.6 Sol Ultrafast公式プレビュー<br><a href=\"https://openai.com/index/gpt-5-6/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://openai.com/index/gpt-5-6/)</a><br>・ITmedia NEWS Anthropic Claudeテキスト透かし世界展開<br><a href=\"https://www.itmedia.co.jp/news/article/2608/12/2000000497/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.itmedia.co.jp/news/article/2608/12/2000000497/)</a>",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1786689169782_832",
     "type": "サマリー",
     "title": "米ホワイトハウス、民間企業による国外サイバー犯罪組織への監視・対抗作戦を初容認する新制度を発表",
