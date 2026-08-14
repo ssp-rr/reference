@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1786666295998_409",
+    "type": "速報",
+    "title": "Googleが「Gemini 3.7 Flash」公開＆OpenAIが14倍高速化の「Ultrafast」プレビュー提供開始",
+    "author": "Google・OpenAI",
+    "category": "速報",
+    "category_code": "breaking",
+    "publishedAt": "2026-08-14 09:10",
+    "content": "<a href=\"https://www.itmedia.co.jp/aiplus/subtop/news\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.itmedia.co.jp/aiplus/subtop/news)</a><br>■ Google＆OpenAI篇<br>最新軽量モデル「Gemini 3.7 Flash」の登場と推論超高速化「Ultrafast」の衝撃<br>・どんな発表・動きがあったの？<br>【発表元：8月14日 Google・OpenAI公式発表】<br>Googleは、推論速度とコストパフォーマンスを大幅に強化した最新モデル「Gemini 3.7 Flash」を一般公開しました。年内は導入支援として通常価格の半額でAPIが提供されます。<br>一方、OpenAIは最上位推論モデル「GPT-5.6 Sol」を標準の最大14倍（最大750出力トークン/秒）で超高速実行する新機能「Ultrafast」のAPIプレビュー提供を開始しました。専用推論基盤を活用することで、リアルタイム対話や大規模バッチ処理のレイテンシーを劇的に削減します。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>・具体的な使い方（生活・仕事のシーン）<br>アプリ開発や日常のAI活用において、これまで待ち時間が発生していた複雑なコード生成や長文解析、リアルタイムでのエージェント処理が一瞬で完了するようになります。また、Geminiの半額キャンペーンにより、企業や個人開発者はコストを大幅に抑えて最新AIを組み込むことが可能です。<br>・いま困ること・使えない点<br>OpenAIの「Ultrafast」は現在一部のエンタープライズ顧客向けプレビューとなっており、一般ユーザーへの全体開放は順次進められます。また、Gemini 3.7 Flashの半額適用は年内限定の導入期間となります。<br>・今後の影響<br>モデルの「知能の高さ」だけでなく「応答速度（秒間トークン生成数）」と「API価格」が主要な競争軸となり、リアルタイムに動作する自律型AIエージェントの現場実装が一段と加速します。<br>👉【今日すぐ試せること】<br>Google AI StudioやGemini APIで新モデル「Gemini 3.7 Flash」を選択し、長文要約やコード生成のレスポンス速度と出力精度をテストしてみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・ITmedia AI＋ Google「Gemini 3.7 Flash」公開ニュース<br><a href=\"https://www.itmedia.co.jp/aiplus/subtop/news\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.itmedia.co.jp/aiplus/subtop/news)</a><br>・The HEADLINE OpenAI「Ultrafast」公開速報<br><a href=\"https://www.theheadline.jp/paper/20260814?edition=morning\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.theheadline.jp/paper/20260814?edition=morning)</a>",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1786610127019_282",
     "type": "サマリー",
     "title": "デジタル庁「ガバメントAI」基盤整備、法務省「声のAI無断利用」権利保護指針など日本の最新動向",
