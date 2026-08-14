@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1786694921223_312",
+    "type": "サマリー",
+    "title": "デジタル庁、政府共通生成AI基盤「源内」の機能拡充と自治体・行政実務への全国展開を推進",
+    "author": "デジタル庁・内閣府",
+    "category": "日本政府",
+    "category_code": "jp_gov",
+    "publishedAt": "2026-08-14 17:15",
+    "content": "<a href=\"https://www.digital.go.jp/policies/genai\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.digital.go.jp/policies/genai)</a><br>■ 日本政府篇<br>行政職員の業務効率化と国産基盤モデル連携を見据えた「ガバメントAI」本格実装<br>・どんな発表・動きがあったの？<br>【発表元：8月14日 デジタル庁・内閣府】<br>デジタル庁は、全府省庁の職員向けに提供を進めている政府共通の生成AI利用環境「ガバメントAI 源内（げんない）」について、Webインターフェースの機能拡充やAPI連携仕様の公開、オープンソース版（源内OSS Ver 2.0）の普及計画を推進しています。<br>行政文書のドラフト作成や要約、法令・制度照会などの日常業務において、機密性やデータ主権（ソブリン性）を確保した国産クラウド・国産基盤モデルとの連携を強化し、中央省庁だけでなく全国の地方自治体や被災地支援への展開を進める方針です。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>・具体的な使い方（生活・仕事のシーン）<br>自治体や行政窓口での各種申請手続きや住民相談の処理スピードが大幅に向上し、窓口での待ち時間や書類発行までの日数が短縮されます。また、行政が保有する公開データや公的ガイダンスを正確に参照した分かりやすい回答・申請支援サービスの整備が進みます。<br>・いま困ること・使えない点<br>個人情報や機密性の高い住民データの取り扱いについては引き続き厳格な制限が設けられており、完全自律型の判断業務ではなく、最終的な確認・決定は必ず人間の担当職員が行う運用となっています。<br>・今後の影響<br>行政機関が自ら生成AI基盤を整備・実証することで、国内の行政DXが加速するとともに、官公庁基準のセキュリティ要件を満たす国産AI基盤モデルやソブリンクラウドの開発・投資が活性化します。<br>👉【今日すぐ試せること】<br>お住まいの自治体やデジタル庁のウェブサイトで、AIを活用した相談窓口やオンライン申請ガイドの提供状況を確認し、手続きの事前チェックに活用してみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・デジタル庁 ガバメントAI「源内」政策ページ<br><a href=\"https://www.digital.go.jp/policies/genai\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.digital.go.jp/policies/genai)</a><br>・デジタル庁公式note 源内 Web 開発概要<br><a href=\"https://digital-gov.note.jp/n/n3ef31ec45995\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://digital-gov.note.jp/n/n3ef31ec45995)</a><br>・Japan Security Summit デジタル庁「源内OSS Ver 2.0」説明会開催案内<br><a href=\"https://japansecuritysummit.org/2026/07/14742/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://japansecuritysummit.org/2026/07/14742/)</a>",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1786691979292_811",
     "type": "サマリー",
     "title": "Google「Gemini 3.7 Flash」公開＆OpenAI「Ultrafast」登場！推論速度と価格破壊が同時加速",
