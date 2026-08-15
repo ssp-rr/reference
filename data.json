@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1786782313744_492",
+    "type": "サマリー",
+    "title": "経産省の中小企業向けAIプログラムとデジタル庁の地域AI支援",
+    "author": "AI速報",
+    "category": "日本政府",
+    "category_code": "jp_gov",
+    "publishedAt": "2026-08-15 17:00",
+    "content": "【URL】https://prtimes.jp/main/html/rd/p/000000164.000082634.html<br>【概要】<br>経済産業省は中小企業向けの実践型リスキリング・DX推進事業「Next Leap AX」を開始しました。生成AIを活用し、業務効率化や新規事業創出を支援します。<br>デジタル庁は「教える人のためのデジタル情報ひろば」を更新し、デジタル推進委員向けに生成AIリテラシーの教材提供を強化しています。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1786780851684_959",
     "type": "サマリー",
     "title": "Google・OpenAI・Anthropicの最新動向（高速推論と実務エージェントの進化）",
