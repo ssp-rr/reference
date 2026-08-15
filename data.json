@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1786774918796_615",
+    "type": "サマリー",
+    "title": "米ホワイトハウスが自律飛行ドローン・AI部品の国内生産強化と関税措置を発令",
+    "author": "米ホワイトハウス（White House） / 商務省（Department of Commerce）",
+    "category": "米国政府",
+    "category_code": "us_gov",
+    "publishedAt": "2026-08-15 15:00",
+    "content": "<a href=\"https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-into-the-united-states/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-into-the-united-states/)</a><br>■ ホワイトハウス・商務省篇 自律型無人航空機（ドローン）とAIサプライチェーンの国産化推進<br>・どんな発表・動きがあったの？<br>【発表元：8月14日 米ホワイトハウス公式大統領布告・ファクトシート】<br>米ホワイトハウスは、無人航空機システム（ドローン）および関連部品の輸入を制限・関税調整し、米国内での自律型ロボティクス・AIドローン製造基盤を強化する大統領布告および施策を発表しました。<br>自律飛行AIや重要センサー、通信モジュールなどのサプライチェーンにおける外国依存を解消し、商務省や国立標準技術研究所（NIST）のAI製造イノベーション拠点と連携して、米国内の自律型ドローン生産能力を2年間で10倍に拡大する計画を後押しします。あわせて、エネルギー省（DOE）の科学向けAIモデル基盤「Genesis Open Models Initiative」の第1回事前学習公募が8月14日に締め切られるなど、基盤モデルと実機製造の両面で国産AIインフラの自立化が加速しています。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>物流配送やインフラ点検、農業、警備などで使われるドローンや自律走行ロボットのソフトウェア・ハードウェアが、安全基準を満たした信頼性の高いシステムへ切り替わっていきます。産業向けAIエージェントや自律制御ツールの安全性・機密性が一段と重視されるようになります。<br>・具体的な使い方（生活・仕事のシーン）<br>工場や倉庫の巡回点検、農薬散布、建設現場の測量などで、自律飛行AIを搭載したドローンを活用する際、データ漏洩の心配がない国内・同盟国基準のセキュアな機体や管理クラウドを選択できるようになります。<br>・いま困ること・使えない点<br>海外製の安価なドローン機体や汎用部品の調達コストが一時的に上昇したり、サプライチェーンの切り替えに伴う調達期間の長期化が発生する可能性があります。<br>・今後の影響<br>自律飛行ドローンやロボティクス分野におけるAI制御ソフトウェアの標準化が進み、民間インフラの点検や緊急配送、防災用途でのAIエージェント実用化が一段と加速します。<br>👉【今日すぐ試せること】<br>自社や身の回りで活用しているドローン、IoT機器、自動化ツールのデータ保存先や通信設定を確認し、セキュリティ設定やクラウド連携の安全性をチェックしてみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・ホワイトハウス公式発表：無人航空機システムおよび部品の輸入調整に関する大統領布告<br><a href=\"https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-into-the-united-states/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-into-the-united-states/)</a><br>・米国エネルギー省（DOE）：Genesis Open Models Initiative<br><a href=\"https://www.energy.gov/undersecretaryforscience/articles/us-department-energy-launches-genesis-open-models-initiative\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.energy.gov/undersecretaryforscience/articles/us-department-energy-launches-genesis-open-models-initiative)</a>",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1786694921223_312",
     "type": "サマリー",
     "title": "デジタル庁、政府共通生成AI基盤「源内」の機能拡充と自治体・行政実務への全国展開を推進",
