@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1787051754628_705",
+    "type": "速報",
+    "title": "政府が生成AI事業者に「学習データ開示」を求める基本指針案を決定、知財保護と開発の両立へ",
+    "author": "内閣府（知的財産戦略推進事務局）、政府「AI時代の知的財産権検討会」",
+    "category": "速報",
+    "category_code": "breaking",
+    "publishedAt": "2026-08-18 20:00",
+    "content": "<a href=\"https://www.cas.go.jp/jp/seisakukaigi/titeki2/ai_kentoukai/gijisidai/dai13/index.html\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.cas.go.jp/jp/seisakukaigi/titeki2/ai_kentoukai/gijisidai/dai13/index.html)</a><br>■ 内閣府・知的財産戦略本部篇 生成AI事業者に学習データの開示を求める基本原則案を提示<br>・どんな発表・動きがあったの？<br>【発表元：8月18日 公式発表・検討会会合】<br>政府は18日、有識者による「AI時代の知的財産権検討会（第13回）」を開催し、生成AIの開発・提供事業者に対してAIの学習に用いたデータの開示を求める基本指針案をまとめました。クリエイターや著作権者の権利保護とAI開発の促進の両立を目指し、日本国内でサービス展開する海外事業者も対象としつつ、過度な開発阻害を避けるため直接の罰則は見送る柔軟な枠組み（自主的な開示要請）となっています。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>文章やイラスト、楽曲などを制作するクリエイターが、自らの作品が無断でAIの学習データに使われていないかを確認しやすくなり、創作活動の権利が守られやすくなります。<br>・具体的な使い方（生活・仕事のシーン）<br>企業や個人が制作したデザインや独自テキストを公開する際、将来的にAI学習への利用状況を確認・把握するための基準としてこの基本指針を活用できます。<br>・いま困ること・使えない点<br>直ちに法的な罰則が科される義務化ではないため、事業者が実際にどの程度詳細に学習データを開示するかは各社の対応状況による部分が残ります。<br>・今後の影響<br>日本国内におけるAIと知的財産のルール形成が具体化し、クリエイターの権利を尊重しながら安心してAIを活用できる環境整備が前進します。<br>👉【今日すぐ試せること】<br>自身が制作したコンテンツや社内の著作物がネット上でどのように扱われているかを確認し、AI学習に関する方針や規約をチェックしてみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・内閣府 AI時代の知的財産権検討会（第13回）公式議事次第<br><a href=\"https://www.cas.go.jp/jp/seisakukaigi/titeki2/ai_kentoukai/gijisidai/dai13/index.html\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.cas.go.jp/jp/seisakukaigi/titeki2/ai_kentoukai/gijisidai/dai13/index.html)</a><br>・AI事業者は学習データ開示 政府、知財保護へ基本指針案（時事通信）<br><a href=\"https://www.jiji.com/jc/article?k=2026081800841&g=pol\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.jiji.com/jc/article?k=2026081800841&g=pol)</a><br>・政府、AI学習データの開示要請 知的財産の侵害抑止（共同通信）<br><a href=\"https://www.excite.co.jp/news/article/Jiji_3848088/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.excite.co.jp/news/article/Jiji_3848088/)</a><br>・生成AI知財の基本原則解説（Innovatopia）<br><a href=\"https://innovatopia.jp/ai/ai-news/116225/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://innovatopia.jp/ai/ai-news/116225/)</a>",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1787048383322_986",
     "type": "速報",
     "title": "政府が生成AI事業者に学習データの開示を求める基本指針案を公表",
