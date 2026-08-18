@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1787027947818_807",
+    "type": "速報",
+    "title": "NVIDIAがOpenAIの巨大データセンターに最大17兆円の賃料保証、SBエナジーと20年契約を締結",
+    "author": "NVIDIA（ジェンスン・フアンCEO）、OpenAI、SBエナジー（ソフトバンクグループ）",
+    "category": "速報",
+    "category_code": "breaking",
+    "publishedAt": "2026-08-18 13:30",
+    "content": "<a href=\"https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute)</a><br>■ NVIDIA・OpenAI・SBエナジー篇 超巨大AIデータセンターへの最大17兆円保証と20年長期契約<br>・どんな発表・動きがあったの？<br>【発表元：8月18日 各社公式発表・証券取引委員会提出書類】<br>米半導体大手NVIDIAは、OpenAIが米オハイオ州で利用する超巨大AIデータセンターの賃料などについて、最大1050億ドル（日本円で約17兆円）の支払いを保証すると発表しました。<br>データセンターはソフトバンクグループ傘下の「SBエナジー」が開発・運営し、OpenAIが20年間の長期リース契約を結びます。NVIDIAはSBエナジーに15億ドル（約2400億円）を出資し、施設にはNVIDIAの最新AI半導体が独占的に供給されます。2028年から段階的に稼働を開始する計画です。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>AIを動かす巨大な計算インフラと安定電力が長期的に確保されることで、将来のより高度なAIモデル（次世代ChatGPTなど）が止まることなく安定して高速に使えるようになります。<br>・具体的な使い方（生活・仕事のシーン）<br>ビジネスでの複雑なデータ分析や自動業務エージェント、日常生活での高度なAIサポートなど、大量の計算を必要とする最新AIサービスを快適に利用できるようになります。<br>・いま困ること・使えない点<br>今回のデータセンターは2028年からの段階的な稼働開始となるため、手元のAIツールの使い勝手や速度が今日明日ですぐに変わるわけではありません。<br>・今後の影響<br>AIモデル企業（OpenAI）、半導体大手（NVIDIA）、電力・インフラ企業（SBエナジー）が一体となった長期的な基盤構築が進み、国家規模のAI計算インフラ競争が一段と加速します。<br>👉【今日すぐ試せること】<br>AIサービスの基盤がどのように進化しているかに関心を持ち、ChatGPTなどの最新機能やアップデート情報をチェックしてみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・NVIDIA公式ニュースリリース<br><a href=\"https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute)</a><br>・OpenAI公式ブログ（PORTS-Pikeプロジェクト参画）<br><a href=\"https://openai.com/index/openai-joins-ports-pike-project/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://openai.com/index/openai-joins-ports-pike-project/)</a><br>・読売新聞 報道（エヌビディア、SBエナジー出資とOpenAIのDCリース）<br><a href=\"https://www.yomiuri.co.jp/economy/20260818-GYT1T00132/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.yomiuri.co.jp/economy/20260818-GYT1T00132/)</a><br>・株探 速報（エヌビディアがオープンAIの巨大データセンター賃料保証）<br><a href=\"https://kabutan.jp/news/marketnews/?b=n202608180610\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://kabutan.jp/news/marketnews/?b=n202608180610)</a>",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1786882257766_341",
     "type": "サマリー",
     "title": "SpaceXがCursor買収完了＆OpenAIのMac作業記憶・Anthropic安全性レポート公開",
