@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1787048383322_986",
+    "type": "速報",
+    "title": "政府が生成AI事業者に学習データの開示を求める基本指針案を公表",
+    "author": "内閣府（知的財産戦略本部・AI時代の知的財産権検討会）",
+    "category": "速報",
+    "category_code": "breaking",
+    "publishedAt": "2026-08-18 18:30",
+    "content": "<a href=\"https://www.jiji.com/jc/article?k=2026081800841&g=pol\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.jiji.com/jc/article?k=2026081800841&g=pol)</a><br>■ 内閣府（知的財産戦略本部）篇 生成AI事業者に学習データの開示を求める基本指針案を公表<br>・どんな発表・動きがあったの？<br>【発表元：8月18日 公式発表・有識者検討会】<br>政府は18日、有識者による「AI時代の知的財産権検討会（第13回）」を開き、生成AI事業者にAIの学習データの開示を求める基本指針案をまとめました。日本向けにサービスを展開する海外のAI事業者も対象とし、学習データの概要公開や権利者からの問い合わせに応じる透明性の確保を要請します（法令による直接の罰則は見送り、自主的な準拠を促す枠組み）。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>文章やイラスト、楽曲などを制作するクリエイターや企業が、自らの著作物がどのようにAIの学習に使われているかを確認しやすくなり、安心して創作活動を行える環境が整います。<br>・具体的な使い方（生活・仕事のシーン）<br>自社コンテンツや個人制作物をネット上に公開する際、AI学習への利用状況を確認したり、AI提供企業のデータ開示方針をチェックして安全なAIツールを選定する目安にできます。<br>・いま困ること・使えない点<br>今回の指針案には法的な罰則が伴わないため、すべての事業者が即座に完全な学習データリストを公開するわけではありません。<br>・今後の影響<br>日本国内における生成AIと著作権のルール整備が進み、クリエイターの権利保護と開発企業の技術革新を両立させる国内標準の形成が加速します。<br>👉【今日すぐ試せること】<br>自社や自身が公開しているウェブサイトや制作物について、AIによるデータ収集への意思表示（robots.txtの設定など）が適切に行われているか確認してみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・AI事業者は学習データ開示 政府、知財保護へ基本指針案（時事通信）<br><a href=\"https://www.jiji.com/jc/article?k=2026081800841&g=pol\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.jiji.com/jc/article?k=2026081800841&g=pol)</a><br>・AI時代の知的財産権検討会 第13回 議事次第（内閣府知的財産戦略本部）<br><a href=\"https://www.cas.go.jp/jp/seisakukaigi/titeki2/ai_kentoukai/gijisidai/dai13/index.html\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.cas.go.jp/jp/seisakukaigi/titeki2/ai_kentoukai/gijisidai/dai13/index.html)</a><br>・生成AI知財の基本原則 解説（Innovatopia）<br><a href=\"https://innovatopia.jp/ai/ai-news/116225/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://innovatopia.jp/ai/ai-news/116225/)</a>",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1787042354551_362",
     "type": "サマリー",
     "title": "7府省庁がSNS広告に「生成AI使用の明示」を要請、デジタル庁は誤集計を防ぐAI連携実践知を公開",
