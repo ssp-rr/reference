@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1787102472284_515",
+    "type": "速報",
+    "title": "AnthropicがClaudeにGmail直接送信とGoogleドライブ連携の機能拡張を発表",
+    "author": "Anthropic（Claude開発チーム）",
+    "category": "速報",
+    "category_code": "breaking",
+    "publishedAt": "2026-08-19 10:00",
+    "content": "<a href=\"https://9to5google.com/2026/08/18/claude-can-now-send-emails-in-gmail-even-without-your-approval/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://9to5google.com/2026/08/18/claude-can-now-send-emails-in-gmail-even-without-your-approval/)</a><br>■ Anthropic（Claude）篇 Gmailでのメール直接送信とGoogleドライブ自動保存に対応<br>・どんな発表・動きがあったの？<br>【発表元：8月19日 公式発表・海外テックメディア報道】<br>Anthropicは、AIアシスタント「Claude」のGoogle Workspace連携コネクタを大幅にアップデートしました。これまで下書き作成のみに限られていたGmail連携において、ユーザーの指示に基づいてメールの返信・直接送信までを代行する機能（事前承認の要否はユーザー側で設定可能）を追加。あわせてGoogleドライブ上のファイル検索・読み込みに加え、Claudeが生成したファイルやレポートをドライブの指定フォルダへ直接保存・整理する機能も強化されました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>メールの文面作成から送信、資料作成からクラウド保存までの一連の作業をClaudeとの会話だけで完結できるようになり、複数のアプリを行き来する手間が大幅に削減されます。<br>・具体的な使い方（生活・仕事のシーン）<br>「取引先からのメールに返信して送信しておいて」「作成した企画書をGoogleドライブの指定フォルダに保存して」と指示するだけで、AIが自動で実務を代行してくれます。<br>・いま困ること・使えない点<br>自動送信を有効にした場合、誤送信を防ぐために設定画面で承認ステップ（確認ダイアログ）の要否をあらかじめ適切に選択しておく必要があります。<br>・今後の影響<br>AIチャットが単なる文章生成にとどまらず、普段使うクラウドサービスを自律操作して業務を完了させる「実務エージェント化」が急速に進展します。<br>👉【今日すぐ試せること】<br>Claudeの設定画面（Settings → Connectors）からGoogle Workspace連携の機能を確認し、メール作成やファイル保存の自動化を試してみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・ClaudeのGmail直接送信機能に関する報道（9to5Google）<br><a href=\"https://9to5google.com/2026/08/18/claude-can-now-send-emails-in-gmail-even-without-your-approval/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://9to5google.com/2026/08/18/claude-can-now-send-emails-in-gmail-even-without-your-approval/)</a><br>・Google Workspaceコネクタ公式利用ガイド（Anthropicヘルプセンター）<br><a href=\"https://support.claude.com/en/articles/10166901-use-google-workspace-connectors\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)</a>",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1787051754628_705",
     "type": "速報",
     "title": "政府が生成AI事業者に「学習データ開示」を求める基本指針案を決定、知財保護と開発の両立へ",
