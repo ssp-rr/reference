@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1787213746700_526",
+    "type": "サマリー",
+    "title": "デジタル庁の国産AI「源内」が職員18万人規模で実証開始、経産省はAI・半導体に4.5兆円超の投資枠を計上",
+    "author": "デジタル庁、経済産業省、内閣府",
+    "category": "日本政府",
+    "category_code": "jp_gov",
+    "publishedAt": "2026-08-20 17:00",
+    "content": "<a href=\"https://www.digital.go.jp/policies/genai\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.digital.go.jp/policies/genai)</a><br>■ デジタル庁篇 国産行政AI「源内」が国家公務員18万人へ展開・パブコメ自動分類などを検証<br>・どんな発表・動きがあったの？<br>【発表元：8月20日 公式発表・動向報道】<br>デジタル庁が内製開発した政府共通の生成AI基盤「源内」について、出先機関を含む国家公務員約18万人を対象とした大規模実証事業が本格始動しました。行政文章の作成や翻訳、音声文字起こしに加え、数千〜数万件に及ぶパブリックコメント（意見公募）の自動分類や国会答弁の草案作成機能を検証し、2027年度からの本格稼働を目指します。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>公務員の事務処理や意見集計がAIで効率化されることで、行政手続きの迅速化や政策決定のスピード向上が期待されます。<br>・具体的な使い方（生活・仕事のシーン）<br>国民から寄せられた多数の政策要望やパブリックコメントがAIによって正確に整理され、地域の声が政策や行政窓口の改善に素早く反映されるようになります。<br>・いま困ること・使えない点<br>現在は国家公務員向けの内部実証段階であるため、一般の住民が直接「源内」の画面を操作できるわけではありません。<br>・今後の影響<br>機密情報を安全に扱える国産の行政AI基盤の運用ノウハウが蓄積され、将来的に地方自治体への展開も加速する見通しです。<br>■ 経済産業省篇 来年度概算要求でAI・半導体に4.5兆円超の投資枠を計上へ<br>・どんな発表・動きがあったの？<br>【発表元：8月19日 予算編成報道】<br>経済産業省は、来年度予算の概算要求において、AIおよび先端半導体分野を中心に少なくとも4兆5000億円規模の「新たな投資枠」を計上する方針を固めました。国内でのAI計算基盤（データセンター）の整備や先端半導体の量産支援、国産基盤モデルの開発環境整備を強力に推進します。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>国内に頑丈なAIインフラや電力供給網が整うことで、将来的に国内外の高度なAIサービスを安価かつ安定して利用できる環境が整います。<br>・具体的な使い方（生活・仕事のシーン）<br>企業のDX推進や日常業務において、国内サーバーで安全に動作する高性能なAIクラウドサービスを選んで利用できるようになります。<br>・いま困ること・使えない点<br>巨額の財政支出を伴う大型投資であるため、実際のインフラ稼働や経済効果の実感には数年単位の期間を要します。<br>・今後の影響<br>半導体製造からデータセンター、AIアプリケーション開発までを国内で完結させる経済安全保障体制の確立が進みます。<br>👉【今日すぐ試せること】<br>デジタル庁の政策ページなどで公開されている「源内」の機能概要や行政DXの事例を確認し、自社の業務改善のヒントを探してみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・デジタル庁 ガバメントAI「源内」政策ページ<br><a href=\"https://www.digital.go.jp/policies/genai\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.digital.go.jp/policies/genai)</a><br>・経済産業省 AI・半導体産業基盤強化フレーム<br><a href=\"https://www.meti.go.jp/policy/mono_info_service/ai_semiconductor_frame/ai_semiconductor_frame.html\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.meti.go.jp/policy/mono_info_service/ai_semiconductor_frame/ai_semiconductor_frame.html)</a><br>・内閣府 報道発表資料一覧（2026年）<br><a href=\"https://www.cao.go.jp/press/2026/index.html\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.cao.go.jp/press/2026/index.html)</a>",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1787211978416_159",
     "type": "速報",
     "title": "決済大手StripeがAIモデル中継基盤「OpenRouter」の買収で合意、AI利用料の最適化へ",
