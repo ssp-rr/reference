@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1789975704218_947",
+    "type": "サマリー",
+    "title": "Microsoftがアジア最大級のAIインフラ稼働を発表！Anthropicは自社R&Dの26%をAIが主導と公表",
+    "author": "Microsoft（Satya Nadella）／Anthropic（Dario Amodei）",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-09-21 16:26",
+    "content": "<a href=\"https://news.microsoft.com/source/asia/2026/09/21/ai-ambition-into-action-microsoft-brings-ai-ready-capabilities-across-its-india-cloud-infrastructure-establishes-india-south-central-region-as-a-strategic-hub-for-asia-and-global-south/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://news.microsoft.com/source/asia/2026/09/21/ai-ambition-into-action-microsoft-brings-ai-ready-capabilities-across-its-india-cloud-infrastructure-establishes-india-south-central-region-as-a-strategic-hub-for-asia-and-global-south/)</a><br>■ Microsoft篇 205億ドルの超巨大投資が実働へ！アジアと南半球を支える水使用ゼロの次世代AI拠点を公開<br>・どんな発表・動きがあったの？<br>【発表元：9月21日 Microsoft公式発表（https://news.microsoft.com/source/asia/2026/09/21/ai-ambition-into-action-microsoft-brings-ai-ready-capabilities-across-its-india-cloud-infrastructure-establishes-india-south-central-region-as-a-strategic-hub-for-asia-and-global-south/）】<br>Microsoftは、ニューデリーで開催された「AI Infrastructure Summit」にて、同社としてインド国内4拠点目となる超巨大データセンターリージョン「India South Central（ハイデラバード）」の正式運用を開始したと発表しました。<br>アジアおよびグローバルサウスをカバーする戦略拠点として、全設備が先端AIワークロードに対応。冷却水を一切消費しない「ゼロ・ウォーター冷却」を採用し、環境負荷を徹底して抑制しています。また、インド・マレーシア・シンガポールを結ぶ3,600kmの次世代海底ケーブル事業への参画や、2030年までに2,000万人のAIスキル習得を目指す計画において、すでに1,000万人以上の育成を完了したことも明らかにしました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>グローバルなクラウド・AIインフラの処理能力と通信冗長性が大幅に底上げされ、世界中の企業やユーザーが利用するCopilotやAzure AIサービスの動作がより安定・高速化します。<br>・具体的な使い方（生活・仕事のシーン）<br>金融や製造、医療などの機密データを扱う企業は、厳格なデータ保護基準に準拠したクラウド基盤上で、遅延の少ない生成AIモデルや自動化エージェントを安心して配備できるようになります。<br>・いま困ること・使えない点<br>一部の特殊な先端AI機能や追加ツールは今後数カ月かけて段階的にロールアウトされる予定であり、拠点ごとの即時利用可能サービスには順次拡大の差があります。<br>・今後の影響<br>AIモデルの大規模化に伴う電力と水の枯渇問題に対し、「水消費ゼロ」という持続可能なインフラ標準を提示したことで、今後のデータセンター建設計画のモデルケースとなります。<br>■ Anthropic篇 AIが次のAIを作る時代へ！自社モデル開発の26%をClaude自身が主導している実態を開示<br>・どんな発表・動きがあったの？<br>【発表元：9月21日 Anthropic公式指標「R&D Automation Index」公開報道（https://shattered.io/anthropic-claude-26-percent-ai-rd-2026/）】<br>Anthropicは、自社のAI研究開発（R&D）においてAI自身がどれだけ貢献しているかを測定する新指標「R&D Automation Index」の初版データを公表しました。<br>社内業務のうち、大まかな指示だけで実験構築からコード作成、テストまでをClaude自身が主導して完結させる業務が全体の26%に達していることが判明。さらに、人間と協働している作業を含めると90%以上にClaudeが深く関与しており、常時約30,000体のAIエージェントが稼働しています。完全な無人運用は0%として人間の監督責任を強調しつつも、AIが次世代AIを生み出す実態を定量的に開示しました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>AI開発のスピードそのものがAIによって指数関数的に加速するため、より賢く、よりバグの少ない新しいAIモデルが従来よりもはるかに短いスパンで登場するようになります。<br>・今後の影響<br>OpenAIやGoogleなど競合他社に対しても自社開発の自動化率の開示プレッシャーが高まり、「AI開発の透明性と人間のガバナンス」を巡る国際的な安全議論がさらに深まります。<br>👉【今日すぐ試せること】<br>自分が日々行っている仕事の中で、「大まかなゴールを伝えるだけでAIに下書きや集計の大部分を任せられるタスク」がどれくらいあるか棚卸ししてみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1789971617439_934",
     "type": "サマリー",
     "title": "CISAが重要インフラ制御システムの防衛指針を発表！エネルギー省は停電防止の緊急命令を発令",
