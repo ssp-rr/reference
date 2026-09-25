@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1790319447419_10",
+    "type": "サマリー",
+    "title": "AI詐欺広告を野放しにする大手プラットフォームにメス！FTCがなりすまし規制の強化を発表",
+    "author": "連邦取引委員会（FTC）／エネルギー省（DOE）",
+    "category": "米国政府",
+    "category_code": "us_gov",
+    "publishedAt": "2026-09-25 15:50",
+    "content": "<a href=\"https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-seeks-public-comment-whether-update-rule-impersonation-government-businesses-address-platforms\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-seeks-public-comment-whether-update-rule-impersonation-government-businesses-address-platforms)</a><br>■ 連邦取引委員会（FTC）篇 ネット広告のなりすまし詐欺を許さない！広告配信システム自体の責任追及へ意見公募<br>・どんな発表・動きがあったの？<br>【発表元：9月24日 FTC公式リリース（https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-seeks-public-comment-whether-update-rule-impersonation-government-businesses-address-platforms）】<br>米連邦取引委員会（FTC）は、政府機関や実在企業を装う「なりすまし詐欺」から消費者を守る規制を改定し、詐欺広告を拡散させているデジタルプラットフォーム側の責任を追及する方針を発表、パブリックコメントの募集を開始しました。<br>生成AIや自動広告配信ツールが悪用され、本物そっくりの偽広告が大量配信されて被害が急増している現状を重く見ています。広告主の厳格な審査、不審な広告の監視・即時削除、広告自動最適化システムが悪用されないための対策をプラットフォーム側に義務付けることを検討しています。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>検索結果やSNSのタイムラインで、大手企業や公的機関を装った偽サイトやAIディープフェイク広告が表示されるリスクが大幅に減り、ネットサービスを安心して利用できるようになります。<br>・具体的な使い方（生活・仕事のシーン）<br>企業側は自社のブランドやロゴが悪用された偽広告の被害をプラットフォームに通報した際、これまで以上に迅速に排除・対処してもらえるようになります。<br>・いま困ること・使えない点<br>意見公募を経て正式な新ルールの策定と施行に至るまでには一定の法的手続きと時間を要します。<br>・今後の影響<br>GoogleやMetaをはじめとする大手テック企業は、広告出稿の審査体制やAIによる広告配信アルゴリズムの見直しを迫られることになります。<br>■ エネルギー省（DOE）篇 急増するAI電力需要に対応！全米26州で送電網強化の大型投資を公表<br>・どんな発表・動きがあったの？<br>【発表元：9月24日 エネルギー省公式発表（https://www.energy.gov/articles/energy-department-announces-speed-power-investments-across-26-states-lower-electricity）】<br>米エネルギー省（DOE）は、AIデータセンターや先端製造業の急成長に伴う電力需要の急増を支えるため、全米26州の送電インフラ近代化プロジェクト（31件・総額19億ドル規模）の支援計画を発表しました。最新技術を用いて電線を張り替え、既存インフラの送電容量を素早く倍増させることで、電気代の抑制と安定供給を両立させます。<br>👉【今日すぐ試せること】<br>SNSや検索エンジンの広告リンクをクリックする際、URLのドメイン名が正規の公式サイトと一致しているかアドレスバーで再確認する習慣を徹底しましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1790240163735_238",
     "type": "サマリー",
     "title": "AIの嘘や勝手な値上げから消費者を守る！内閣府が海外ルール分析と法的責任の検討を本格化",
