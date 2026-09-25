@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1790322781018_419",
+    "type": "サマリー",
+    "title": "Googleが「完全非公開のAI長期記憶」を発表！マイクロソフトは人間最優先のAI憲章を提唱",
+    "author": "Google DeepMind／マイクロソフト（ムスタファ・スレイマン）",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-09-25 16:50",
+    "content": "<a href=\"https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/)</a><br>■ Google DeepMind篇 誰にも覗かれない「AIの長期記憶」が実現！安全なクラウド記憶技術を公表<br>・どんな発表・動きがあったの？<br>【発表元：9月24日 Google DeepMind公式ブログ（https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/）】<br>Google DeepMindは、クラウド上の最先端AIを使いながら、スマホ端末内と同等のプライバシーを保って過去の会話や個人の文脈を記憶し続ける新技術「サーバーサイドセキュアメモリ」を発表しました。<br>これまでクラウドAIの安全処理は1回のやり取りごとに記憶を全消去する仕組みが主流でしたが、専用の暗号化キーと金庫のような安全領域（セキュアエンクレーブ）を組み合わせることで、Google側すら中身を見られない安全な「AIの長期記憶」を可能にしました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>プライバシーが外部に漏れる心配なく、AIがユーザーの好み、過去の仕事の経緯、生活習慣をずっと覚えてサポートしてくれるようになります。<br>・具体的な使い方（生活・仕事のシーン）<br>家族の予定やプライベートな相談内容をAIに伝えても、他人にデータを見られたり学習に使われたりすることなく、長期的なパートナーとして活用できます。<br>・いま困ること・使えない点<br>各製品（Geminiなど）への本格的な実装と順次ロールアウトには段階的な対応が必要です。<br>・今後の影響<br>「賢いクラウドAIを使いたいが個人情報の送信が不安」という懸念が払拭され、高度なパーソナルAIの普及が一気に進むと見られます。<br>■ マイクロソフト（ムスタファ・スレイマン）篇 AIに感情や権利は不要！人間を最優先する開発行動規範を提起<br>・どんな発表・動きがあったの？<br>【発表元：9月25日 マイクロソフトAI（公式論考）】<br>Microsoft AIのCEOムスタファ・スレイマン氏は、AIモデルに意識や権利があるかのように錯覚させる学習手法（モデル福祉論）に警鐘を鳴らす論考を発表しました。<br>AIをあくまで人間の管理下に置き、医療やエネルギーなど社会課題の解決に特化させる「ヒューマニスト万能AI（人間優先の超知能）」と行動規範の策定を進めていることを明かしました。<br>👉【今日すぐ試せること】<br>利用しているAIサービスの「プライバシー設定」や「履歴・学習への利用設定」を開き、自分の会話データがどのように保護・管理されているか再確認してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1790319447419_10",
     "type": "サマリー",
     "title": "AI詐欺広告を野放しにする大手プラットフォームにメス！FTCがなりすまし規制の強化を発表",
