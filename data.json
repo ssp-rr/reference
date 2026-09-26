@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1790406814288_298",
+    "type": "サマリー",
+    "title": "マスク氏が半年以内の首位奪取と巨大AI基盤を宣言！エヌビディアCEOは危険なAIラボ閉鎖論を展開",
+    "author": "SpaceX／xAI（イーロン・マスク）／NVIDIA（ジェンスン・フアン）",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-09-26 16:10",
+    "content": "<a href=\"https://aimagazine.com/news/elon-musk-spacexai-may-surpass-anthropic-in-6-months\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://aimagazine.com/news/elon-musk-spacexai-may-surpass-anthropic-in-6-months)</a><br>■ SpaceX／xAI（イーロン・マスク）篇 半年以内に競合を抜く！原発10基分規模のAI計算基盤構想を明かす<br>・どんな発表・動きがあったの？<br>【発表元：9月25日 関連報道（https://aimagazine.com/news/elon-musk-spacexai-may-surpass-anthropic-in-6-months）】<br>イーロン・マスク氏は従業員へのスピーチにて、SpaceXAIが今後6か月以内にAnthropicなどの競合を抜きAIモデル性能で首位に立てるとの見解を示しました。<br>2027年までに原発10基分に相当する10ギガワット規模の超巨大AI計算基盤「TeraFab」を稼働させる計画を掲げ、「未来は根本的にAIとロボットにある」と強調。あわせて完全自動運転対応の大型電動トラック「Tesla Semi」の量産開始も明らかにしました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>圧倒的な計算力に支えられた次世代モデルの登場で、複雑な業務の自動化や物流の無人化が急速に身近になります。<br>・具体的な使い方（生活・仕事のシーン）<br>長距離輸送や配送の現場で自動運転トラックの実用化が進み、人手不足の解消や輸送コストの引き下げが期待されます。<br>・いま困ること・使えない点<br>超膨大な電力供給の確保やデータセンター用地の整備、巨額の設備投資回収には継続的な課題が残ります。<br>・今後の影響<br>AIモデルの性能競争が「計算資源と電力の確保競争」へと完全にシフトし、インフラ投資が加速する見通しです。<br>■ NVIDIA（ジェンスン・フアン）篇 制御不能な危険AIなら「その研究室を閉鎖すべき」と主張<br>・どんな発表・動きがあったの？<br>【発表元：9月25日 専門誌報道（https://www.tomshardware.com/tech-industry/big-tech/nvidia-ceo-says-we-have-to-shut-the-labs-down-if-ai-experiments-are-unsafe-jensen-huang-says-frontier-ai-lab-fears-are-a-distraction-not-a-call-for-regulation）】<br>NVIDIAのCEOジェンスン・フアン氏は、過剰なAI終末論を否定しつつ、安全管理が甘く暴走するような実験を行うAI研究室があれば「業界全体を規制するのではなく、その問題のラボを閉鎖すべきだ」と発言しました。また「人間はAIに仕事を奪われるのではなく、AIを使いこなす人に奪われる」と述べ、積極的な活用を訴えました。<br>👉【今日すぐ試せること】<br>日頃の仕事で「自分が時間を取られている作業」を1つ選び、AIツールに下書きや整理を任せる習慣を今日から始めてみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1790405186375_323",
     "type": "サマリー",
     "title": "全米規模のAI知識基盤「OKN」が始動！FTC委員長はAIエージェントの企業責任を強調",
