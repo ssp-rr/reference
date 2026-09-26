@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1790405186375_323",
+    "type": "サマリー",
+    "title": "全米規模のAI知識基盤「OKN」が始動！FTC委員長はAIエージェントの企業責任を強調",
+    "author": "全米科学財団（NSF）／連邦取引委員会（FTC）",
+    "category": "米国政府",
+    "category_code": "us_gov",
+    "publishedAt": "2026-09-26 15:40",
+    "content": "<a href=\"https://www.nsf.gov/tip/updates/nsf-launches-open-knowledge-network-national-open-data\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.nsf.gov/tip/updates/nsf-launches-open-knowledge-network-national-open-data)</a><br>■ 全米科学財団（NSF）篇 信頼できるAIを育てる国家データ基盤！40以上の知識網をつなぐ「OKN」を公開<br>・どんな発表・動きがあったの？<br>【発表元：9月25日 NSF公式発表（https://www.nsf.gov/tip/updates/nsf-launches-open-knowledge-network-national-open-data）】<br>米全米科学財団（NSF）は、次世代のAI研究や社会課題解決を支える国家オープンデータ基盤「オープン・ナレッジ・ネットワーク（NSF OKN）」の正式立ち上げを発表しました。<br>医療、環境、教育、農業など40以上の公的知識データベースを網の目のように連携させ、研究者やスタートアップ、自治体が自由に利用できる信頼性の高いデータ網を提供します。巨大テック企業によるデータ独占を防ぎ、AIの嘘（ハルシネーション）を防ぐ確かな根拠データとして活用されることを目指します。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>公的に検証された正確なデータを元にした専門AIツールが増え、医療や防災、環境分野でより信頼できるAIサービスの恩恵を受けられるようになります。<br>・具体的な使い方（生活・仕事のシーン）<br>研究者や開発者は、高額な商用データを購入しなくても、国が提供する公的知識網を活用して高精度な分析AIを開発・評価できるようになります。<br>・いま困ること・使えない点<br>各専門分野のデータ形式を統一しながら順次接続している段階であり、全分野のデータが完全に網羅されるまでには継続的な更新が必要です。<br>・今後の影響<br>公的オープンデータを核としたオープンソースAI開発が活性化し、データ格差の解消が進むと期待されます。<br>■ 連邦取引委員会（FTC）篇 「AIが勝手にやった」は通用しない！FTC委員長がエージェントの法的責任を明言<br>・どんな発表・動きがあったの？<br>【発表元：9月25日 FTC公式表明（https://www.unite.ai/ftc-chairman-ferguson-rejects-idea-of-ai-agents-acting-on-their-own/）】<br>FTCのファーガソン委員長はAI国際カンファレンスにて、AIエージェントを自律的な人格として扱う考えを完全に否定しました。AIが起こした消費者被害や不正行為は、指示・運用した企業や人間が全責任を負うと強調し、既存の消費者保護法を厳格に適用する方針を表明しました。<br>👉【今日すぐ試せること】<br>AIに調べ物を頼む際、「公的機関や学術機関の公開データを根拠にして答えて」と条件を加え、回答の信頼性を高めるプロンプトの工夫を試してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1790326010402_129",
     "type": "サマリー",
     "title": "日本のAI予算が過去最大の約3兆円へ！内閣府がAIロボット・中小企業AXの概算要求を公表",
