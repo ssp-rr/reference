@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1790494628120_706",
+    "type": "サマリー",
+    "title": "PerplexityがAIエージェント専用の超高速検索を発表！Hugging Faceは直接データ検索に対応",
+    "author": "Perplexity（アラヴィンド・スリニヴァス）／Hugging Face",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-09-27 16:30",
+    "content": "<a href=\"https://juliangoldieaiautomation.com/blog/perplexity-fast-search-api/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://juliangoldieaiautomation.com/blog/perplexity-fast-search-api/)</a><br>■ Perplexity（アラヴィンド・スリニヴァス）篇 自律AIのための超高速検索エンジン「Photon」と新APIを投入<br>・どんな発表・動きがあったの？<br>【発表元：9月27日 Perplexity公式発表（https://juliangoldieaiautomation.com/blog/perplexity-fast-search-api/）】<br>AI検索のPerplexityは、新エンジン「Photon」を独自開発し、検索結果の95％をわずか0.23秒で返す超高速な「Fast Search API」と統合「Agent API」の提供を開始しました。<br>人間がチャット画面で待つ数十秒と違い、自律AIエージェントは1つの複雑なタスクで数十回ものWeb検索を連続して実行します。検索にかかる時間を極限まで削ることで、調査や作業を代行するAIエージェントの処理スピードを劇的に引き上げる狙いがあります。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>AIに「競合他社10社の最新料金プランを調べて比較表を作って」と頼んだ際、何分も待たされることなく、数十秒で網羅的な調査結果が手に入るようになります。<br>・具体的な使い方（生活・仕事のシーン）<br>プログラミングや市場調査を行うAIエージェントが、最新のネット情報をリアルタイムかつ高速に参照しながら、エラー修正やレポート作成をスムーズに進めてくれます。<br>・いま困ること・使えない点<br>開発者向けのAPI提供が中心であり、一般のチャット画面で無料利用する場合には回数制限やプラン設定が適用されます。<br>・今後の影響<br>AIモデル自体の性能だけでなく、「いかに素早く正確な外部情報を集めてAIに渡せるか」という検索基盤の速度競争が激化します。<br>■ Hugging Face篇 巨大なAIデータをダウンロード不要に！DuckDBと連携し直接検索に対応<br>・どんな発表・動きがあったの？<br>【発表元：9月26日 関連技術発表（https://duckdb.org/2026/09/25/hugging-face）】<br>オープンソースAIハブのHugging Faceは、高速データベース「DuckDB」と連携し、ネット上に保管された数十ギガバイトに及ぶ巨大なAI学習データや評価用データセットを、自分のパソコンにダウンロードすることなく直接SQLで瞬時に検索・集計できる新技術を公開しました。<br>👉【今日すぐ試せること】<br>PerplexityなどのAI検索エンジンで、「2026年9月の最新ニュースを箇条書きで3点」と質問し、リアルタイムのWeb情報を即座に要約してくれる検索速度を試してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1790488931244_162",
     "type": "サマリー",
     "title": "電波を出さずにAIで距離を測る新技術をDARPAが検証！FCCは外国製ドローン規制と自律飛行試験を発表",
