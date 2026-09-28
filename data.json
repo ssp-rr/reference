@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1790579773657_97",
+    "type": "サマリー",
+    "title": "Googleが宇宙へAIデータセンターを打ち上げ！OpenAIはDevDay直前カウントダウンを開始",
+    "author": "Google（Alphabet）／OpenAI",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-09-28 16:00",
+    "content": "<a href=\"https://mashable.com/tech/google-sending-ai-data-center-satellite-to-space\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://mashable.com/tech/google-sending-ai-data-center-satellite-to-space)</a><br>■ Google篇 地上の電力・冷却問題を宇宙で解決！？SpaceXロケットでAI半導体衛星を10月1日に打ち上げへ<br>・どんな発表・動きがあったの？<br>【発表元：9月28日 報道公表（https://mashable.com/tech/google-sending-ai-data-center-satellite-to-space）】<br>Googleは、AI専用の高性能計算チップ（TPU）を搭載した実験用衛星を、SpaceXのファルコン9ロケットに搭載して10月1日に宇宙へ打ち上げる計画を明らかにしました。<br>人工知能の急速な普及に伴い、地上での莫大な電力消費とサーバーの冷却問題が世界的な課題となる中、無尽蔵の太陽光エネルギーと宇宙空間の極低温環境を活かしてAI計算を行う「軌道上データセンター（Project Suncatcher）」の初の実証実験となります。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>地上の電力網や環境に負荷をかけずに巨大なAI計算基盤を維持できるようになれば、将来的により高性能なAIサービスを安価かつ持続可能な形で利用できるようになります。<br>・具体的な使い方（生活・仕事のシーン）<br>地球観測衛星や気象データ、災害監視の情報を宇宙空間のAIがその場で瞬時に分析し、地上のスマートフォンや防災システムへ数分以内に届けるといったリアルタイム活用が期待されます。<br>・いま困ること・使えない点<br>宇宙放射線による精密電子チップの故障対策や、地上との大容量通信ネットワークの安定確保など、商業運用に向けては技術的ハードルが残されています。<br>・今後の影響<br>クラウド基盤を宇宙へ展開する宇宙コンピューティング競争が本格化し、IT大手と民間宇宙企業の提携がさらに加速する見通しです。<br>■ OpenAI篇 年次開発者会議「DevDay 2026」直前！公式カウントダウンで次世代AI発表を示唆<br>・どんな発表・動きがあったの？<br>【発表元：9月27日 公式発信・開発者ポータル（https://apimaster.ai/blog/openai-o-agent）】<br>OpenAIの開発者チームは、9月29日にサンフランシスコで開催される年次イベント「DevDay 2026」に向けて公式の「72時間カウントダウン」を開始しました。<br>長時間自律して複雑な作業を代行する次世代パーソナルAIエージェントや新たな基盤モデル、開発者向けAPIの大幅アップデートが披露されるとみられ、世界中から熱い視線が注がれています。<br>👉【今日すぐ試せること】<br>Google CloudやChatGPTの最新機能一覧をチェックし、間近に迫る新機能の発表に備えてお気に入りのプロンプトや作業フローを整理してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1790575618866_216",
     "type": "サマリー",
     "title": "ホワイトハウスが超知能リードを明言！トランプ大統領とAnthropic CEOが直接会談へ",
