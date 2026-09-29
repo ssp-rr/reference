@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1790666122107_573",
+    "type": "サマリー",
+    "title": "OpenAIが最新AIモデルの公開を異例の延期！安全性基準の未達を理由に慎重姿勢へ",
+    "author": "OpenAI／サム・アルトマン",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-09-29 16:10",
+    "content": "<a href=\"https://www.cbsnews.com/news/openai-halts-gpt-astra-safety-concerns/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.cbsnews.com/news/openai-halts-gpt-astra-safety-concerns/)</a><br>■ OpenAI篇 「安全基準を十分に満たしていない」次世代モデルGPT-6.1 Astraの公開を見送りへ<br>・どんな発表・動きがあったの？<br>【発表元：9月29日 米国主要報道・公式声明（https://www.cbsnews.com/news/openai-halts-gpt-astra-safety-concerns/）】<br>OpenAIは、年次イベント「DevDay」の開幕を控える中、開発を進めていた次世代の最上位AIモデル「GPT-6.1 Astra」の一般公開を当面見送ることを明らかにしました。<br>同社は、自社で設定している厳格な安全性基準や自律動作時のリスク検証において「要求水準に完全には達していない」と判断したためと説明しています。<br>AIの急激な高度化に伴う暴走や悪用への懸念が社会的に高まる中、開発スピードよりも安全性の担保を最優先する異例の判断を下しました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>最新モデルの登場は先送りとなりますが、現在利用しているAIサービスがより安全で信頼性の高い環境で継続提供される安心感につながります。<br>・具体的な使い方（生活・仕事のシーン）<br>既存のGPT-4oなどの安定版モデルを用いて、日々の文章作成やデータ整理、問い合わせ対応などの業務を安心して継続できます。<br>・いま困ること・使えない点<br>より高度な推論能力や複雑な長時間の作業代行を期待していたユーザーにとっては、新機能の体験まで今しばらく待つ必要があります。<br>・今後の影響<br>業界トップのOpenAIが安全性検証を理由に公開を延期したことで、GoogleやAnthropicなど他の主要AI企業にもより厳格な安全基準の適用が広がる契機となります。<br>■ NVIDIA篇 ジェンスン・フアンCEO率いるNVIDIAがAIエージェントの安全基盤を無償公開<br>・どんな発表・動きがあったの？<br>【発表元：9月28日 NVIDIA公式発表（https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase）】<br>NVIDIAは、自律して動くAIエージェントが意図しない誤動作や外部からのサイバー攻撃を受けないよう保護する「オープン・エージェント・セーフティ・プラットフォーム」を公開しました。<br>👉【今日すぐ試せること】<br>現在使っているChatGPTや各種AIサービスの設定画面を開き、安全フィルターの強度や履歴データの保護設定を再確認してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1790661958515_850",
     "type": "サマリー",
     "title": "ホワイトハウスで歴史的AI首脳会談！トランプ大統領と下院議長が巨大テック首脳陣と直接対話へ",
