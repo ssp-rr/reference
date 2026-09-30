@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1790750601047_784",
+    "type": "サマリー",
+    "title": "ホワイトハウスがAI首脳協定を発表！政府ポータル「America.gov」のAI刷新も始動",
+    "author": "ホワイトハウス（米国大統領府）／ドナルド・トランプ大統領",
+    "category": "米国政府",
+    "category_code": "us_gov",
+    "publishedAt": "2026-09-30 15:40",
+    "content": "<a href=\"https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-streamlines-access-to-government-services-through-america-gov/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-streamlines-access-to-government-services-through-america-gov/)</a><br>■ ホワイトハウス篇 トランプ大統領と巨大テック首脳が「AI協定」を締結！行政をワンストップ化するAIポータルも同時公開<br>・どんな発表・動きがあったの？<br>【発表元：9月29日 ホワイトハウス公式発表・大統領令（https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-streamlines-access-to-government-services-through-america-gov/）】<br>ホワイトハウスは、トランプ米大統領およびマイク・ジョンソン下院議長と、OpenAI、Google、Meta、Anthropic、Nvidiaなどのトップが集ったAI首脳会談の合意文書「AI協定」を公表しました。<br>トランプ大統領は、厳しい法的規制で開発の足を引っ張るのではなく、企業の道義的責任に基づく協力関係を重視する姿勢を表明。あわせて連邦政府内での呼称を「超知能（Super Intelligence）」に改める大統領令に署名しました。<br>さらに、国民が年金や税金、公的支援などの行政サービスを対話形式で一括案内・申請できるAI搭載の統合ポータルサイト「America.gov」を正式公開しました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>政府機関ごとの複雑な窓口や手続きを探し回る必要がなくなり、AIに自然な言葉で相談するだけで必要な申請や情報取得がスムーズに完了します。<br>・具体的な使い方（生活・仕事のシーン）<br>ビザ申請や各種証明書の取得、行政給付金の条件確認などについて、ポータルの対話型AIに質問することで、最適な申請ルートや必要書類を瞬時に教えてもらえます。<br>・いま困ること・使えない点<br>協定に厳格な法的拘束力や罰則規定がないため、企業側が自主的に安全性をどれだけ担保できるかについては議会や専門家から慎重な声も上がっています。<br>・今後の影響<br>米政府自身が先端AIを行政インフラの中核へ本格導入したことで、世界各国の電子政府DXや公共サービスでのAI活用が一段と加速する見通しです。<br>👉【今日すぐ試せること】<br>リニューアルされた「America.gov」や日本の「マイナポータル」など行政Webサイトを開き、オンライン申請やAI案内機能がどのように進化しているか触れてみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1790669000150_822",
     "type": "サマリー",
     "title": "経産省が地域ビッグデータ分析基盤RESASを刷新！総務省は最新国勢調査を公表",
