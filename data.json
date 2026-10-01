@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1790835122295_704",
+    "type": "サマリー",
+    "title": "AIデータセンター専用に巨大発電所を建設！米商務省と韓国が巨額投資プロジェクトを発表",
+    "author": "米国商務省／エネルギー省／ホワイトハウス",
+    "category": "米国政府",
+    "category_code": "us_gov",
+    "publishedAt": "2026-10-01 15:00",
+    "content": "<a href=\"https://www.commerce.gov/news/press-releases/2026/09/korea-and-united-states-announce-historic-strategic-investment-projects\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.commerce.gov/news/press-releases/2026/09/korea-and-united-states-announce-historic-strategic-investment-projects)</a><br>■ 商務省・エネルギー省篇 AIの電力不足を根本解決！テキサスに223億ドルの専用発電所と原発8基の建設計画を始動<br>・どんな発表・動きがあったの？<br>【発表元：9月30日 米商務省公式発表（https://www.commerce.gov/news/press-releases/2026/09/korea-and-united-states-announce-historic-strategic-investment-projects）】<br>米商務省とエネルギー省は、韓国政府と共同で歴史的な大型戦略投資協定を発表しました。<br>急増するAIデータセンターの電力需要を支えるため、テキサス州に約223億ドル（約3.3兆円）を投じてAI専用の巨大天然ガス発電所（約6,470メガワット）を建設する「プロジェクト・スター」を開始します。発電所とデータセンターを直結させ、一般の送電網を圧迫せずに安定電力を供給します。<br>さらに総額1,200億ドル（約18兆円）規模で大型原子力発電所8基を米国内に新設する「プロジェクト・パワー」も盛り込み、天候に左右されない強固な電力基盤を両国共同で構築します。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>AI処理による地域の電力不足や電気料金の急激な跳ね上がりを防ぎつつ、より高度で大規模なAIサービスが途切れず快適に動く基盤が整います。<br>・具体的な使い方（生活・仕事のシーン）<br>企業や個人が大量のデータ解析や動画生成AIなどを日常業務で利用しても、データセンター側の供給制限やサーバー停止に悩まされずに済みます。<br>・いま困ること・使えない点<br>巨大発電所や原発の完成には2029年から2032年以降までの工期が必要であり、直近数年間の電力需給の引き締まりをすぐに解消できるわけではありません。<br>・今後の影響<br>AI開発競争が「モデルの賢さ」だけでなく「発電インフラの確保競争」へと移行したことが明確になり、世界各国でエネルギー政策とITインフラの統合が急速に進みます。<br>■ ホワイトハウス篇 政府全体で「AI」から「超知能（SI）」へ呼称統一！大統領令が正式発効<br>・どんな発表・動きがあったの？<br>【発表元：9月30日 ホワイトハウス大統領令（https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/）】<br>ホワイトハウスは、連邦政府の公式文書や公的ポータルサイトにおいて、従来の「人工知能（AI）」という呼称を取りやめ、「超知能（Super Intelligence / SI）」へと統一する大統領令を正式に発効させました。<br>👉【今日すぐ試せること】<br>家庭やオフィスのPCで電力消費を抑える省電力モードの設定を確認し、AIツール利用時のこまめな省エネ習慣を意識してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1790756696969_601",
     "type": "サマリー",
     "title": "デジタル庁が自律型AIエージェントの政府導入基準を提示！IPAはセキュリティ白書2026を公開",
@@ -1086,17 +1097,6 @@
     "category_code": "jp_gov",
     "publishedAt": "2026-08-11 12:15",
     "content": "<a href=\"https://www.digital.go.jp/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.digital.go.jp/)</a><br>OneSignalプッシュ通知およびGitHub JSON同期の最終テスト用データ（テスト実行ID: 7102）です。",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786404936284_929",
-    "type": "サマリー",
-    "title": "最新AI活用およびソブリンAI推進に関する速報レポート #9382",
-    "author": "デジタル庁 / 内閣府",
-    "category": "日本政府",
-    "category_code": "jp_gov",
-    "publishedAt": "2026-08-11 08:35",
-    "content": "<a href=\"https://www.digital.go.jp/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.digital.go.jp/)</a><br>OneSignalプッシュ通知およびGitHub JSON同期の動作確認用テストデータ（送信試行ID: 4821）です。",
     "url": "https://ssp-rr.github.io/reference/world-summary.html"
   }
 ]
