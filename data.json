@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1790841004907_410",
+    "type": "サマリー",
+    "title": "Googleが次世代最上位AI「Gemini 4 Argon」を発表！100万語超の超長文推論とサイバー防御を革新",
+    "author": "Google（Alphabet）／サンダー・ピチャイCEO",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-10-01 16:45",
+    "content": "<a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)</a><br>■ Google篇 ピチャイCEOがGemini 4シリーズ第1弾「Argon」を発表！難解な法律・財務分析やソフトウェア開発で最高峰の知能へ<br>・どんな発表・動きがあったの？<br>【発表元：10月1日 Google公式ブログ・ピチャイCEO発信（https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/）】<br>Googleは、新世代「Gemini 4」シリーズの第1弾となる最上位AIモデル「Gemini 4 Argon（アルゴン）」を正式発表しました。<br>サンダー・ピチャイCEOは自身のSNSで「可能な限り早く、そして安全に皆さまへお届けする」と表明。複雑なソフトウェア設計や法律・財務分野の長文調査、サイバー攻撃からシステムを守る防御タスクに特化して開発されました。<br>特に本数百冊分に匹敵する100万語規模の超長文にわたる複雑な関係性を正確に辿るテストでは、競合他社の最新モデルを大きく引き離す圧倒的なスコアを記録しました。安全性を最優先するため、まずはサイバーセキュリティ専門家向けの先行検証から提供を開始し、順次一般公開されます。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>企業の膨大な業務マニュアルや過去の契約書、開発プロジェクトの全コードをAIが一括で読み込み、ミスなく的確な回答や業務代行を行えるようになります。<br>・具体的な使い方（生活・仕事のシーン）<br>分厚い法律の条文や専門的な財務諸表を丸ごとAIに渡し、「今期の契約における潜在リスクと改善点を箇条書きで整理して」と指示するだけで、精度の高い分析レポートを即座に作成できます。<br>・いま困ること・使えない点<br>安全性の公的検証とセキュリティ対策を徹底しているため、一般の開発者や一般ユーザーが自由に試せるまでには段階的な公開を待つ必要があります。<br>・今後の影響<br>OpenAIのGPTシリーズに対抗するGoogleの本命モデルが登場したことで、超高度な知能と安全性を巡る世界のAI開発競争が一段とハイレベルな段階へ突入します。<br>👉【今日すぐ試せること】<br>Googleの公式AIポータル「Gemini」を開き、手元にある長文の会議録や長めのPDF資料をアップロードして、現在のGeminiの要約・推論精度を試してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1790835122295_704",
     "type": "サマリー",
     "title": "AIデータセンター専用に巨大発電所を建設！米商務省と韓国が巨額投資プロジェクトを発表",
@@ -1079,17 +1090,6 @@
   },
   {
     "id": "report_1786418335376_247",
-    "type": "サマリー",
-    "title": "AI利活用推進とデジタル基盤整備に関する最新動向 #1059",
-    "author": "内閣府 / デジタル庁",
-    "category": "日本政府",
-    "category_code": "jp_gov",
-    "publishedAt": "2026-08-11 12:15",
-    "content": "<a href=\"https://www.digital.go.jp/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.digital.go.jp/)</a><br>OneSignalプッシュ通知およびGitHub JSON同期の最終テスト用データ（テスト実行ID: 7102）です。",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786418221032_436",
     "type": "サマリー",
     "title": "AI利活用推進とデジタル基盤整備に関する最新動向 #1059",
     "author": "内閣府 / デジタル庁",
