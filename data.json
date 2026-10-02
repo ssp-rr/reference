@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1790925296065_308",
+    "type": "サマリー",
+    "title": "SpaceXがGoogleの宇宙AI衛星を打ち上げ成功！Anthropicには半導体巨額融資が判明",
+    "author": "SpaceX（イーロン・マスク）／Google／Anthropic",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-10-02 16:10",
+    "content": "<a href=\"https://www.space.com/space-exploration/satellites/spacex-google-project-suncatcher-ai-satellite-transporter-18-mission\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.space.com/space-exploration/satellites/spacex-google-project-suncatcher-ai-satellite-transporter-18-mission)</a><br>■ SpaceX・Google篇 地上の電力限界を突破せよ！ファルコン9ロケットでAI半導体搭載の実験衛星が軌道投入に成功<br>・どんな発表・動きがあったの？<br>【発表元：10月1日 宇宙開発報道・公式公表（https://www.space.com/space-exploration/satellites/spacex-google-project-suncatcher-ai-satellite-transporter-18-mission）】<br>イーロン・マスク氏率いるSpaceXは、ファルコン9ロケット（Transporter-18ミッション）を打ち上げ、GoogleのAI衛星「Project Suncatcher」を含む衛星群を軌道へ届けることに成功しました。<br>この実験衛星にはGoogleのAI専用チップ（TPU）が4基搭載されており、宇宙空間の強烈な放射線への耐性や、無重力下での放熱冷却、太陽光による発電効率を実地検証します。<br>地上のデータセンターが直面する莫大な電力消費と熱問題を宇宙環境で根本解決する「宇宙データセンター構想」の記念すべき第一歩となります。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>宇宙空間でAIが稼働することで、地上の送電網や環境に負荷をかけずに巨大な知能基盤が維持され、将来的により高性能なAIを安価に使い続けられる土台が築かれます。<br>・具体的な使い方（生活・仕事のシーン）<br>地球観測衛星が撮影した災害や気象の画像データを宇宙のAIがその場で瞬時に分析し、地上の救助隊やスマホへ数分で警戒情報を届ける仕組みが実現します。<br>・いま困ること・使えない点<br>宇宙空間での通信速度や機器の長期耐久性の確認はこれからであり、一般のクラウドサービスとして商用利用されるまでには段階的な実験が必要です。<br>・今後の影響<br>AI開発競争が宇宙インフラ開発へと直結し、IT大手と民間宇宙企業による共同プロジェクトが世界中で活発化します。<br>■ Anthropic篇 ブロードコムから最大420億ドルの巨額支援！次世代AIチップ確保へ異例の資金調達が判明<br>・どんな発表・動きがあったの？<br>【発表元：10月1日 ロイター報道・開示資料（https://thenextweb.com/news/broadcom-anthropic-42bn-loan-tpu-lease-reuters）】<br>Anthropicが半導体大手ブロードコムから最大420億ドル（約6.3兆円）の融資枠を確保したことが判明しました。Google開発の最新TPUチップを5年間にわたり大規模調達する契約に充当され、次世代モデル「Claude」の開発力強化を資金面で強固に支えます。<br>👉【今日すぐ試せること】<br>日常の作業で使っているAIツール（ChatGPTやClaude、Gemini）がどれくらいの電気やサーバーリソースを使っているか意識し、質問を1回にまとめる工夫を試してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1790922944829_154",
     "type": "サマリー",
     "title": "米エネルギー省がAI計算や核融合に最大4億ドル投資！ホワイトハウスは大手テックと教育連携",
@@ -1086,17 +1097,6 @@
     "category_code": "breaking",
     "publishedAt": "2026-08-11 14:15",
     "content": "",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786422900592_415",
-    "type": "サマリー",
-    "title": "AI利活用推進とデジタル基盤整備に関する最新動向 #8820",
-    "author": "内閣府 / デジタル庁",
-    "category": "日本政府",
-    "category_code": "jp_gov",
-    "publishedAt": "2026-08-11 13:40",
-    "content": "<a href=\"https://www.digital.go.jp/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.digital.go.jp/)</a><br>仕様完全維持版の動作テストデータです。",
     "url": "https://ssp-rr.github.io/reference/world-summary.html"
   }
 ]
