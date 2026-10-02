@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1790928538996_277",
+    "type": "サマリー",
+    "title": "スマホでカード完結！Android版マイナが10月20日開始へ、JSTは科学AI事業を始動",
+    "author": "デジタル庁／科学技術振興機構（JST）",
+    "category": "日本政府",
+    "category_code": "jp_gov",
+    "publishedAt": "2026-10-02 17:05",
+    "content": "<a href=\"https://services.digital.go.jp/mynumbercard-android/news/fec690c52f9ffeb35d30f/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://services.digital.go.jp/mynumbercard-android/news/fec690c52f9ffeb35d30f/)</a><br>■ デジタル庁篇 スマホ1台で本人確認や保険証提示が完了！「Androidのマイナンバーカード」が10月20日開始決定<br>・どんな発表・動きがあったの？<br>【発表元：10月2日 デジタル庁公式発表（https://services.digital.go.jp/mynumbercard-android/news/fec690c52f9ffeb35d30f/）】<br>デジタル庁は、Androidスマートフォンにマイナンバーカード機能を完全に統合する新サービス「Androidのマイナンバーカード」の提供開始日を、2026年10月20日（火）に決定したと公表しました。<br>これまでの電子証明書機能に加え、スマートフォンの画面上にカード券面事項を直接表示できるようになり、病院や薬局での保険証利用から、銀行口座開設や各種行政手続きの対面・オンライン本人確認まで、プラスチックカードを持ち歩かずにスマホだけで完結します。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>外出時にマイナンバーカード本体を持ち歩く必要がなくなり、紛失のリスクを気にせず手元のスマホだけで病院受診や行政の電子申請が行えます。<br>・具体的な使い方（生活・仕事のシーン）<br>医療機関の受付でスマートフォンの画面を提示・かざすだけで資格確認が完了し、引っ越しに伴う各種手続きも自宅からスマホ1台で完結します。<br>・いま困ること・使えない点<br>サービス開始当初は対応するAndroid機種が対象となり、iPhoneでの完全なカード搭載機能の提供開始時期については今後のアナウンスを待つ必要があります。<br>・今後の影響<br>国民生活でのデジタル手続きの普及が一気に進み、自治体や民間サービスのオンライン窓口化がさらに加速します。<br>■ 科学技術振興機構（JST）篇 科学の発見をAIで10倍速に！国家プロジェクト「AI for Science」が本格始動<br>・どんな発表・動きがあったの？<br>【発表元：10月2日 JST採択公表（https://www.tohoku.ac.jp/japanese/2026/10/news20261002-arise.html）】<br>文部科学省所管のJSTは、科学研究をAIの力で根底から変革する大型研究開発事業「ARiSE（アライズ）」の採択課題を決定しました。AI専門家と新素材・防災・バイオの研究者が手を組み、次世代超電導材料の開発や巨大地震・津波のリアルタイム予測シミュレーションの実現に挑みます。<br>👉【今日すぐ試せること】<br>お使いのAndroidスマートフォンのOSバージョンやマイナポータルアプリを最新状態にアップデートし、10月20日のサービス開始に備えましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1790925296065_308",
     "type": "サマリー",
     "title": "SpaceXがGoogleの宇宙AI衛星を打ち上げ成功！Anthropicには半導体巨額融資が判明",
@@ -1086,17 +1097,6 @@
     "category_code": "jp_gov",
     "publishedAt": "2026-08-11 14:00",
     "content": "<a href=\"https://www.digital.go.jp/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.digital.go.jp/)</a><br>シンプルタグ指定テストデータです。",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786425336292_164",
-    "type": "速報",
-    "title": "AI利活用推進とデジタル基盤整備に関する最新動向 #9988",
-    "author": "AI速報",
-    "category": "速報",
-    "category_code": "breaking",
-    "publishedAt": "2026-08-11 14:15",
-    "content": "",
     "url": "https://ssp-rr.github.io/reference/world-summary.html"
   }
 ]
