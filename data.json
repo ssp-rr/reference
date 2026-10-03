@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1791011070059_365",
+    "type": "サマリー",
+    "title": "MetaのAIが数学の未解決問題を解決し6論文発表！AppleはAIアクセス制限を強化へ",
+    "author": "Meta（Meta AI）／Apple",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-10-03 16:00",
+    "content": "<a href=\"https://research.meta.ai/blog/solving-open-research-problems-together\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://research.meta.ai/blog/solving-open-research-problems-together)</a><br>■ Meta篇 試験対策から未解決問題の発見へ！思考AI「Muse Spark」が数学者とタッグを組み6本の学術論文を発表<br>・どんな発表・動きがあったの？<br>【発表元：10月2日 Meta AI公式ブログ（https://research.meta.ai/blog/solving-open-research-problems-together）】<br>MetaのAI研究部門は、推論特化型AI「Muse Spark」を活用し、第一線の数学者たちと共同で数学の未解決問題を解き明かした6本の査読論文を発表しました。<br>あらかじめ正解が分かっている数学オリンピック等の試験問題を解く段階を超え、誰も答えを知らない純粋な研究テーマに挑戦。対称性を表す群論において2024年に提唱された未解決の予想に対し、Muse Sparkが数学プログラムを自ら生成して反例を見つけ出し、定説を覆すことに成功しました。<br>人間とAIが分担して思考を深め、検証された過程を論文上で完全に透明化して公開しています。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>答えのない難問に対してAIが仮説の検証や抜け漏れの探索を代行できるようになり、新薬の構造設計や暗号技術、材料科学の進化が劇的に早まります。<br>・具体的な使い方（生活・仕事のシーン）<br>研究者や開発者が「この条件を満たさない例外的なパターンはないか」とAIに問いかけることで、膨大な計算の中から盲点となる反例を瞬時に発見できます。<br>・いま困ること・使えない点<br>AIが導き出したアイデアやプログラムが本当に正しいかどうかは、最終的に人間の専門家が時間をかけて厳密に精査・検証する必要があります。<br>・今後の影響<br>AIが「過去の知識をまとめる道具」から「人類の未知のフロンティアを共に切り拓く共同研究者」へと進化する歴史的な転換点となります。<br>■ Apple篇 自律型AIによるPC内データの勝手な覗き見を防げ！Macのセキュリティ権限を大幅強化へ<br>・どんな発表・動きがあったの？<br>【発表元：10月2日 Apple公式声明・報道公表（https://mashable.com/tech/apple-tim-cook-ternus-earnings-call-q3-2026）】<br>Appleは、パソコン内を自律的に巡回するAIエージェントの普及に伴い、Macの「フルディスクアクセス（全データ読み取り権限）」を制限するセキュリティ強化を発表しました。利用者が気づかないうちにメールや閲覧履歴、個人ファイルがAIツール経由で抜き取られるリスクを遮断します。<br>👉【今日すぐ試せること】<br>PCやMacの「設定」から「プライバシーとセキュリティ」を開き、インストールされているアプリやAI拡張機能に過剰な権限が与えられていないかチェックしてみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1791009323024_908",
     "type": "サマリー",
     "title": "CISAがAIエージェントのアクセス監視指針を公表！FTCは中小保護の和解を発表",
@@ -1079,17 +1090,6 @@
   },
   {
     "id": "report_1786425914647_759",
-    "type": "サマリー",
-    "title": "AI利活用推進とデジタル基盤整備に関する最新動向 #9988",
-    "author": "内閣府 / デジタル庁",
-    "category": "日本政府",
-    "category_code": "jp_gov",
-    "publishedAt": "2026-08-11 14:00",
-    "content": "<a href=\"https://www.digital.go.jp/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.digital.go.jp/)</a><br>シンプルタグ指定テストデータです。",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786425873138_698",
     "type": "サマリー",
     "title": "AI利活用推進とデジタル基盤整備に関する最新動向 #9988",
     "author": "内閣府 / デジタル庁",
