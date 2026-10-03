@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1791009323024_908",
+    "type": "サマリー",
+    "title": "CISAがAIエージェントのアクセス監視指針を公表！FTCは中小保護の和解を発表",
+    "author": "米サイバーセキュリティ・インフラ安全局（CISA）／連邦取引委員会（FTC）",
+    "category": "米国政府",
+    "category_code": "us_gov",
+    "publishedAt": "2026-10-03 15:30",
+    "content": "<a href=\"https://fedscoop.com/why-federal-agencies-need-to-rethink-trusted-access-in-the-age-of-ai/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://fedscoop.com/why-federal-agencies-need-to-rethink-trusted-access-in-the-age-of-ai/)</a><br>■ CISA篇 自律型AIエージェントによる情報漏洩を防げ！連邦機関向け「内部脅威対策ガイド2026」を公表<br>・どんな発表・動きがあったの？<br>【発表元：10月2日 CISA公式ガイドライン・米報道（https://fedscoop.com/why-federal-agencies-need-to-rethink-trusted-access-in-the-age-of-ai/）】<br>米サイバーセキュリティ・インフラ安全局（CISA）は、職場で普及が進む自律型AIエージェントやAIツールの安全管理を盛り込んだ「2026年版 内部脅威対策ガイド」を公表しました。<br>政府機関や企業の44％が「AIエージェントが社内で具体的に何をしているか十分に把握できていない」という実態を受け、AIを単なるソフトウェアではなく「組織内部のアクセス権を持つ関係者」として扱う方針を明記。<br>AIエージェントに必要最低限のデータ閲覧権限のみを付与するルールや、AIの操作ログを24時間監視する仕組み、重要機密ネットワークからの切り離しを義務付けました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>仕事で導入される便利なAIエージェントが、意図しない設定ミスや乗っ取りによって社内機密や顧客の個人情報を勝手に外部へ漏らすリスクを未然に防げます。<br>・具体的な使い方（生活・仕事のシーン）<br>会社で自律型AIに経費精算やデータ集計を任せる際、AIがアクセスできるフォルダやシステム範囲を厳密に限定し、不審な動きがあれば管理者に自動通知が届くよう設定します。<br>・いま困ること・使えない点<br>セキュリティ制限を厳しくしすぎると、AIエージェントが自律して自由に複数システムを横断する利便性が一時的に制限される場合があります。<br>・今後の影響<br>米政府の指針を皮切りに、世界中の企業で「AIエージェント専用のID管理・アクセス制限」を導入するセキュリティ標準化が急速に進みます。<br>■ FTC篇 巨大企業の不当な価格差別を是正！中小企業を守る歴史的和解を発表<br>・どんな発表・動きがあったの？<br>【発表元：10月2日 FTC公式発表（https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-settlement-protects-small-businesses-illegal-price-discrimination）】<br>米連邦取引委員会（FTC）は、全米の独立系中小事業者や個人商店を不当な取引・価格差別から保護する包括的な和解を勝ち取ったと発表しました。大手資本への不当な割引優遇や市場の寡占化を阻止し、公正な競争環境を回復させます。<br>👉【今日すぐ試せること】<br>利用しているAIツールや拡張機能に付与している連携アカウント（Google、SNS等）のアクセス権限一覧を確認し、不要な権限があれば削除しておきましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1790928538996_277",
     "type": "サマリー",
     "title": "スマホでカード完結！Android版マイナが10月20日開始へ、JSTは科学AI事業を始動",
@@ -1080,17 +1091,6 @@
   {
     "id": "report_1786425873138_698",
     "type": "サマリー",
-    "title": "AI利活用推進とデジタル基盤整備に関する最新動向 #9988",
-    "author": "内閣府 / デジタル庁",
-    "category": "日本政府",
-    "category_code": "jp_gov",
-    "publishedAt": "2026-08-11 14:00",
-    "content": "<a href=\"https://www.digital.go.jp/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.digital.go.jp/)</a><br>シンプルタグ指定テストデータです。",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786425379866_84",
-    "type": "速報",
     "title": "AI利活用推進とデジタル基盤整備に関する最新動向 #9988",
     "author": "内閣府 / デジタル庁",
     "category": "日本政府",
