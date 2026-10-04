@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1791096449014_395",
+    "type": "サマリー",
+    "title": "商務省が3億ドルの対中AIサーバー密輸を摘発！国防総省は選挙防衛指令を発令",
+    "author": "米国商務省（BIS）／国防総省（DoD）",
+    "category": "米国政府",
+    "category_code": "us_gov",
+    "publishedAt": "2026-10-04 15:30",
+    "content": "<a href=\"https://www.justice.gov/opa/pr/california-man-arrested-smuggling-more-300-million-export-controlled-computer-servers-china\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.justice.gov/opa/pr/california-man-arrested-smuggling-more-300-million-export-controlled-computer-servers-china)</a><br>■ 商務省（産業安全保障局）篇 450億円超の先端AIサーバー密輸網を摘発！GPUの不正流出に商務省が厳罰で対処<br>・どんな発表・動きがあったの？<br>【発表元：10月2日 米商務省・司法省公式発表（https://www.justice.gov/opa/pr/california-man-arrested-smuggling-more-300-million-export-controlled-computer-servers-china）】<br>米商務省産業安全保障局（BIS）は司法省やFBIと合同で、高性能AI向けGPU（画像処理半導体）を搭載した総額3億ドル（約450億円）以上の輸出規制対象コンピューターサーバーを中国へ不正輸出していたIT企業経営者を逮捕・起訴しました。<br>第三国（マレーシア）を経由して迂回輸出する手口を使っており、最大で懲役20年の刑が科される見通しです。<br>商務省は「米国の安全保障を脅かす先端技術の不当な流出に対して、あらゆる法的権限を行使して徹底的に追及する」と表明し、AI半導体に関する輸出管理を一段と厳格化する姿勢を示しました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>正規のサプライチェーン管理が徹底されることで、軍事転用などの不正利用を防ぎつつ、信頼できる企業間でクリーンなAI開発・クラウド基盤が維持されます。<br>・具体的な使い方（生活・仕事のシーン）<br>グローバルにITビジネスやハードウェア調達を行う企業が、取引先の最終仕向地や再輸出リスクを再点検し、コンプライアンス体制を再確認する契機となります。<br>・いま困ること・使えない点<br>半導体輸出の手続きやエンドユーザー確認（誰が何のために使うか）の審査がより厳格化し、輸出入の許認可取得に通常より時間がかかる場合があります。<br>・今後の影響<br>国家間のハイテク覇権争いが激しさを増す中、日本を含む同盟国に対しても第三国を経由したAIチップの迂回輸出ルート遮断を求める圧力が強まります。<br>■ 国防総省篇 AI悪用の偽情報工作を阻止！中間選挙を守るサイバー防衛指令を公式発令<br>・どんな発表・動きがあったの？<br>【発表元：10月2日 国防総省指令公表（https://www.fdd.org/analysis/2026/10/02/defense-departments-public-election-security-directive-sends-important-but-belated-signal-to-u-s-adversaries/）】<br>米国防総省は、目前に迫る米中間選挙に対するサイバー攻撃やAI悪用の世論工作を阻止するため、米サイバー軍に対し、情報機関と連携してあらゆる能力を総動員するよう命じる公式指令を発令しました。選挙インフラへの侵入や外国勢力によるディープフェイク拡散を水際で防ぎます。<br>👉【今日すぐ試せること】<br>SNSやニュースで流れてくる刺激的な動画や画像を目にした際、AI生成マークの有無や一次情報源を確認し、情報の信ぴょう性を冷静に確かめる習慣をつけましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1791017563130_9",
     "type": "サマリー",
     "title": "家庭用ルーターの踏み台悪用を防ぐ対策提言を公表！大型無人機からの災害通信にも初成功",
@@ -1086,17 +1097,6 @@
     "category_code": "keyman",
     "publishedAt": "2026-08-11 15:55",
     "content": "<a href=\"https://www.anthropic.com/news\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.anthropic.com/news)</a><br>モデルの安全性評価手法を更新し、第三者機関との連携を拡大。タグ絞り込み経由の通知復旧テスト用データ（テストID: 20260811-02）です。",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786429624600_864",
-    "type": "サマリー",
-    "title": "OpenAIが新型推論モデル「GPT-6-preview」を発表",
-    "author": "OpenAI",
-    "category": "AIキーマン",
-    "category_code": "keyman",
-    "publishedAt": "2026-08-11 15:30",
-    "content": "<a href=\"https://openai.com/index/gpt-6-preview\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://openai.com/index/gpt-6-preview)</a><br>推論能力とコスト効率を両立した新モデルを公開。開発者向けAPIは来週から提供開始予定。通知テスト用データです。",
     "url": "https://ssp-rr.github.io/reference/world-summary.html"
   }
 ]
