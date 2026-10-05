@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1791186592347_12",
+    "type": "サマリー",
+    "title": "Googleが最上位AI「Gemini 4」を破格の2ドルで提供へ！OpenAIは安全監視を強化",
+    "author": "Google DeepMind／OpenAI",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-10-05 16:40",
+    "content": "<a href=\"https://financefeeds.com/google-gemini-4-argon-2-dollar-alphabet-stock/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://financefeeds.com/google-gemini-4-argon-2-dollar-alphabet-stock/)</a><br>■ Google DeepMind篇 最高AIアーキテクトが「Gemini 4 Argon」の利用価格を公表！OpenAIに対抗する戦略的低価格へ<br>・どんな発表・動きがあったの？<br>【発表元：10月4日 公式発言・詳細報道（https://financefeeds.com/google-gemini-4-argon-2-dollar-alphabet-stock/）】<br>Google DeepMindの最高AIアーキテクトであるコライ・カヴクチュオグル上級副社長は、最上位モデル「Gemini 4 Argon」の開発者向けAPI価格を、100万入力トークンあたり2ドル（約300円）に設定したことを明らかにしました。<br>これはOpenAIが先週発表した新モデル「GPT-6.1 Sol」と同額の極めて戦略的な価格設定です。最上位クラスの高度な知能と100万語超の文脈処理能力を持ちながら、日常業務やシステム開発に気兼ねなく組み込める水準に抑え、開発者獲得でライバルに真っ向勝負を挑みます。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>企業や個人が最先端の高性能AIを非常に安価に利用できるようになり、高機能なAIツールや業務自動化アプリが身の回りに一気に増えていきます。<br>・具体的な使い方（生活・仕事のシーン）<br>自社の過去数年分の全業務マニュアルや顧客データをまるごとAIに読み込ませても、利用料金を数百円程度に抑えながら社内専用の優秀なAIアシスタントを動かせます。<br>・いま困ること・使えない点<br>安全性の公的検証プロセスが進行中のため、一般の開発者や企業へAPIアクセスが全面開放されるまでは段階的な提供を待つ必要があります。<br>・今後の影響<br>GoogleとOpenAIの双方が最上位AIを大幅値下げしたことで、AIモデルの価格破壊が進み、知能のコモディティ化が一段と加速します。<br>■ OpenAI篇 自律型AIエージェントの暴走を防げ！外部アクセスに対する厳格な安全基準を更新<br>・どんな発表・動きがあったの？<br>【発表元：10月4日 OpenAI公式報告（https://openai.com/index/how-we-will-do-better-for-australia/）】<br>OpenAIは、自律してWebを巡回するAIエージェントが公的データや外部システムに不用意にアクセスするリスクを防止するため、安全監視プロトコルの改定を発表しました。テスト環境の厳格な隔離や二重承認の仕組みを導入し、エージェントが許可されていない操作を行わないよう安全対策を強化します。<br>👉【今日すぐ試せること】<br>Google AI StudioやOpenAIのAPI利用ダッシュボードを開き、最新モデルの料金体系やトークン消費量の目安を確認してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1791181712248_244",
     "type": "サマリー",
     "title": "トランプ大統領が超知能部隊を創設！京都STSフォーラムでは科学ビジョンを国際採択",
@@ -1086,17 +1097,6 @@
     "category_code": "keyman",
     "publishedAt": "2026-08-12 16:00",
     "content": "<a href=\"https://www.nvidia.com\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.nvidia.com)</a><br>2026年8月12日、AI業界を牽引するトップキーマンからインフラ資金調達・ローカルAIモデル・透明性技術の3分野で重要な発表が相次ぎました。<br>まず、NVIDIAのジェンセン・フアンCEOは、ウォール街の主要投資機関6社（Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR）と提携し、5000億ドル（約80兆円）を超える民間資本をAI計算基盤へ集中動員する枠組みを発表しました。これにより、AI企業の財務負担を分離しながら巨大データセンター構築を加速させます。<br>一方、Metaのマーク・ザッカーバーグCEOは、手元のパソコンや端末で常時動作する軽量な自律型AI「Muse Glimmer」（30億パラメータ）をオープンウェイトとして公開しました。データを外部に送らず自社環境で安全にAIエージェントを動かせるため実務面で注目されています。また、Anthropicのダリオ・アモデイCEO率は、Claudeで生成した文章に不可視の「電子透かし」を付与する仕組みを日本を含む全世界で順次適用開始しました。<br>日常業務やビジネスへの影響として、クラウドの超高度処理と手元の安全なローカルAIの「ハイブリッド使い分け」が標準化し、AI生成物の識別・ガバナンス対応がより重要になってきます。<br>👉今日すぐ試せること<br>・自社業務の中で「外部送信できない秘匿データ」と「クラウドで処理できるデータ」を整理してみましょう。<br>・AIで作成したドキュメントや資料の識別表示や利用ガイドラインが社内で整っているか確認してみましょう。<br><a href=\"https://www.nvidia.com\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.nvidia.com)</a><br><a href=\"https://about.meta.com\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://about.meta.com)</a><br><a href=\"https://www.anthropic.com\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.anthropic.com)</a>",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786515839912_925",
-    "type": "サマリー",
-    "title": "米国政府とウォール街大手6社が5000億ドル超のAI計算基盤資金調達枠組みで連携へ",
-    "author": "ホワイトハウス・米国商務省",
-    "category": "米国政府",
-    "category_code": "us_gov",
-    "publishedAt": "2026-08-12 15:00",
-    "content": "<a href=\"https://www.whitehouse.gov\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.whitehouse.gov)</a><br>米ホワイトハウスおよび米国商務省は、急速に拡大するAI需要に対応するため、インフラ投資およびプライベートクレジットの主要6社（Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR）やNVIDIAと連携し、5000億ドル（約80兆円）を超える民間資本をAI計算基盤へ動員する大型ファイナンス枠組みを発表しました。<br>従来、巨大データセンターの整備はAI開発企業自体の財務（バランスシート）を圧迫していましたが、今回の枠組みにより電力設備やデータセンター建屋などの物理インフラを分離・外部化し、新しい金融資産クラスとして民間資金を効率的に集める仕組みが構築されます。また、安全保障の観点から連邦政府機関（NIST、CISA等）によるフロンティアAIモデルの安全基準策定も同時に進められています。<br>ビジネスや日常生活への影響として、クラウドAIの処理能力向上や料金の安定化が期待される一方、データセンター建設に伴う電力供給や地域インフラの確保が今後の重要な課題となります。<br>👉今日すぐ試せること<br>・自社で利用しているクラウドAIサービスの処理基盤やデータセンターの最新動向を確認してみましょう。<br>・AI導入時のコスト構造（API利用料の変動費と専用サーバー等の固定費）を再点検してみましょう。<br><a href=\"https://www.whitehouse.gov\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.whitehouse.gov)</a><br><a href=\"https://www.commerce.gov\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.commerce.gov)</a>",
     "url": "https://ssp-rr.github.io/reference/world-summary.html"
   }
 ]
