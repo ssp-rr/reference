@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1791269160984_479",
+    "type": "サマリー",
+    "title": "日米が先端AIと半導体で同盟強化！米エネルギー省は原発拡張へ42億ドル投資",
+    "author": "米国務省／米国エネルギー省（DOE）",
+    "category": "米国政府",
+    "category_code": "us_gov",
+    "publishedAt": "2026-10-06 15:40",
+    "content": "<a href=\"https://www.state.gov/releases/office-of-the-spokesman/2026/10/joint-statement-on-the-u-s-japan-technology-prosperity-deal/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.state.gov/releases/office-of-the-spokesman/2026/10/joint-statement-on-the-u-s-japan-technology-prosperity-deal/)</a><br>■ 国務省篇 先端AIや半導体の供給網を日米で強固に！「日米テクノロジー繁栄協定」の共同声明を正式発表<br>・どんな発表・動きがあったの？<br>【発表元：10月5日 米国務省公式声明（https://www.state.gov/releases/office-of-the-spokesman/2026/10/joint-statement-on-the-u-s-japan-technology-prosperity-deal/）】<br>米国務省は、日本政府との間で締結された「日米テクノロジー繁栄協定」に関する共同声明を発表しました。<br>次世代AIモデルや最先端半導体、量子コンピューティングなどの重要技術について、知的財産の厳格な保護基準を共有し、重要物資の供給網を両国で強固に連携させる方針を再確認しました。<br>第三国への技術流出を防ぎつつ、日米の研究機関やハイテク企業が国境を越えて安心して先端開発に投資できる環境を整えます。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>国際情勢の混乱による半導体不足や重要製品の供給停止リスクが減り、日米が連携した安心・安全な最新AIや電子機器が安定して手に入ります。<br>・具体的な使い方（生活・仕事のシーン）<br>日米でビジネスを展開するIT企業や製造業が、知財侵害のリスクを抑えながら共同研究やクラウドサービスの相互連携をスムーズに進められます。<br>・いま困ること・使えない点<br>知財管理やデータセキュリティに関する厳しいコンプライアンス要件が課されるため、関連するサプライヤー企業には管理体制の更新が求められます。<br>・今後の影響<br>民主主義陣営における先端技術の共通防護ルールが確立され、グローバルなハイテク市場における日米主導の枠組みが一段と強固になります。<br>■ エネルギー省（DOE）篇 AIの巨大電力需要を支えろ！商業用原発の再稼働・新設へ42億ドルを集中投資<br>・どんな発表・動きがあったの？<br>【発表元：10月5日 米エネルギー省公式発表（https://www.energy.gov/articles/energy-department-announces-42-billion-investment-boost-nuclear-power-and-help-lower）】<br>米エネルギー省は、急増するAIデータセンターの電力需要を支え、地域の電気料金高騰を防ぐため、商業用原子力発電の拡張に42億ドル（約6,300億円）を投資すると発表しました。ペンシルベニア州やオハイオ州などの原発再稼働や新世代原子炉の配備を後押しし、クリーンな基礎電力を一気に増強します。<br>👉【今日すぐ試せること】<br>利用しているクラウドやAIサービスのデータ保存地域（リージョン）設定を確認し、日米の安全なサーバー拠点を選択してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1791189856931_72",
     "type": "サマリー",
     "title": "個人情報を隠して年齢確認！デジタル庁がマイナ活用事例を公開、金融庁はNISA調査を公表",
@@ -1086,17 +1097,6 @@
     "category_code": "jp_gov",
     "publishedAt": "2026-08-12 17:00",
     "content": "<a href=\"https://www.digital.go.jp\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.digital.go.jp)</a><br>デジタル庁、内閣府、経済産業省など関係省庁は、行政実務におけるAI利活用を検証する「ガバメントAI 源内」の大規模実証において、国内5社の基盤モデルおよび国産クラウド基盤（さくらのクラウド等）を用いた本格評価フェーズを進めていることを明らかにしました。<br>政府は単に「国産だから優先購入する」のではなく、行政実務での処理精度、安全性、代替可能性（ソブリンティ）といった観点から比較検証を行い、令和8年度の試行実装を経て令和9年度からの本格調達につなげる方針です。また、経済産業省ではAIとロボット政策を統合した組織体制の運用を開始し、中小企業向け「デジタル化・AI導入補助金2026」を通じた現場でのAI実装支援を強化しています。<br>企業や自治体への影響として、行政連携や補助金活用において「AIの安全性評価」や「特定ベンダーに依存しないシステム設計」が今後の重要な判断基準となります。<br>👉今日すぐ試せること<br>・自社や関連自治体で活用できる「デジタル化・AI導入補助金2026」の募集要項や対象ツールを点検してみましょう。<br>・社内で活用中のAIサービスについて、データ管理場所や代替可能なモデルの選択肢を再確認してみましょう。<br><a href=\"https://www.digital.go.jp\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.digital.go.jp)</a><br><a href=\"https://www.meti.go.jp\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.meti.go.jp)</a><br><a href=\"https://it-shien.smrj.go.jp\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://it-shien.smrj.go.jp)</a>",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786518803289_73",
-    "type": "サマリー",
-    "title": "AIキーマンが加速させる構造転換：5000億ドル規模インフラ提携とローカルAI・電子透かしの全面展開",
-    "author": "ジェンセン・フアン（NVIDIA）、マーク・ザッカーバーグ（Meta）、ダリオ・アモデイ（Anthropic）",
-    "category": "キーマン",
-    "category_code": "keyman",
-    "publishedAt": "2026-08-12 16:00",
-    "content": "<a href=\"https://www.nvidia.com\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.nvidia.com)</a><br>2026年8月12日、AI業界を牽引するトップキーマンから、AI計算インフラの資金調達、手元で動くローカルAIモデル、生成文章の透かし技術に関する重要な最新動向が揃って提示されました。<br>まず、NVIDIAのジェンセン・フアンCEOは、ウォール街の主要投資機関6社（Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR）と連携し、5000億ドル（約80兆円）規模の民間資金をAIデータセンターや計算インフラに動員する大型提携を発表しました。これにより、AI開発企業の財務（バランスシート）から重い物理設備を分離し、巨大AI基盤の建設ペースを大幅に引き上げます。<br>また、Metaのマーク・ザッカーバーグCEOは、端末側で常時動作する軽量な自律型AIモデル「Muse Glimmer」（30億パラメータ）をオープンウェイトで提供開始しました。社外へのデータ送信を伴わずにローカル環境で自律エージェントを連続稼働できるため、企業の実務・情シス部門等で導入検討が進んでいます。さらに、Anthropicのダリオ・アモデイCEO率は、Claudeで生成された文章に不可視の「電子透かし」を付与する仕組みを日本を含む世界全域で順次適用開始したと発表しました。<br>日常業務やビジネスへの影響として、クラウド側の超高スペックAIと、社内・端末側で安全に動くローカルAIの役割分担が明確化するとともに、AI生成物の透明性管理が実務上の新常識になりつつあります。<br>👉今日すぐ試せること<br>・自社で扱うデータの中で「外部送信不可（機密）」と「クラウド処理可能」なデータの分類ルールを点検してみましょう。<br>・AIで作成した文章やドキュメントに生成AI由来であることを明示する運用やガイドラインがあるか社内で確認してみましょう。<br><a href=\"https://www.nvidia.com\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.nvidia.com)</a><br><a href=\"https://about.meta.com\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://about.meta.com)</a><br><a href=\"https://www.anthropic.com\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.anthropic.com)</a>",
     "url": "https://ssp-rr.github.io/reference/world-summary.html"
   }
 ]
