@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1791447357100_789",
+    "type": "サマリー",
+    "title": "AIの消費者トラブル防止へ内閣府が検討会！JSTは飲む「デジタル錠剤」向け極小半導体を開発",
+    "author": "内閣府（消費者委員会）／科学技術振興機構（JST）",
+    "category": "日本政府",
+    "category_code": "jp_gov",
+    "publishedAt": "2026-10-08 17:10",
+    "content": "<a href=\"https://www.cao.go.jp/consumer/kabusoshiki/ai_technology/011/kaisai/index.html\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.cao.go.jp/consumer/kabusoshiki/ai_technology/011/kaisai/index.html)</a><br>■ 内閣府（消費者委員会）篇 生成AIによる悪質広告や心理誘導を防げ！第11回AI消費者問題専門調査会を開催<br>・どんな発表・動きがあったの？<br>【発表元：10月8日 内閣府消費者委員会公式発表（https://www.cao.go.jp/consumer/kabusoshiki/ai_technology/011/kaisai/index.html）】<br>内閣府消費者委員会は、第11回「人工知能（AI）技術の利用と消費者問題に関する専門調査会」を開催しました。<br>対話型AIやAIエージェントの普及に伴い、消費者の不安や弱みにつけ込む心理誘導、ディープフェイク広告による投資詐欺、契約トラブルなどが急増している実態を議論。<br>事業者がAIを利用する際の開示ルールや、AIによる誤認表示に対する法的責任の明確化など、消費者を保護するための新たなガイドライン策定を急いでいます。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>SNSやネット通販で「人間が書いたように見せかけたAI詐欺広告」や「不当な定期購入契約」に騙されるリスクが減り、安心してネットサービスを利用できるようになります。<br>・具体的な使い方（生活・仕事のシーン）<br>商品紹介や問い合わせ窓口でAIが介在している場合、その旨が分かりやすく明記され、消費者がAIの判断であることを意識して冷静に判断できるようになります。<br>・いま困ること・使えない点<br>海外発のAIサービスや国境を越えた悪質サイトに対しては、日本のルールだけでは取り締まりが難しく、国際的な執行連携が課題となっています。<br>・今後の影響<br>国内のAIサービス提供企業に対して透明性と説明責任の徹底が義務付けられ、健全なAIビジネス環境の信頼性が高まります。<br>■ 科学技術振興機構（JST）篇 飲み込んで体内を測る「デジタル錠剤」が現実へ！7nm先端半導体で超省電力チップを開発<br>・どんな発表・動きがあったの？<br>【発表元：10月8日 JST・京都大学・大塚製薬共同発表（https://www.jst.go.jp/pr/announce/20261008/index.html）】<br>JSTと京都大学、大塚製薬は、飲み込んで体内の温度や消化管データを自動計測する「デジタル錠剤」向けに、世界最小・超省電力の半導体タイマー回路を開発しました。最先端の7nm製造技術を用い、従来の47分の1という極小サイズと体内発電のわずかな電気で正確に時を刻むことに成功。日常の服薬管理や病気の早期発見を支える医療DXを大きく前進させます。<br>👉【今日すぐ試せること】<br>利用しているWebサイトやアプリで「AIおすすめ商品」や広告が表示された際、どのようなデータに基づいて推薦されているか利用規約や設定を確認してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1791444041453_460",
     "type": "サマリー",
     "title": "マイクロソフトとNVIDIAが新PC発表！Anthropicは超高速AI「Haiku 5.5」を公開",
@@ -1086,17 +1097,6 @@
     "category_code": "keyman",
     "publishedAt": "2026-08-14 16:20",
     "content": "<a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/)</a><br>■ Google・OpenAI・Anthropic篇<br>最新軽量モデルの性能飛躍と14倍超高速推論が生み出すエージェント新時代<br>・どんな発表・動きがあったの？<br>【発表元：8月14日 Google・OpenAI・Anthropic各社発表】<br>Googleは、コーディング能力とエージェント処理を大幅に強化した最新モデル「Gemini 3.7 Flash」を正式リリースしました。前バージョンからわずか3週間でのアップデートとなり、ソフトウェア開発ベンチマーク（DeepSWE）で49.0%から65.3%へ大幅に向上しています。さらに2026年末まで通常価格の半額（入力100万トークンあたり0.75ドル、出力3.75ドル）で提供されます。<br>OpenAIは、最上位推論モデル「GPT-5.6 Sol」を最大14倍（最大750出力トークン/秒）で超高速実行する新機能「Ultrafast」のAPIプレビュー提供を開始しました。専用ハードウェア推論基盤を採用し、待ち時間を極小化しています。<br>Anthropicは、EUのAI法第50条遵守に伴い、Claudeが生成したテキストに人間には知覚できない電子透かし（ウォーターマーク）を世界共通で埋め込む実装を展開し、AIコンテンツの透明性確保を推進しています。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>・具体的な使い方（生活・仕事のシーン）<br>日常業務でのプログラミング支援や資料分析、自律型AIエージェントによる一連のタスク実行が、体感ゼロ秒の即応性で完了するようになります。また、Googleの半額キャンペーンにより、社内ツールや個人アプリへの最新AI組み込みコストが大幅に抑えられます。<br>・いま困ること・使えない点<br>OpenAIの「Ultrafast」は初期段階として一部のエンタープライズ顧客向けプレビューであり、順次開放されます。また、Gemini 3.7 Flashの半額適用は2026年12月31日までの導入期間限定となっています。<br>・今後の影響<br>AIモデルの進化軸が「単なる賢さのスコア競争」から「レスポンス速度・低レイテンシー」「API単価の経済性」「生成物の透明性管理」へと本格的にシフトし、複数エージェントが連携してリアルタイムに働くシステムの普及が決定づけられます。<br>👉【今日すぐ試せること】<br>Google AI StudioやGitHub Copilotで新モデル「Gemini 3.7 Flash」を選択し、複雑なコード生成やデータ変換の爆速レスポンスを体感してみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・Google Blog Gemini 3.7 Flash公式発表<br><a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/)</a><br>・OpenAI GPT-5.6 Sol Ultrafast公式プレビュー<br><a href=\"https://openai.com/index/gpt-5-6/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://openai.com/index/gpt-5-6/)</a><br>・ITmedia NEWS Anthropic Claudeテキスト透かし世界展開<br><a href=\"https://www.itmedia.co.jp/news/article/2608/12/2000000497/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.itmedia.co.jp/news/article/2608/12/2000000497/)</a>",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786689169782_832",
-    "type": "サマリー",
-    "title": "米ホワイトハウス、民間企業による国外サイバー犯罪組織への監視・対抗作戦を初容認する新制度を発表",
-    "author": "米ホワイトハウス（司法省・国土安全保障省）",
-    "category": "米国政府",
-    "category_code": "us_gov",
-    "publishedAt": "2026-08-14 15:30",
-    "content": "<a href=\"https://www.itmedia.co.jp/news/article/2608/14/2000000535/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.itmedia.co.jp/news/article/2608/14/2000000535/)</a><br>■ 米国政府篇<br>国家主導から官民連携へ、越境サイバー犯罪やAI詐欺への対抗措置を大幅強化<br>・どんな発表・動きがあったの？<br>【発表元：8月14日 米ホワイトハウス・司法省・国土安全保障省】<br>米連邦政府は、厳格な審査を通過した米国の民間セキュリティ企業に対し、連邦政府の直接的な指揮・監督のもとで、米国民や企業を標的とする国外の越境サイバー犯罪組織（TCO）に対する監視・妨害・対抗作戦を認める大統領覚書を発表しました。<br>これまで国家機関のみに限定されていた国外サーバーへのアクティブな対抗措置やサイバー追跡作戦の一部を、民間企業の高度な技術力やAI分析ツールと連携して迅速に実行できるようにする歴史的な方針転換です。参加企業には司法省と国土安全保障省の事前承認や100万ドル以上の保証金、厳格な安全管理手順が義務付けられます。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>・具体的な使い方（生活・仕事のシーン）<br>国境を越えて仕掛けられるランサムウェア攻撃や、生成AIを悪用した大規模な投資詐欺・フィッシング詐欺グループに対する摘発・無力化のスピードが劇的に向上します。企業にとっては、自社の機密情報や顧客データを狙う海外の犯罪グループに対して、政府認定の専門企業を通じたより実効性の高い防御と追跡が可能になります。<br>・いま困ること・使えない点<br>民間企業によるサイバー作戦の実施には極めて厳しい審査基準と巨額の保証金が必要であり、対象となる企業は限定されます。また、国際法上の主権侵害リスクやサイバー空間での報復攻撃を招く懸念も指摘されており、運用の透明性と厳格な統制が今後の課題とされています。<br>・今後の影響<br>AIを活用したサイバー攻撃が高度化・自動化する中で、防御側も民間の最新AI技術と連邦政府の法執行権限を融合させた「攻めの防衛（アクティブ・サイバー・ディフェンス）」へと本格的に舵を切ることになります。日本や同盟国におけるサイバー安全保障政策や法整備の議論にも大きな影響を与える見通しです。<br>👉【今日すぐ試せること】<br>企業や個人で使用しているセキュリティツールの最新アップデートを適用し、不審なメールやAI生成と思われるフィッシングメッセージへの警戒手順を社内や家庭で再確認しておきましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・ITmedia NEWS トランプ大統領、民間企業によるサイバー攻撃作戦を認める覚書に署名<br><a href=\"https://www.itmedia.co.jp/news/article/2608/14/2000000535/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.itmedia.co.jp/news/article/2608/14/2000000535/)</a><br>・ビジネス＋IT 米国、民間企業に「攻撃的サイバー作戦」認める新制度<br><a href=\"https://www.sbbit.jp/article/cont1/186523\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.sbbit.jp/article/cont1/186523)</a><br>・The HEADLINE 2026年8月14日 朝の注目すべきニュース<br><a href=\"https://www.theheadline.jp/paper/20260814?edition=morning\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.theheadline.jp/paper/20260814?edition=morning)</a>",
     "url": "https://ssp-rr.github.io/reference/world-summary.html"
   }
 ]
