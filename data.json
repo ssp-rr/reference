@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1791440449861_629",
+    "type": "サマリー",
+    "title": "スマート農機の修理制限をFTCと農務省が調査！ホワイトハウスは次世代口座を発表",
+    "author": "米連邦取引委員会（FTC）／米国農務省（USDA）／ホワイトハウス",
+    "category": "米国政府",
+    "category_code": "us_gov",
+    "publishedAt": "2026-10-08 15:15",
+    "content": "<a href=\"https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-usda-seek-public-comment-agricultural-equipment-manufacturing-distribution-market-practices\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-usda-seek-public-comment-agricultural-equipment-manufacturing-distribution-market-practices)</a><br>■ FTC・農務省篇 自動トラクターの「修理する権利」を守れ！メーカーのソフト囲い込みに対する合同調査を始動<br>・どんな発表・動きがあったの？<br>【発表元：10月7日 米連邦取引委員会（FTC）・農務省（USDA）公式発表（https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-usda-seek-public-comment-agricultural-equipment-manufacturing-distribution-market-practices）】<br>米連邦取引委員会（FTC）と米農務省（USDA）は、農業機械やスマート自動運転トラクターなどの製造・流通における修理制限や不公正な商慣行を是正するため、合同で公的調査と意見公募を開始しました。<br>大手農機具メーカーがソフトウェアロックや専用ツールの独占によって、農家自身や地域の独立系修理業者による修理を妨げ、高額な部品代や修理費を強いている実態を調査します。<br>最新の自動化・AI搭載トラクターが普及する中、利用者が自分の所有物を自由に修理・改造できる権利（修理する権利）を保護し、独占による価格高騰を防ぐ狙いがあります。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>農家や事業者が機械故障時にメーカーの順番待ちをせずに近場で安く修理できるようになり、農作業の遅れや食料生産コストの跳ね上がりを防げます。<br>・具体的な使い方（生活・仕事のシーン）<br>スマート農業機器を導入している生産者が、自前の診断ソフトや地域の民間工場を使って迅速にメンテナンスを行い、機械を止める時間を最小限に抑えられます。<br>・いま困ること・使えない点<br>高度な安全制御プログラムや著作権保護を理由にメーカー側が反発しており、完全な修理情報公開に向けたルール策定には一定の議論が必要です。<br>・今後の影響<br>農業機械にとどまらず、スマートフォンや家電、EVなどあらゆるデジタル・電子機器における「修理する権利」の法的保護が全米規模で一段と強化されます。<br>■ ホワイトハウス篇 全米7,000万人の子どもへ！将来の自立を支える非課税投資「トランプ・アカウント」を公表<br>・どんな発表・動きがあったの？<br>【発表元：10月7日 ホワイトハウス公式発表（https://www.whitehouse.gov/releases/2026/10/a-financial-stake-in-the-future-for-nearly-70-million-american-children-trump-accounts-made-it-possible/）】<br>ホワイトハウスは、全米の約7,000万人の子どもたちを対象に、将来の進学や起業資金を支援する非課税投資口座制度「トランプ・アカウント」を発表しました。民間大手企業からの支援やマッチング投資と連動し、次世代の経済的自立と貧困格差の解消を目指します。<br>👉【今日すぐ試せること】<br>自宅の家電製品やスマートフォンのメーカー保証規定や、正規外の修理サポート利用時の規約を確認し、自分の「修理する権利」について理解を深めてみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1791363463655_383",
     "type": "サマリー",
     "title": "自治体システム共通化へ第3クール始動！理研はセイコーとバイオ実験自動化拠点を公開",
@@ -1086,17 +1097,6 @@
     "category_code": "breaking",
     "publishedAt": "2026-08-14 09:10",
     "content": "<a href=\"https://www.itmedia.co.jp/aiplus/subtop/news\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.itmedia.co.jp/aiplus/subtop/news)</a><br>■ Google＆OpenAI篇<br>最新軽量モデル「Gemini 3.7 Flash」の登場と推論超高速化「Ultrafast」の衝撃<br>・どんな発表・動きがあったの？<br>【発表元：8月14日 Google・OpenAI公式発表】<br>Googleは、推論速度とコストパフォーマンスを大幅に強化した最新モデル「Gemini 3.7 Flash」を一般公開しました。年内は導入支援として通常価格の半額でAPIが提供されます。<br>一方、OpenAIは最上位推論モデル「GPT-5.6 Sol」を標準の最大14倍（最大750出力トークン/秒）で超高速実行する新機能「Ultrafast」のAPIプレビュー提供を開始しました。専用推論基盤を活用することで、リアルタイム対話や大規模バッチ処理のレイテンシーを劇的に削減します。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>・具体的な使い方（生活・仕事のシーン）<br>アプリ開発や日常のAI活用において、これまで待ち時間が発生していた複雑なコード生成や長文解析、リアルタイムでのエージェント処理が一瞬で完了するようになります。また、Geminiの半額キャンペーンにより、企業や個人開発者はコストを大幅に抑えて最新AIを組み込むことが可能です。<br>・いま困ること・使えない点<br>OpenAIの「Ultrafast」は現在一部のエンタープライズ顧客向けプレビューとなっており、一般ユーザーへの全体開放は順次進められます。また、Gemini 3.7 Flashの半額適用は年内限定の導入期間となります。<br>・今後の影響<br>モデルの「知能の高さ」だけでなく「応答速度（秒間トークン生成数）」と「API価格」が主要な競争軸となり、リアルタイムに動作する自律型AIエージェントの現場実装が一段と加速します。<br>👉【今日すぐ試せること】<br>Google AI StudioやGemini APIで新モデル「Gemini 3.7 Flash」を選択し、長文要約やコード生成のレスポンス速度と出力精度をテストしてみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・ITmedia AI＋ Google「Gemini 3.7 Flash」公開ニュース<br><a href=\"https://www.itmedia.co.jp/aiplus/subtop/news\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.itmedia.co.jp/aiplus/subtop/news)</a><br>・The HEADLINE OpenAI「Ultrafast」公開速報<br><a href=\"https://www.theheadline.jp/paper/20260814?edition=morning\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.theheadline.jp/paper/20260814?edition=morning)</a>",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786610127019_282",
-    "type": "サマリー",
-    "title": "デジタル庁「ガバメントAI」基盤整備、法務省「声のAI無断利用」権利保護指針など日本の最新動向",
-    "author": "デジタル庁・法務省・日本政府",
-    "category": "日本政府",
-    "category_code": "jp_gov",
-    "publishedAt": "2026-08-13 17:00",
-    "content": "<a href=\"https://note.com/hirokimiyano/n/n53d636206d66\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://note.com/hirokimiyano/n/n53d636206d66)</a><br>■ デジタル庁・法務省篇<br>政府共通生成AI基盤「源内」の実装と「声」の権利保護ルール明確化<br>・どんな発表・動きがあったの？<br>【発表元：8月12日 デジタル庁・法務省公式動向】<br>デジタル庁は、各省庁が安全に生成AIを活用できる政府共通の生成AI基盤「ガバメントAI」および利用環境「源内」の実装段階に入りました。行政実務での業務効率化と高度なセキュリティ・データ主権の確保を両立させます。<br>また、法務省は生成AIによる著名人や声優の「声」の無断模倣・AIカバー音源問題について、肖像や氏名と同様に「人格の象徴・パブリシティー権」として法的に保護されるとする新たな解釈指針をまとめており、事業者が声の類似性をセールスポイントにして無断提供した場合の法的責任を明確化しました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>・具体的な使い方（生活・仕事のシーン）<br>行政手続きや政府サービスの応答がAI化され、問い合わせ対応や申請処理がより迅速になります。また、クリエイターや声優、著名人の「声」が無断でAI模倣・悪用されるトラブルに対する法的な歯止めがかかり、コンテンツ制作や音声AIビジネスを安心して行える環境が整います。<br>・いま困ること・使えない点<br>政府基盤の運用や具体的な行政サービスの刷新、法指針に基づくガイドラインの各業界への浸透には一定の移行期間が必要です。<br>・今後の影響<br>日本政府が主導する安全なAI活用基盤の整備と、権利保護ルールの明確化により、国内企業や自治体が安心してAIを業務に組み込める「日本型AX（行政・産業デジタルトランスフォーメーション）」が加速します。<br>👉【今日すぐ試せること】<br>自社や身の回りで音声AIや画像生成AIを利用・配信する際、権利侵害のリスクがないかガイドラインや利用規約をチェックしてみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・デジタル庁 ガバメントAI・法務省声の権利保護指針解説<br><a href=\"https://note.com/hirokimiyano/n/n53d636206d66\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://note.com/hirokimiyano/n/n53d636206d66)</a><br>・法務省 肖像・声等の無断利用に関する検討会報告書<br><a href=\"https://cantabile.alhinc.jp/culture/12249/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://cantabile.alhinc.jp/culture/12249/)</a>",
     "url": "https://ssp-rr.github.io/reference/world-summary.html"
   }
 ]
