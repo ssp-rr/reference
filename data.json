@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1791527083527_28",
+    "type": "サマリー",
+    "title": "ホワイトハウスが科学新黄金時代サミットを開催！NISTはパスワード不要の認証ハブを公開",
+    "author": "ホワイトハウス（米国大統領府）／国立標準技術研究所（NIST）",
+    "category": "米国政府",
+    "category_code": "us_gov",
+    "publishedAt": "2026-10-09 15:15",
+    "content": "<a href=\"https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/)</a><br>■ ホワイトハウス篇 「今世紀最も野心的な科学計画」を発表！AIと量子で世界をリードする国家ミッション群を始動<br>・どんな発表・動きがあったの？<br>【発表元：10月8日 ホワイトハウス公式ファクトシート（https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/）】<br>ホワイトハウスにおいて「科学：新黄金時代サミット」が開催され、トランプ政権は今世紀最大規模となる国家科学イニシアチブ群を正式発表しました。<br>AIを活用して基礎科学や新薬・新素材開発を飛躍的に加速させる50億ドル規模の国家計画「ジェネシス・ミッション」をはじめ、量子コンピューティングの国家インフラ整備、研究開発資金の配分迅速化などを包括的に打ち出しました。<br>官僚的な規制や研究手続きの遅れを排し、米国が先端科学と次世代AIの全領域で絶対的な主導権を握り続ける方針を宣言しました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>AIシミュレーションによる新素材や画期的なクリーンエネルギー、医療技術の開発サイクルが数十年単位から数年単位へと一気に短縮されます。<br>・具体的な使い方（生活・仕事のシーン）<br>大学や民間の研究チームが連邦政府の支援を受け、巨大なAI計算基盤を使って気候予測やバイオ研究などの超大型プロジェクトを即座に走らせることができます。<br>・いま困ること・使えない点<br>巨額の国家予算と研究体制を伴う長期計画であるため、一般の身近な生活サービスとして目に見える変化を実感するまでには一定の時間がかかります。<br>・今後の影響<br>米国の科学技術政策が「AIを前提とした超高速な研究開発」へと根本から刷新され、国際的な頭脳獲得や共同研究でも米国の牽引力が一段と強まります。<br>■ NIST篇 パスワードをなくしてスマホ生体認証へ！最新デジタル身元確認基準「SP 800-63-4」の実装ハブを開設<br>・どんな発表・動きがあったの？<br>【発表元：10月8日 NIST公式公表（https://www.biometricupdate.com/202610/nist-launches-resource-hub-to-support-sp-800-63-4-implementation）】<br>米国立標準技術研究所（NIST）は、最新のデジタル本人確認規格「NIST SP 800-63-4」の導入を支援する公式ポータルを開設しました。パスワードに頼らない指紋・顔認証（パスキー）やデジタル身分証ウォレットの安全基準を提示し、フィッシング詐欺に強い安全なログイン環境の普及を後押しします。<br>👉【今日すぐ試せること】<br>利用しているWebサービスやGoogleアカウントで「パスキー」が登録可能か確認し、パスワードを入力せずに顔や指紋でログインする設定を試してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1791447357100_789",
     "type": "サマリー",
     "title": "AIの消費者トラブル防止へ内閣府が検討会！JSTは飲む「デジタル錠剤」向け極小半導体を開発",
@@ -1086,17 +1097,6 @@
     "category_code": "jp_gov",
     "publishedAt": "2026-08-14 17:15",
     "content": "<a href=\"https://www.digital.go.jp/policies/genai\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.digital.go.jp/policies/genai)</a><br>■ 日本政府篇<br>行政職員の業務効率化と国産基盤モデル連携を見据えた「ガバメントAI」本格実装<br>・どんな発表・動きがあったの？<br>【発表元：8月14日 デジタル庁・内閣府】<br>デジタル庁は、全府省庁の職員向けに提供を進めている政府共通の生成AI利用環境「ガバメントAI 源内（げんない）」について、Webインターフェースの機能拡充やAPI連携仕様の公開、オープンソース版（源内OSS Ver 2.0）の普及計画を推進しています。<br>行政文書のドラフト作成や要約、法令・制度照会などの日常業務において、機密性やデータ主権（ソブリン性）を確保した国産クラウド・国産基盤モデルとの連携を強化し、中央省庁だけでなく全国の地方自治体や被災地支援への展開を進める方針です。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>・具体的な使い方（生活・仕事のシーン）<br>自治体や行政窓口での各種申請手続きや住民相談の処理スピードが大幅に向上し、窓口での待ち時間や書類発行までの日数が短縮されます。また、行政が保有する公開データや公的ガイダンスを正確に参照した分かりやすい回答・申請支援サービスの整備が進みます。<br>・いま困ること・使えない点<br>個人情報や機密性の高い住民データの取り扱いについては引き続き厳格な制限が設けられており、完全自律型の判断業務ではなく、最終的な確認・決定は必ず人間の担当職員が行う運用となっています。<br>・今後の影響<br>行政機関が自ら生成AI基盤を整備・実証することで、国内の行政DXが加速するとともに、官公庁基準のセキュリティ要件を満たす国産AI基盤モデルやソブリンクラウドの開発・投資が活性化します。<br>👉【今日すぐ試せること】<br>お住まいの自治体やデジタル庁のウェブサイトで、AIを活用した相談窓口やオンライン申請ガイドの提供状況を確認し、手続きの事前チェックに活用してみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・デジタル庁 ガバメントAI「源内」政策ページ<br><a href=\"https://www.digital.go.jp/policies/genai\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.digital.go.jp/policies/genai)</a><br>・デジタル庁公式note 源内 Web 開発概要<br><a href=\"https://digital-gov.note.jp/n/n3ef31ec45995\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://digital-gov.note.jp/n/n3ef31ec45995)</a><br>・Japan Security Summit デジタル庁「源内OSS Ver 2.0」説明会開催案内<br><a href=\"https://japansecuritysummit.org/2026/07/14742/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://japansecuritysummit.org/2026/07/14742/)</a>",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786691979292_811",
-    "type": "サマリー",
-    "title": "Google「Gemini 3.7 Flash」公開＆OpenAI「Ultrafast」登場！推論速度と価格破壊が同時加速",
-    "author": "Google・OpenAI・Anthropic",
-    "category": "キーマン",
-    "category_code": "keyman",
-    "publishedAt": "2026-08-14 16:20",
-    "content": "<a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/)</a><br>■ Google・OpenAI・Anthropic篇<br>最新軽量モデルの性能飛躍と14倍超高速推論が生み出すエージェント新時代<br>・どんな発表・動きがあったの？<br>【発表元：8月14日 Google・OpenAI・Anthropic各社発表】<br>Googleは、コーディング能力とエージェント処理を大幅に強化した最新モデル「Gemini 3.7 Flash」を正式リリースしました。前バージョンからわずか3週間でのアップデートとなり、ソフトウェア開発ベンチマーク（DeepSWE）で49.0%から65.3%へ大幅に向上しています。さらに2026年末まで通常価格の半額（入力100万トークンあたり0.75ドル、出力3.75ドル）で提供されます。<br>OpenAIは、最上位推論モデル「GPT-5.6 Sol」を最大14倍（最大750出力トークン/秒）で超高速実行する新機能「Ultrafast」のAPIプレビュー提供を開始しました。専用ハードウェア推論基盤を採用し、待ち時間を極小化しています。<br>Anthropicは、EUのAI法第50条遵守に伴い、Claudeが生成したテキストに人間には知覚できない電子透かし（ウォーターマーク）を世界共通で埋め込む実装を展開し、AIコンテンツの透明性確保を推進しています。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>・具体的な使い方（生活・仕事のシーン）<br>日常業務でのプログラミング支援や資料分析、自律型AIエージェントによる一連のタスク実行が、体感ゼロ秒の即応性で完了するようになります。また、Googleの半額キャンペーンにより、社内ツールや個人アプリへの最新AI組み込みコストが大幅に抑えられます。<br>・いま困ること・使えない点<br>OpenAIの「Ultrafast」は初期段階として一部のエンタープライズ顧客向けプレビューであり、順次開放されます。また、Gemini 3.7 Flashの半額適用は2026年12月31日までの導入期間限定となっています。<br>・今後の影響<br>AIモデルの進化軸が「単なる賢さのスコア競争」から「レスポンス速度・低レイテンシー」「API単価の経済性」「生成物の透明性管理」へと本格的にシフトし、複数エージェントが連携してリアルタイムに働くシステムの普及が決定づけられます。<br>👉【今日すぐ試せること】<br>Google AI StudioやGitHub Copilotで新モデル「Gemini 3.7 Flash」を選択し、複雑なコード生成やデータ変換の爆速レスポンスを体感してみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・Google Blog Gemini 3.7 Flash公式発表<br><a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/)</a><br>・OpenAI GPT-5.6 Sol Ultrafast公式プレビュー<br><a href=\"https://openai.com/index/gpt-5-6/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://openai.com/index/gpt-5-6/)</a><br>・ITmedia NEWS Anthropic Claudeテキスト透かし世界展開<br><a href=\"https://www.itmedia.co.jp/news/article/2608/12/2000000497/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.itmedia.co.jp/news/article/2608/12/2000000497/)</a>",
     "url": "https://ssp-rr.github.io/reference/world-summary.html"
   }
 ]
