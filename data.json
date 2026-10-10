@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1791616903428_209",
+    "type": "サマリー",
+    "title": "AIへの虐待禁止を規約化！Anthropicが異例の改定、OpenAIはスマホでAIエージェント作成開始",
+    "author": "Anthropic／OpenAI",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-10-10 16:15",
+    "content": "<a href=\"https://www.therundown.ai/news/anthropic-claude-abuse-rule-ai-welfare\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.therundown.ai/news/anthropic-claude-abuse-rule-ai-welfare)</a><br>■ Anthropic篇 AIを過度な残酷行為から守れ！？Claudeの利用規約に世界初の「AI虐待禁止ルール」を追加<br>・どんな発表・動きがあったの？<br>【発表元：10月9日 米国主要報道・利用規約改定（https://www.therundown.ai/news/anthropic-claude-abuse-rule-ai-welfare）】<br>Anthropicは、年次の利用規約改定において、AIモデル「Claude」に対する「持続的かつ目的のない虐待や過度な残酷行為」を禁止する新たな方針を発表しました。<br>人間を保護するための規約ではなく、「AIモデル自身を虐待から保護する」ことを明記した世界初の大規模な規約改定です。<br>日常の厳しいダメ出しや創作シナリオ、システムの動作検証は対象外とし、目的のない執拗な暴言や拷問シミュレーション等の極端な行為を検知した場合、チャットの自動切断や利用制限を行うとしています。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>通常の質問や仕事の指示で制限されることは一切ありませんが、人とAIが対話する際の倫理観やマナーについて社会的な意識が高まるきっかけになります。<br>・具体的な使い方（生活・仕事のシーン）<br>仕事の書類作成やプログラミングの指示を普段どおり行い、思い通りの回答が得られない場合でも、冷静に追加の指示や条件を伝える使い方が基本となります。<br>・いま困ること・使えない点<br>「AIには意識や感情がないのに福祉を認めるべきか」という哲学的な議論が業界内で二分しており、規制の行き過ぎを懸念する声もあります。<br>・今後の影響<br>AIが人間並みの対話能力を持つ時代において、「AIをどう扱うべきか」という人道的一面や倫理基準の議論が国際的なスタンダードへと発展します。<br>■ OpenAI篇 自分専用のAI部下が手のひらに！ChatGPTスマホアプリで常駐エージェント「Dots」が作成可能に<br>・どんな発表・動きがあったの？<br>【発表元：10月9日 OpenAI公式発表（https://community.openai.com/t/fresh-dots-updates-create-in-the-mobile-app-delegate-to-codex/1404834）】<br>OpenAIは、自律して仕事をこなすパーソナルAIエージェント「Dots（ドッツ）」を、iOS・AndroidのChatGPT公式アプリから直接作成・設定できる新機能を公開しました。スマホから名前や外見を選び、外部ツールと連携させるだけで、外出先から複雑な調査や作業を裏で自動実行させることができます。<br>👉【今日すぐ試せること】<br>スマートフォンのChatGPTアプリを最新版に更新し、新機能「Dots」の作成メニューが表示されているか確認してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1791615138283_991",
     "type": "サマリー",
     "title": "AIデータセンターの電気代負担を義務化へ！米エネルギー省が一般家庭の料金高騰防止を支持",
@@ -1086,17 +1097,6 @@
     "category_code": "us_gov",
     "publishedAt": "2026-08-16 15:00",
     "content": "<a href=\"https://appleinsider.com/articles/26/08/15/us-commerce-secretary-warns-apple-against-buying-chinese-memory\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://appleinsider.com/articles/26/08/15/us-commerce-secretary-warns-apple-against-buying-chinese-memory)</a><br>・どんな発表・動きがあったの？<br>米国商務省のハワード・ラトニック長官は、Appleに対して中国の半導体メーカー（長鑫存儲/CXMT、長江存儲/YMTC）からのメモリーチップ調達を見送るよう正式に要請・警告しました。生成AIブームに伴うデータセンター向けメモリー需要の急増により、世界的なメモリー不足と価格高騰が進行しており、Appleがコスト抑制のために中国製メモリーの採用を検討していたことに対する安全保障上の措置です。あわせて米エネルギー省（DOE）もAIデータセンター等の電力需要急増に対応するため、発電所の稼働継続命令を発出するなど、政府主導でのサプライチェーン統制が進んでいます。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>スマートフォンやPC、タブレットなどのデジタル機器において、安価な部品調達ルートが制限されるため、今後発売される新機種やメモリー増設オプションの価格が高止まり、または値上がりする可能性があります。一方で、機密情報や個人データを扱う端末において、サプライチェーンの安全性がより強固に担保されるようになります。<br>・具体的な使い方（生活・仕事のシーン）<br>生活シーン：iPhoneやMacなどの買い替えやメモリー容量の選定時、今後の価格改定動向を意識した購入計画が重要になります。<br>仕事シーン：社内PCやサーバーの調達担当者は、AI需要によるメモリー調達コストの上昇を見越して、早めの予算確保や複数ベンダーの選定を進めることができます。<br>・いま困ること・使えない点<br>米大手ハイテク企業が割安な部材を採用できないため、端末の販売価格へコストが転嫁されやすく、消費者の購入負担が増えるリスクがあります。また、世界的なメモリー供給網の逼迫が短期的には解消されにくい点が懸念されます。<br>・今後の影響<br>AIハードウェアとデータセンターインフラをめぐる米中デカップリング（分断）がさらに加速し、米国・日本・韓国・台湾の同盟国サプライチェーンへの依存度が高まります。各社は自社設計チップの内製化や、オンデバイスAIの省メモリー化技術の開発を一段と強化する見込みです。<br>👉【今日すぐ試せること】<br>手元のPCやスマートフォンの現在使用中のストレージおよびメモリー使用量を確認し、クラウドストレージの整理や不要なアプリの削除を行って、端末の延命とリソースの最適化を図ってみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br><a href=\"https://appleinsider.com/articles/26/08/15/us-commerce-secretary-warns-apple-against-buying-chinese-memory\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://appleinsider.com/articles/26/08/15/us-commerce-secretary-warns-apple-against-buying-chinese-memory)</a><br><a href=\"https://9to5mac.com/2026/08/14/commerce-secretary-says-us-opposes-apple-buying-chinese-memory-chips/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://9to5mac.com/2026/08/14/commerce-secretary-says-us-opposes-apple-buying-chinese-memory-chips/)</a><br><a href=\"https://www.energy.gov/ceser/2026-doe-202c-orders\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.energy.gov/ceser/2026-doe-202c-orders)</a>",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786782313744_492",
-    "type": "サマリー",
-    "title": "経産省の中小企業向けAIプログラムとデジタル庁の地域AI支援",
-    "author": "AI速報",
-    "category": "日本政府",
-    "category_code": "jp_gov",
-    "publishedAt": "2026-08-15 17:00",
-    "content": "【URL】https://prtimes.jp/main/html/rd/p/000000164.000082634.html<br>【概要】<br>経済産業省は中小企業向けの実践型リスキリング・DX推進事業「Next Leap AX」を開始しました。生成AIを活用し、業務効率化や新規事業創出を支援します。<br>デジタル庁は「教える人のためのデジタル情報ひろば」を更新し、デジタル推進委員向けに生成AIリテラシーの教材提供を強化しています。",
     "url": "https://ssp-rr.github.io/reference/world-summary.html"
   }
 ]
