@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1791615138283_991",
+    "type": "サマリー",
+    "title": "AIデータセンターの電気代負担を義務化へ！米エネルギー省が一般家庭の料金高騰防止を支持",
+    "author": "米国エネルギー省（DOE）／ホワイトハウス（科学技術政策局）",
+    "category": "米国政府",
+    "category_code": "us_gov",
+    "publishedAt": "2026-10-10 15:45",
+    "content": "<a href=\"https://www.energy.gov/articles/energy-department-supports-fercs-call-pjm-protect-ratepayers-and-build-more-reliable-power\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.energy.gov/articles/energy-department-supports-fercs-call-pjm-protect-ratepayers-and-build-more-reliable-power)</a><br>■ エネルギー省（DOE）篇 AIの膨大な電力需要を一般家庭にツケ回すな！データセンター事業者に送電インフラ自己負担を要請<br>・どんな発表・動きがあったの？<br>【発表元：10月9日 米エネルギー省公式発表（https://www.energy.gov/articles/energy-department-supports-fercs-call-pjm-protect-ratepayers-and-build-more-reliable-power）】<br>米エネルギー省（DOE）は、米東部の大規模送電網（PJM）に対し、AIデータセンターなどの超大口電力消費者が必要な発電所や送電設備の建設費用を全額自ら負担するよう求める連邦エネルギー規制委員会（FERC）の命令を全面的に支持すると表明しました。<br>急増するAIサーバーの電力消費が地域の電力網を圧迫し、一般家庭や中小企業の電気料金が高騰する事態を未然に防止。テック企業自身が自前の電源を建設または直接購入することを義務付ける市場改革を強く求めました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>AI開発競争に伴う急激な電力逼迫によって、日々の生活に必要な電気代が跳ね上がるリスクを抑え、安定した電力を適正価格で利用し続けられます。<br>・具体的な使い方（生活・仕事のシーン）<br>大規模なAIデータセンターを新設するテック企業が、近隣の送電網に便乗するのではなく、自前の発電所や蓄電池をセットで用意して運用するようになります。<br>・いま困ること・使えない点<br>巨大テック企業にとってはデータセンターの建設・運用コストが大幅に増加するため、新規拠点の立ち上げや稼働までに一定の調整期間を要します。<br>・今後の影響<br>全米の電力規制当局において「AI利用者は自ら電力を調達する」という新ルールが定着し、エネルギー自給型データセンターへの転換が加速します。<br>■ ホワイトハウス（科学技術政策局）篇 科学の黄金時代へ！クラツィオス局長がAI科学加速と審査改革を演説<br>・どんな発表・動きがあったの？<br>【発表元：10月9日 ホワイトハウス公式演説（https://www.whitehouse.gov/remarks/2026/10/remarks-by-director-michael-kratsios-at-the-science-a-new-golden-age-summit/）】<br>ホワイトハウス科学技術政策局（OSTP）のマイケル・クラツィオス局長は「科学サミット」で基調演説を行い、超知能（AI）を活用して米国の研究開発スピードを倍増させる戦略を提示しました。大胆な研究アイデアを迅速に採択する特別審査制度「ゴールデン・チケット」の導入など、官民一体の科学革新を推進します。<br>👉【今日すぐ試せること】<br>自宅の電気料金明細や契約プランを確認し、夜間割引や省エネ家電の活用など、日々の電力利用の最適化を意識してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1791533386547_986",
     "type": "サマリー",
     "title": "AIの安全基準を医療・ロボット等6分野で策定！経産省はサイバー防護を緊急要請",
@@ -1086,17 +1097,6 @@
     "category_code": "jp_gov",
     "publishedAt": "2026-08-15 17:00",
     "content": "【URL】https://prtimes.jp/main/html/rd/p/000000164.000082634.html<br>【概要】<br>経済産業省は中小企業向けの実践型リスキリング・DX推進事業「Next Leap AX」を開始しました。生成AIを活用し、業務効率化や新規事業創出を支援します。<br>デジタル庁は「教える人のためのデジタル情報ひろば」を更新し、デジタル推進委員向けに生成AIリテラシーの教材提供を強化しています。",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1786780851684_959",
-    "type": "サマリー",
-    "title": "Google・OpenAI・Anthropicの最新動向（高速推論と実務エージェントの進化）",
-    "author": "Google / OpenAI / Anthropic",
-    "category": "キーマン",
-    "category_code": "keyman",
-    "publishedAt": "2026-08-15 16:00",
-    "content": "<a href=\"https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai)</a><br>■ Google篇 実務特化の「Gemini 3.7 Flash」公開と価格半減<br>・どんな発表・動きがあったの？<br>【発表元：8月14日 公式発表】<br>Googleは、コーディング作業や24時間自律動作するAIエージェント向けに特化した主力実務モデル「Gemini 3.7 Flash」の提供を開始しました。常時稼働エージェント「Gemini Spark」にも搭載されたほか、利用料金が前世代から半額（100万トークンあたり入力0.75ドル、出力3.75ドル）に引き下げられました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>自律エージェントを長時間・高頻度で動かしてもコストが抑えられるため、バックグラウンドでの情報収集や自動タスク処理がより身近になります。<br>・具体的な使い方（生活・仕事のシーン）<br>日々のニュース収集、定例スプレッドシートの集計、コード作成などをAIエージェントに常時任せても低コストで高速に処理できます。<br>・いま困ること・使えない点<br>半額の特別価格は2026年末までの期間限定提供となっています。<br>・今後の影響<br>開発者が日常的に大量のAPIを回す自律エージェントの開発が一気に加速します。<br>👉【今日すぐ試せること】<br>Gemini Sparkなどの自律タスク設定を見直し、新しいFlashモデルでの高速処理を体感してみましょう。<br>■ OpenAI篇 秒速750トークンの超高速「Ultrafastモード」限定公開<br>・どんな発表・動きがあったの？<br>【発表元：8月14日 OpenAI & Cerebras公式発表】<br>OpenAIは、GPT-5.6 Solを通常比で最大14倍高速化し、毎秒最大750トークンの出力を実現する「Ultrafastモード」の限定プレビューを開始しました。Cerebrasの巨大ウエハースケールチップ基盤を採用し、待ち時間をほぼゼロにする超低遅延処理を実現しています。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>質問を投げた瞬間に長文の回答やコードが一瞬で画面に現れるようになり、AIとのやり取りにおける待ち時間が大幅になくなります。<br>・具体的な使い方（生活・仕事のシーン）<br>金融データのリサーチ、緊急の障害対応、リアルタイム音声通話サポートなど、1秒を争う実務シーンで即座に分析結果を得られます。<br>・いま困ること・使えない点<br>現在は一部の限定顧客のみへの提供となっており、一般ユーザーへの順次拡大待ちです。<br>・今後の影響<br>「賢さ」だけでなく「圧倒的な応答速度」がAI選びの重要な競争軸になります。<br>👉【今日すぐ試せること】<br>日頃の作業で「AIの応答待ち時間」がボトルネックになっている業務を洗い出しておきましょう。<br>■ Anthropic篇 「Claude Code」の自律実行が標準化＆電子透かし導入<br>・どんな発表・動きがあったの？<br>【発表元：8月14日 Anthropic公式発表】<br>Anthropicは、ターミナル作業用AIツール「Claude Code」において、安全なコマンドを人間への確認なしで自律実行する「Auto Mode」を有料プランの標準設定としました。あわせて、欧州AI法等の透明性基準に対応したAIテキスト電子透かし機能のグローバル適用を発表しました。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>開発作業において、AIが複数のファイル修正やコマンド実行を連続して自動完結できるようになり、手作業での承認負担が軽減されます。<br>・具体的な使い方（生活・仕事のシーン）<br>プログラムのバグ修正やテスト実行を依頼すると、AIが自身でコマンドを順次実行し、エラーが起きても自律修正して最終結果を届けてくれます。<br>・いま困ること・使えない点<br>自動実行に任せる際は、予期せぬコマンド実行を防ぐためプロジェクト環境のアクセス権限管理が不可欠です。<br>・今後の影響<br>人間が逐一指示を出すスタイルから、AIにゴールを伝えて自律実行させるワークフローへの移行が定着します。<br>👉【今日すぐ試せること】<br>Claude Codeなどの開発環境を利用している方は、Auto Modeの動作と権限設定を確認してみましょう。<br>■ 参照ソースURL一覧（動画・公式リンク）<br>・Google：Gemini 3.7 Flash 実装発表<br><a href=\"https://hi-tech.ua/en/google-launches-gemini-3-7-flash-for-coding-and-ai-agents/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://hi-tech.ua/en/google-launches-gemini-3-7-flash-for-coding-and-ai-agents/)</a><br>・OpenAI & Cerebras：GPT-5.6 Sol Ultrafastモード発表<br><a href=\"https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai)</a><br>・Anthropic：Claude Code Auto Mode 標準化<br><a href=\"https://claude.com/blog/auto-mode-default-in-claude-code\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://claude.com/blog/auto-mode-default-in-claude-code)</a><br>・Anthropic：Claude テキスト電子透かしのグローバル導入<br><a href=\"https://www.anthropic.com/news/claude-text-watermark\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.anthropic.com/news/claude-text-watermark)</a>",
     "url": "https://ssp-rr.github.io/reference/world-summary.html"
   }
 ]
