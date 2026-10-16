@@ -1,5 +1,16 @@
 [
   {
+    "id": "report_1792134889108_649",
+    "type": "サマリー",
+    "title": "Metaが816Bのオープン自律AIを公開！Anthropicは社外監査を深層導入",
+    "author": "Meta AI／Anthropic",
+    "category": "キーマン",
+    "category_code": "keyman",
+    "publishedAt": "2026-10-16 16:00",
+    "content": "<a href=\"https://dev.meta.ai/resources/blog/build-with-muse-spark-open\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://dev.meta.ai/resources/blog/build-with-muse-spark-open)</a><br>■ Meta AI篇 巨大オープンモデル「Muse Spark Open」公開！手元マシンで動く自律型エージェントAI<br>・どんな発表・動きがあったの？<br>【発表元：10月15日 Meta AI公式ブログ（https://dev.meta.ai/resources/blog/build-with-muse-spark-open）】<br>Metaは、コーディングや多段階の論理推論、ツール自律操作に特化したフロンティア級オープンウェイトモデル「Muse Spark Open（総パラメータ816B／アクティブ42B）」をHugging FaceおよびGitHubで公開しました。<br>本モデルは自律的なエージェント作業向けに設計されており、AppleのMac Studioを2台連携させることでスーパーコンピュータ並みの推論環境を手元で構築可能。外部クラウドに社内コードや動画データを送ることなく、アプリ開発の改修や動画編集ソフト（DaVinci Resolve）の自動操作を完全ローカル環境で自律実行できます。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>企業の機密情報や個人のプライベートな制作データをクラウドにアップロードすることなく、自前のマシンで高度な自律型AIにコーディングやクリエイティブ作業を任せられます。<br>・具体的な使い方（生活・仕事のシーン）<br>開発者が手元のワークステーションで「アプリの不具合を修正してテストを実行して」と指示し、AIエージェントがコードベース全体を読み込んで自律修正する開発フローが実現します。<br>・いま困ること・使えない点<br>総パラメータ816Bと超巨大なため、ローカル動作には高性能なワークステーションや複数台のマシン連携など一定のハードウェアスペックが必要です。<br>・今後の影響<br>クローズドな巨大クラウドAIに対抗し、オープンソース陣営でも最先端のエージェント自律実行とプライバシー保護を両立できる環境が急速に普及します。<br>■ Anthropic篇 「自己採点」からの完全脱却へ！社外の独立監査機関を開発現場に常駐させる新体制を公表<br>・どんな発表・動きがあったの？<br>【発表元：10月15日 Anthropic公式発表（https://www.anthropic.com/news/an-update-on-independent-evaluators）】<br>Anthropicは、開発中のフロンティアAIモデルにおける生物兵器リスクやモデルの欺瞞行為などを厳格に検証するため、第三者の独立評価機関を社内オペレーションに深く組み込む最新体制を公表しました。<br>METRやSecureBioなどの独立評価機関に対し、一般には非公開のモデル訓練過程や内部セーフガードの詳細データへ社内エンジニアと同等のアクセス権を付与。さらに、評価機関がAnthropic側の事前承認なしに調査結果を公表できる独立権限を制度化し、AI開発企業の自己満足や隠蔽を防ぐ厳格な第三者ガバナンスを確立します。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>AIが急速に賢くなる中で懸念される暴走や悪用のリスクに対し、公的な監査機関による客観的な安全チェックを経た安心できるAIモデルを利用できるようになります。<br>・具体的な使い方（生活・仕事のシーン）<br>企業や公的機関がAIモデルを業務採用する際、ベンダー側の自己PRだけでなく、独立評価機関が公表した客観的な安全監査レポートを基準にしてモデルを選定できます。<br>・いま困ること・使えない点<br>機密情報の漏洩を防ぎつつ、どこまで外部機関に深いアクセス権を与えるかという境界設定や、高度な監査を行える専門機関の人材不足が課題です。<br>・今後の影響<br>AIモデルの安全基準が「開発企業による自主基準」から「独立した第三者監査の必須化」へと移行し、世界的なAI規制や業界標準のデファクトスタンダードとなります。<br>👉【今日すぐ試せること】<br>自分が使っているAIサービスが、どのような安全基準や外部機関による監査結果を公表しているか、公式の「トラスト＆セーフティ」ページを確認してみましょう。",
+    "url": "https://ssp-rr.github.io/reference/world-summary.html"
+  },
+  {
     "id": "report_1792132457537_92",
     "type": "サマリー",
     "title": "DOEが超知能科学AIスキル群を無償公開！FTCは自動ボット買い占めを提訴",
@@ -1086,17 +1097,6 @@
     "category_code": "breaking",
     "publishedAt": "2026-08-18 20:00",
     "content": "<a href=\"https://www.cas.go.jp/jp/seisakukaigi/titeki2/ai_kentoukai/gijisidai/dai13/index.html\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.cas.go.jp/jp/seisakukaigi/titeki2/ai_kentoukai/gijisidai/dai13/index.html)</a><br>■ 内閣府・知的財産戦略本部篇 生成AI事業者に学習データの開示を求める基本原則案を提示<br>・どんな発表・動きがあったの？<br>【発表元：8月18日 公式発表・検討会会合】<br>政府は18日、有識者による「AI時代の知的財産権検討会（第13回）」を開催し、生成AIの開発・提供事業者に対してAIの学習に用いたデータの開示を求める基本指針案をまとめました。クリエイターや著作権者の権利保護とAI開発の促進の両立を目指し、日本国内でサービス展開する海外事業者も対象としつつ、過度な開発阻害を避けるため直接の罰則は見送る柔軟な枠組み（自主的な開示要請）となっています。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>文章やイラスト、楽曲などを制作するクリエイターが、自らの作品が無断でAIの学習データに使われていないかを確認しやすくなり、創作活動の権利が守られやすくなります。<br>・具体的な使い方（生活・仕事のシーン）<br>企業や個人が制作したデザインや独自テキストを公開する際、将来的にAI学習への利用状況を確認・把握するための基準としてこの基本指針を活用できます。<br>・いま困ること・使えない点<br>直ちに法的な罰則が科される義務化ではないため、事業者が実際にどの程度詳細に学習データを開示するかは各社の対応状況による部分が残ります。<br>・今後の影響<br>日本国内におけるAIと知的財産のルール形成が具体化し、クリエイターの権利を尊重しながら安心してAIを活用できる環境整備が前進します。<br>👉【今日すぐ試せること】<br>自身が制作したコンテンツや社内の著作物がネット上でどのように扱われているかを確認し、AI学習に関する方針や規約をチェックしてみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・内閣府 AI時代の知的財産権検討会（第13回）公式議事次第<br><a href=\"https://www.cas.go.jp/jp/seisakukaigi/titeki2/ai_kentoukai/gijisidai/dai13/index.html\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.cas.go.jp/jp/seisakukaigi/titeki2/ai_kentoukai/gijisidai/dai13/index.html)</a><br>・AI事業者は学習データ開示 政府、知財保護へ基本指針案（時事通信）<br><a href=\"https://www.jiji.com/jc/article?k=2026081800841&g=pol\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.jiji.com/jc/article?k=2026081800841&g=pol)</a><br>・政府、AI学習データの開示要請 知的財産の侵害抑止（共同通信）<br><a href=\"https://www.excite.co.jp/news/article/Jiji_3848088/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.excite.co.jp/news/article/Jiji_3848088/)</a><br>・生成AI知財の基本原則解説（Innovatopia）<br><a href=\"https://innovatopia.jp/ai/ai-news/116225/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://innovatopia.jp/ai/ai-news/116225/)</a>",
-    "url": "https://ssp-rr.github.io/reference/world-summary.html"
-  },
-  {
-    "id": "report_1787048383322_986",
-    "type": "速報",
-    "title": "政府が生成AI事業者に学習データの開示を求める基本指針案を公表",
-    "author": "内閣府（知的財産戦略本部・AI時代の知的財産権検討会）",
-    "category": "速報",
-    "category_code": "breaking",
-    "publishedAt": "2026-08-18 18:30",
-    "content": "<a href=\"https://www.jiji.com/jc/article?k=2026081800841&g=pol\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 公式発表・元記事を見る (https://www.jiji.com/jc/article?k=2026081800841&g=pol)</a><br>■ 内閣府（知的財産戦略本部）篇 生成AI事業者に学習データの開示を求める基本指針案を公表<br>・どんな発表・動きがあったの？<br>【発表元：8月18日 公式発表・有識者検討会】<br>政府は18日、有識者による「AI時代の知的財産権検討会（第13回）」を開き、生成AI事業者にAIの学習データの開示を求める基本指針案をまとめました。日本向けにサービスを展開する海外のAI事業者も対象とし、学習データの概要公開や権利者からの問い合わせに応じる透明性の確保を要請します（法令による直接の罰則は見送り、自主的な準拠を促す枠組み）。<br>・私たちの身近な暮らしや仕事はどう変わる？<br>文章やイラスト、楽曲などを制作するクリエイターや企業が、自らの著作物がどのようにAIの学習に使われているかを確認しやすくなり、安心して創作活動を行える環境が整います。<br>・具体的な使い方（生活・仕事のシーン）<br>自社コンテンツや個人制作物をネット上に公開する際、AI学習への利用状況を確認したり、AI提供企業のデータ開示方針をチェックして安全なAIツールを選定する目安にできます。<br>・いま困ること・使えない点<br>今回の指針案には法的な罰則が伴わないため、すべての事業者が即座に完全な学習データリストを公開するわけではありません。<br>・今後の影響<br>日本国内における生成AIと著作権のルール整備が進み、クリエイターの権利保護と開発企業の技術革新を両立させる国内標準の形成が加速します。<br>👉【今日すぐ試せること】<br>自社や自身が公開しているウェブサイトや制作物について、AIによるデータ収集への意思表示（robots.txtの設定など）が適切に行われているか確認してみましょう。<br>■ 参照ソースURL一覧（公式リンク・ニュース）<br>・AI事業者は学習データ開示 政府、知財保護へ基本指針案（時事通信）<br><a href=\"https://www.jiji.com/jc/article?k=2026081800841&g=pol\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.jiji.com/jc/article?k=2026081800841&g=pol)</a><br>・AI時代の知的財産権検討会 第13回 議事次第（内閣府知的財産戦略本部）<br><a href=\"https://www.cas.go.jp/jp/seisakukaigi/titeki2/ai_kentoukai/gijisidai/dai13/index.html\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://www.cas.go.jp/jp/seisakukaigi/titeki2/ai_kentoukai/gijisidai/dai13/index.html)</a><br>・生成AI知財の基本原則 解説（Innovatopia）<br><a href=\"https://innovatopia.jp/ai/ai-news/116225/\" target=\"_blank\" rel=\"noopener\" class=\"source-link-btn\">👉 参照ソースリンク (https://innovatopia.jp/ai/ai-news/116225/)</a>",
     "url": "https://ssp-rr.github.io/reference/world-summary.html"
   }
 ]
